@@ -152,7 +152,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
 - ### Javascript basics
     - #### Sum two numbers
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -165,7 +165,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Comparison operators, strict equality
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -178,7 +178,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Get type of value
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -191,7 +191,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Get nth character of string
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -204,7 +204,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Remove first n characters of string
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -217,7 +217,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Get last n characters of string
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -230,7 +230,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Get first n characters of string
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -243,7 +243,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Extract first half of string
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -256,7 +256,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Remove last n characters of string
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -269,7 +269,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Return the percentage of a number
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -282,7 +282,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Basic JavaScript math operators
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -295,7 +295,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Check whether a string contains another string and concatenate
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -308,7 +308,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Check if a number is even
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -321,7 +321,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### How many times does a character occur?
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -334,7 +334,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Check if a number is a whole number
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -347,7 +347,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Multiplication, division, and comparison operators
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -360,7 +360,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Round a number to 2 decimal places
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -373,7 +373,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Split a number into its digits
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -386,7 +386,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Clear up the chaos behind these strings
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -399,7 +399,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Return the next higher prime number
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -412,7 +412,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Find next higher natural number that is divisble by y
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -425,7 +425,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Insert character after every n characters (backwards)
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -438,7 +438,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Find the correct word by incrementing letters in alphabet
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -452,7 +452,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </details>
 - ### Javascript arrays 
     - #### Get nth element of array
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -465,7 +465,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Remove first n elements of an array
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -478,7 +478,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Get last n elements of an array
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -491,7 +491,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Get first n elements of an array
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -504,7 +504,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Return last n array elements
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -517,7 +517,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Remove a specific array element
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -530,7 +530,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Count number of elements in JavaScript array
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -543,7 +543,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Count number of negative values in array
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -556,7 +556,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Sort an array of strings alphabetically
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -569,7 +569,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Sort an array of numbers in descending order
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -582,7 +582,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Calculate the sum of an array of numbers
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -595,7 +595,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details> 
     - #### Return the average of an array of numbers
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -608,7 +608,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Return the longest string from an array of strings
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -621,7 +621,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Check if all array elements are equal
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -634,7 +634,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Merge an arbitrary number of arrays
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -647,7 +647,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Sort array by object property
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -660,7 +660,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Merge two arrays with duplicate values
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -673,7 +673,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Sum up all array elements with values greater 
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -686,7 +686,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Create a range of numbers 
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -699,7 +699,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>   
     - #### Group array of strings by first letter
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -712,7 +712,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Define an array with conditional elements
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -725,7 +725,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Get every nth element of array
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -739,7 +739,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </details>
 - ### Javascript objects 
     - #### Accessing object properties one
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -752,7 +752,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Accessing object properties two
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -765,7 +765,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Accessing object properties three
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -778,7 +778,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Check if property exists in object
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -791,7 +791,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Check if property exists in object and is truthy
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -804,7 +804,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Creating Javascript objects one
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -817,7 +817,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Creating Javascript objects two
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -830,7 +830,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Creating Javascript objects three
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -843,7 +843,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Extract keys from Javascript object
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -856,7 +856,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Sum object values
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -869,7 +869,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Remove a property from an object
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -882,7 +882,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Merge two objects with matching keys
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -895,7 +895,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Multiply all object values by x
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -908,7 +908,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Swap object keys and values
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -921,7 +921,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Replace empty strings in object with null values
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -934,7 +934,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Extracting information from objects
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -947,7 +947,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Add property to each object in array
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -960,7 +960,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Convert array to object with counter
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -974,7 +974,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </details> 
 - ### Javascript dates
     - #### Check if two dates are equal
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -987,7 +987,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Return the number of days between two dates
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1000,7 +1000,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Check if two dates fall on the exact same day
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1013,7 +1013,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Check if two dates are within 1 hour from each other
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1026,7 +1026,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Check if one date is earlier than another
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1039,7 +1039,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Add n days to an existing date
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1052,7 +1052,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Calculate difference between two dates in hours, minutes, and seconds
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1065,7 +1065,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Return the next nearest quarter hour of a date
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1079,7 +1079,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </details>
 - ### Javascript Sets
     - #### Check if value is present in Set
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1092,7 +1092,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Convert a Set to Array
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1105,7 +1105,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Get union of two sets
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1118,7 +1118,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Creating Javascript Sets
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1131,7 +1131,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Delete element from Set
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1144,7 +1144,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Add multiple elements to Set
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1157,7 +1157,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Get Intersection of two Javascript Sets
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1175,7 +1175,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
 - ### DOM selector methods
     - #### Select the button element on the page
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1188,7 +1188,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Query descendent HTML elements
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1201,7 +1201,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Select multiple HTML elements
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1214,7 +1214,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Query and exclude HTML elements
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1228,7 +1228,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </details>
 - ### Events and user interactions
     - #### Execute function on button click
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1241,7 +1241,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Execute function when cursor moves onto element
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1254,7 +1254,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Cursor enters and leaves element
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1267,7 +1267,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Move element with mouse cursor
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1280,7 +1280,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Drop element into another element
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1294,7 +1294,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </details>
 - ### DOM manipulation 
     - #### Remove element from the DOM
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1307,7 +1307,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Change id of HTML element
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1320,7 +1320,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Wrap element in div
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1333,7 +1333,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Create new list item and add to DOM
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1347,7 +1347,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </details>
 - ### DOM fundamentals
     - #### Check the checkbox
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1360,7 +1360,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Get full-name from inputs
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1373,7 +1373,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Increment the counter on button click
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1386,7 +1386,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Input filter list
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1399,7 +1399,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Pop the balloons
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1413,7 +1413,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </details>
 - ### Recursive functions
     - #### Stop and restart the moving button
-        <details open><summary>Solution 1</summary>
+        <details ><summary>Solution 1</summary>
         <p>
 
         ```js
