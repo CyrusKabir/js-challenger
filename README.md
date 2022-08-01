@@ -190,9 +190,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -203,9 +201,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -216,9 +212,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -229,9 +223,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -242,9 +234,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -255,9 +245,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -268,9 +256,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -281,9 +267,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -294,9 +278,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -307,9 +289,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -320,9 +300,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -333,9 +311,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -346,9 +322,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -359,9 +333,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -372,9 +344,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -385,9 +355,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -398,9 +366,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -411,9 +377,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -424,9 +388,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -437,9 +399,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -450,9 +410,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -464,9 +422,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -477,9 +433,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -490,9 +444,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -503,9 +455,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -516,9 +466,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -529,9 +477,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -542,9 +488,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -555,9 +499,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -568,9 +510,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -581,9 +521,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -594,9 +532,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -607,9 +543,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -620,9 +554,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -633,9 +565,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -646,9 +576,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -659,9 +587,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -672,9 +598,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -685,9 +609,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -698,9 +620,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -711,9 +631,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -724,9 +642,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -737,9 +653,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -751,9 +665,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -764,9 +676,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -777,9 +687,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -790,9 +698,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -803,9 +709,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -816,9 +720,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -829,9 +731,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -842,9 +742,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -855,9 +753,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -868,9 +764,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -881,9 +775,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -894,9 +786,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -907,9 +797,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -920,9 +808,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -933,9 +819,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -946,9 +830,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -959,9 +841,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -972,9 +852,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -986,9 +864,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -999,9 +875,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1012,9 +886,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1025,9 +897,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1038,9 +908,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1051,9 +919,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1064,9 +930,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1077,9 +941,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1091,9 +953,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1104,9 +964,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1117,9 +975,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1130,9 +986,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1143,9 +997,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1156,9 +1008,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1169,9 +1019,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1187,9 +1035,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1200,9 +1046,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1213,9 +1057,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1226,9 +1068,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1240,9 +1080,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1253,9 +1091,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1266,9 +1102,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1279,9 +1113,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1292,9 +1124,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1306,9 +1136,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1319,9 +1147,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1332,9 +1158,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1345,9 +1169,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1359,9 +1181,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1372,9 +1192,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1385,9 +1203,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1398,9 +1214,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1411,9 +1225,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
@@ -1425,9 +1237,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        while(true) {
-            console.log("test")
-        }
+        // in progress ...
 
         ```
         </p>
