@@ -738,13 +738,690 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
 - ### Javascript objects 
+    - #### Accessing object properties one
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Accessing object properties two
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Accessing object properties three
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Check if property exists in object
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Check if property exists in object and is truthy
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Creating Javascript objects one
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Creating Javascript objects two
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Creating Javascript objects three
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Extract keys from Javascript object
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Sum object values
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Remove a property from an object
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Merge two objects with matching keys
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Multiply all object values by x
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Swap object keys and values
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Replace empty strings in object with null values
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Extracting information from objects
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Add property to each object in array
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Convert array to object with counter
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details> 
 - ### Javascript dates
+    - #### Check if two dates are equal
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Return the number of days between two dates
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Check if two dates fall on the exact same day
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Check if two dates are within 1 hour from each other
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Check if one date is earlier than another
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Add n days to an existing date
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Calculate difference between two dates in hours, minutes, and seconds
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Return the next nearest quarter hour of a date
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
 - ### Javascript Sets
+    - #### Check if value is present in Set
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Convert a Set to Array
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Get union of two sets
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Creating Javascript Sets
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Delete element from Set
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Add multiple elements to Set
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Get Intersection of two Javascript Sets
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    
 
 ## **Javascript DOM :**
 
 - ### DOM selector methods
+    - #### Select the button element on the page
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Query descendent HTML elements
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Select multiple HTML elements
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Query and exclude HTML elements
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
 - ### Events and user interactions
+    - #### Execute function on button click
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Execute function when cursor moves onto element
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Cursor enters and leaves element
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Move element with mouse cursor
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Drop element into another element
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
 - ### DOM manipulation 
+    - #### Remove element from the DOM
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Change id of HTML element
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Wrap element in div
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Create new list item and add to DOM
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
 - ### DOM fundamentals
+    - #### Check the checkbox
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Get full-name from inputs
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Increment the counter on button click
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Input filter list
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Pop the balloons
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
 - ### Recursive functions
+    - #### Stop and restart the moving button
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
