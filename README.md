@@ -152,7 +152,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
 - ### Javascript basics
     - #### Sum two numbers
-        <details ><summary>Solution 1</summary>
+        <details><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -169,7 +169,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Comparison operators, strict equality
-        <details ><summary>Solution 1</summary>
+        <details><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1048,7 +1048,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
 - ### DOM selector methods
     - #### Select the button element on the page
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         html :
@@ -1073,7 +1073,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Query descendent HTML elements
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         html :
@@ -1103,7 +1103,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Select multiple HTML elements
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         html :
@@ -1138,7 +1138,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Query and exclude HTML elements
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1150,7 +1150,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </details>
 - ### Events and user interactions
     - #### Execute function on button click
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1161,7 +1161,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Execute function when cursor moves onto element
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1172,7 +1172,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Cursor enters and leaves element
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1183,7 +1183,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Move element with mouse cursor
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1194,7 +1194,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Drop element into another element
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1206,7 +1206,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </details>
 - ### DOM manipulation 
     - #### Remove element from the DOM
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1217,7 +1217,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Change id of HTML element
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1228,7 +1228,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Wrap element in div
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1239,7 +1239,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Create new list item and add to DOM
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1251,7 +1251,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </details>
 - ### DOM fundamentals
     - #### Check the checkbox
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1262,7 +1262,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Get full-name from inputs
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1273,7 +1273,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Increment the counter on button click
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1284,7 +1284,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Input filter list
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1295,7 +1295,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </p>
         </details>
     - #### Pop the balloons
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
@@ -1307,7 +1307,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         </details>
 - ### Recursive functions
     - #### Stop and restart the moving button
-        <details ><summary>Solution 1</summary>
+        <details open><summary>Solution 1</summary>
         <p>
 
         ```js
