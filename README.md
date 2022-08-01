@@ -13,7 +13,7 @@ JSchallenger is a cool and great and free and ... tool to practice most of the J
 In this repo, I put all the available solutions to solve the challenges of this site.
 
 # **Solutions :**
-- **[Javascript Fundamentals]**(#javascript-fundamentals)
+- [**Javascript Fundamentals**](#javascript-fundamentals)
     - [Javascript basics (23)](#javascript-basics)
         - [Sum two numbers](#sum-two-numbers-javascript)
         - [Comparison operators, strict equality](#comparison-strict-equality)
@@ -39,7 +39,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         - [Insert character after every n characters (backwards)](#insert-character-after-every-characters-backwards-javascript)
         - [Find the correct word by incrementing letters in alphabet](#incrementing-javascript-letters-alphabet)
 
-    - **[Javascript arrays (22)]**(#javascript-arrays)
+    - [Javascript arrays (22)](#javascript-arrays)
         - [Get nth element of array](#get-nth-element-array-javascript)
         - [Remove first n elements of an array](#remove-first-elements-array-javascript)
         - [Get last n elements of an array](#get-last-elements-array-javascript)
@@ -98,7 +98,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         - [Delete element from Set](#delete-element-from-javascript-set)
         - [Add multiple elements to Set](#add-multiple-elements-to-javascript-set)
         - [Get Intersection of two Javascript Sets](#intersection-javascript-sets)
-- [Javascript DOM](#javascript-dom)
+- [**Javascript DOM**](#javascript-dom)
     - [DOM selector methods (4)](#dom-selector-methods)
         - [Select the button element on the page](#javascript-select-button)
         - [Query descendent HTML elements](#javascript-query-descendent-element)
