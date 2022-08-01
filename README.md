@@ -1,2 +1,1 @@
-# js-challenger
-Solutions to all challenges of js challenger
+# <a href="https://www.jschallenger.com/" target="_blank"><img src="./logo.svg" alt="js challenger logo"></a>
