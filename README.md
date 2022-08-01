@@ -1051,9 +1051,23 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        html :
+        ```html
+        <button type="button" id="button">OFF</button>
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
+        // In this scenario, the existing code adds an eventListener for a click event on a variable 'buttonElem'. It expects 'buttonElem' to be the button element in the example UI. But, that element is not selected yet.
+        // Assign the button element to the variable 'buttonElem' with one of the existing selector methods.
+        // Click the button to verify that the code is working.
+        // Hint: Make use of the unique id identifier of the button element.
+
+        const buttonElem = document.getElementById("button");
+
+        buttonElem.addEventListener('click', () => {
+            const oldText = buttonElem.innerText;
+            return button.innerText = oldText === "ON" ? "OFF" : "ON";
+        });
 
         ```
         </p>
