@@ -13,7 +13,7 @@ JSchallenger is a cool and great and free and ... tool to practice most of the J
 In this repo, I put all the available solutions to solve the challenges of this site.
 
 ## **Table of solutions**
-- [**Javascript Fundamentals**](#javascript-fundamentals)
+- **Javascript Fundamentals**
     <details><summary>Javascript basics</summary>
 
      1. [Sum two numbers](#sum-two-numbers)
@@ -42,28 +42,28 @@ In this repo, I put all the available solutions to solve the challenges of this 
     </details>
     <details><summary>Javascript arrays</summary>
 
-     1. [Get nth element of array](#get-nth-element-array)
-     1. [Remove first n elements of an array](#remove-first-elements-array)
-     1. [Get last n elements of an array](#get-last-elements-array)
-     1. [Get first n elements of an array](#get-first-elements-array)
-     1. [Return last n array elements](#get-last-array-elements)
-     1. [Remove a specific array element](#remove-specific-array-element)
-     1. [Count number of elements in JavaScript array](#count-number-elements-array)
-     1. [Count number of negative values in array](#count-number-negative-values-array)
-     1. [Sort an array of strings alphabetically](#sort-array-of-strings)
-     1. [Sort an array of numbers in descending order](#sort-array-of-numbers)
-     1. [Calculate the sum of an array of numbers](#calculate-sum-of-array-numbers)
-     1. [Return the average of an array of numbers](#return-average-of-array)
-     1. [Return the longest string from an array of strings](#return-longest-string-in-array)
-     1. [Check if all array elements are equal](#check-if-array-elements-are-equal)
-     1. [Merge an arbitrary number of arrays](#merge-number-of-arrays)
-     1. [Sort array by object property](#sort-array-object-property)
-     1. [Merge two arrays with duplicate values](#merge-arrays-duplicates)
-     1. [Sum up all array elements with values greater than](#sum-up-array-greater)
-     1. [Create a range of numbers](#create-range-of-numbers)
-     1. [Group array of strings by first letter](#javascript-group-array-strings-first-letter)
-     1. [Define an array with conditional elements](#javascript-add-to-array-conditional-elements)
-     1. [Get every nth element of array](#every-nth-element-array)
+     1. [Get nth element of array](#get-nth-element-of-array)
+     1. [Remove first n elements of an array](#remove-first-n-elements-of-an-array)
+     1. [Get last n elements of an array](#get-last-n-elements-of-an-array)
+     1. [Get first n elements of an array](#get-first-n-elements-of-an-array)
+     1. [Return last n array elements](#return-last-n-array-elements)
+     1. [Remove a specific array element](#remove-a-specific-array-element)
+     1. [Count number of elements in JavaScript array](#count-number-of-elements-in-javascript-array)
+     1. [Count number of negative values in array](#count-number-of-negative-values-in-array)
+     1. [Sort an array of strings alphabetically](#sort-an-array-of-strings-alphabetically)
+     1. [Sort an array of numbers in descending order](#sort-an-array-of-numbers-in-descending-order)
+     1. [Calculate the sum of an array of numbers](#calculate-the-sum-of-an-array-of-numbers)
+     1. [Return the average of an array of numbers](#return-the-average-of-an-array-of-numbers)
+     1. [Return the longest string from an array of strings](#return-the-longest-string-from-an-array-of-strings)
+     1. [Check if all array elements are equal](#check-if-all-array-elements-are-equal)
+     1. [Merge an arbitrary number of arrays](#merge-an-arbitrary-number-of-arrays)
+     1. [Sort array by object property](#sort-array-by-object-property)
+     1. [Merge two arrays with duplicate values](#merge-two-arrays-with-duplicate-values)
+     1. [Sum up all array elements with values greater than](#sum-up-all-array-elements-with-values-greater-than)
+     1. [Create a range of numbers](#create-a-range-of-numbers)
+     1. [Group array of strings by first letter](#group-array-of-strings-by-first-letter)
+     1. [Define an array with conditional elements](#define-an-array-with-conditional-elements)
+     1. [Get every nth element of array](#get-every-nth-element-of-array)
     </details>
 
     <details><summary>Javascript objects</summary>
@@ -88,7 +88,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
      1. [Convert array to object with counter](#convert-array-to-objects-count)
     </details>
 
-    <details open><summary>Javascript dates</summary>
+    <details><summary>Javascript dates</summary>
 
      1. [Check if two dates are equal](#check-if-two-dates-equal)
      1. [Return the number of days between two dates](#number-days-between-two-dates)
@@ -99,7 +99,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
      1. [Calculate difference between two dates in hours, minutes, and seconds](#difference-between-dates)
      1. [Return the next nearest quarter hour of a date](#javascript-nearest-quarter-hour-date)
     </details>
-    
+
     <details><summary>Javascript Sets</summary>
 
      1. [Check if value is present in Set](#value-present-in-set)
@@ -111,7 +111,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
      1. [Get Intersection of two Javascript Sets](#intersection-sets)
     </details>
 
-- [**Javascript DOM**](#javascript-dom)
+- **Javascript DOM**
     <details><summary>DOM selector methods</summary>
 
     1. [Select the button element on the page](#javascript-select-button)
@@ -450,8 +450,293 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
-    
 - ### Javascript arrays 
+    - #### Get nth element of array
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Remove first n elements of an array
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Get last n elements of an array
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Get first n elements of an array
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Return last n array elements
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Remove a specific array element
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Count number of elements in JavaScript array
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Count number of negative values in array
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Sort an array of strings alphabetically
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Sort an array of numbers in descending order
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Calculate the sum of an array of numbers
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details> 
+    - #### Return the average of an array of numbers
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Return the longest string from an array of strings
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Check if all array elements are equal
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Merge an arbitrary number of arrays
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Sort array by object property
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Merge two arrays with duplicate values
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Sum up all array elements with values greater 
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Create a range of numbers 
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>   
+    - #### Group array of strings by first letter
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Define an array with conditional elements
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
+    - #### Get every nth element of array
+        <details open><summary>Solution 1</summary>
+        <p>
+
+        ```js
+        
+        while(true) {
+            console.log("test")
+        }
+
+        ```
+        </p>
+        </details>
 - ### Javascript objects 
 - ### Javascript dates
 - ### Javascript Sets
