@@ -190,7 +190,12 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        // in progress ...
+        // Write a function that takes a value as argument
+        // Return the type of the value
+
+        function myFunction(a) {
+            return typeof a;
+        }
 
         ```
         </p>
