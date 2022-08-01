@@ -206,7 +206,13 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```js
         
-        // in progress ...
+        // Write a function that takes a string (a) and a number (n) as argument
+        // Return the nth character of 'a'
+
+        function myFunction(a, n) {
+            return a[b - 1];
+        }
+
 
         ```
         </p>
