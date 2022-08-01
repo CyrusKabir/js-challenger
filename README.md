@@ -68,83 +68,83 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
     <details><summary>Javascript objects</summary>
 
-     1. [Accessing object properties one](#access-object-properties)
-     1. [Accessing object properties two](#access-object-properties-square-brackets)
-     1. [Accessing object properties three](#access-object-properties-dynamic-key)
-     1. [Check if property exists in object](#check-object-has-property)
-     1. [Check if property exists in object and is truthy](#object-has-property-defined-value)
-     1. [Creating Javascript objects one](#creating-objects)
-     1. [Creating Javascript objects two](#creating-objects-dynamic-key)
-     1. [Creating Javascript objects three](#creating-objects-from-arrays)
-     1. [Extract keys from Javascript object](#extract-keys-from-object)
-     1. [Sum object values](#sum-objects-values)
-     1. [Remove a property from an object](#remove-property-from-object)
-     1. [Merge two objects with matching keys](#merge-objects-same-key)
-     1. [Multiply all object values by x](#multiply-all-objects-values)
-     1. [Swap object keys and values](#swap-object-keys-values)
-     1. [Replace empty strings in object with null values](#replace-empty-strings-null)
-     1. [Extracting information from objects](#extracting-information-ojects)
-     1. [Add property to each object in array](#add-property-array-of-objects)
-     1. [Convert array to object with counter](#convert-array-to-objects-count)
+     1. [Accessing object properties one](#accessing-object-properties-one)
+     1. [Accessing object properties two](#accessing-object-properties-two)
+     1. [Accessing object properties three](#accessing-object-properties-three)
+     1. [Check if property exists in object](#check-if-property-exists-in-object)
+     1. [Check if property exists in object and is truthy](#check-if-property-exists-in-object-and-is-truthy)
+     1. [Creating Javascript objects one](#creating-javascript-objects-one)
+     1. [Creating Javascript objects two](#creating-javascript-objects-two)
+     1. [Creating Javascript objects three](#creating-javascript-objects-three)
+     1. [Extract keys from Javascript object](#extract-keys-from-javascript-object)
+     1. [Sum object values](#sum-object-values)
+     1. [Remove a property from an object](#remove-a-property-from-an-object)
+     1. [Merge two objects with matching keys](#merge-two-objects-with-matching-keys)
+     1. [Multiply all object values by x](#multiply-all-object-values-by-x)
+     1. [Swap object keys and values](#swap-object-keys-and-values)
+     1. [Replace empty strings in object with null values](#replace-empty-strings-in-object-with-null-values)
+     1. [Extracting information from objects](#extracting-information-from-objects)
+     1. [Add property to each object in array](#add-property-to-each-object-in-array)
+     1. [Convert array to object with counter](#convert-array-to-object-with-counter)
     </details>
 
     <details><summary>Javascript dates</summary>
 
-     1. [Check if two dates are equal](#check-if-two-dates-equal)
-     1. [Return the number of days between two dates](#number-days-between-two-dates)
-     1. [Check if two dates fall on the exact same day](#two-dates-same-day)
-     1. [Check if two dates are within 1 hour from each other](#two-dates-within-one-hour)
-     1. [Check if one date is earlier than another](#check-if-date-is-earlier)
-     1. [Add n days to an existing date](#add-days-to-date)
+     1. [Check if two dates are equal](#check-if-two-dates-are-equal)
+     1. [Return the number of days between two dates](#return-the-number-of-days-between-two-dates)
+     1. [Check if two dates fall on the exact same day](#check-if-two-dates-fall-on-the-exact-same-day)
+     1. [Check if two dates are within 1 hour from each other](#check-if-two-dates-are-within-1-hour-from-each-other)
+     1. [Check if one date is earlier than another](#check-if-one-date-is-earlier-than-another)
+     1. [Add n days to an existing date](#add-n-days-to-an-existing-date)
      1. [Calculate difference between two dates in hours, minutes, and seconds](#difference-between-dates)
-     1. [Return the next nearest quarter hour of a date](#javascript-nearest-quarter-hour-date)
+     1. [Return the next nearest quarter hour of a date](#return-the-next-nearest-quarter-hour-of-a-date)
     </details>
 
     <details><summary>Javascript Sets</summary>
 
-     1. [Check if value is present in Set](#value-present-in-set)
-     1. [Convert a Set to Array](#convert-set-to-array)
-     1. [Get union of two sets](#union-two-sets)
-     1. [Creating Javascript Sets](#create-set)
+     1. [Check if value is present in Set](#check-if-value-is-present-in-set)
+     1. [Convert a Set to Array](#convert-a-set-to-array)
+     1. [Get union of two sets](#get-union-of-two-sets)
+     1. [Creating Javascript Sets](#creating-javascript-sets)
      1. [Delete element from Set](#delete-element-from-set)
      1. [Add multiple elements to Set](#add-multiple-elements-to-set)
-     1. [Get Intersection of two Javascript Sets](#intersection-sets)
+     1. [Get Intersection of two Javascript Sets](#get-intersection-of-two-javascript-sets)
     </details>
 
 - **Javascript DOM**
     <details><summary>DOM selector methods</summary>
 
-    1. [Select the button element on the page](#javascript-select-button)
-    1. [Query descendent HTML elements](#javascript-query-descendent-element)
-    1. [Select multiple HTML elements](#javascript-query-multiple-elements)
-    1. [Query and exclude HTML elements](#query-exclude-html-elements)
+    1. [Select the button element on the page](#select-the-button-element-on-the-page)
+    1. [Query descendent HTML elements](#query-descendent-HTML-elements)
+    1. [Select multiple HTML elements](#Select-multiple-HTML-elements)
+    1. [Query and exclude HTML elements](#Query-and-exclude-HTML-elements)
     </details>
     <details><summary>Events and user interactions</summary>
 
-    1. [Execute function on button click](#execute-function-button-click)
-    1. [Execute function when cursor moves onto element](#execute-function-hover-cursor)
-    1. [Cursor enters and leaves element](#cursor-enter-leave-event)
-    1. [Move element with mouse cursor](#move-element-mouse-cursor)
-    1. [Drop element into another element](#drop-element-into-another)
+    1. [Execute function on button click](#Execute-function-on-button-click)
+    1. [Execute function when cursor moves onto element](#Execute-function-when-cursor-moves-onto-element)
+    1. [Cursor enters and leaves element](#Cursor-enters-and-leaves-element)
+    1. [Move element with mouse cursor](#Move-element-with-mouse-cursor)
+    1. [Drop element into another element](#Drop-element-into-another-element)
     </details>
     <details><summary>DOM manipulation</summary>
 
-    1. [Remove element from the DOM](#remove-element-from-dom)
-    1. [Change id of HTML element](#change-id-html-element)
-    1. [Wrap element in div](#wrap-html-element-in-div)
-    1. [Create new list item and add to DOM](#create-new-list-item-and-add-to-dom)
+    1. [Remove element from the DOM](#remove-element-from-the-dom)
+    1. [Change id of HTML element](#change-id-of-html-element)
+    1. [Wrap element in div](#Wrap-element-in-div)
+    1. [Create new list item and add to DOM](#Create-new-list-item-and-add-to-DOM)
     </details>
     <details><summary>DOM fundamentals</summary>
 
-    1. [Check the checkbox](#checkbox-check)
-    1. [Get full-name from inputs](#get-fullname-from-inputs)
-    1. [Increment the counter on button click](#increment-counter-with)
-    1. [Input filter list](#input-filter-html-list)
-    1. [Pop the balloons](#pop-the-balloons-project)
+    1. [Check the checkbox](#check-the-checkbox)
+    1. [Get full-name from inputs](#Get-full-name-from-inputs)
+    1. [Increment the counter on button click](#Increment-the-counter-on-button-click)
+    1. [Input filter list](#Input-filter-list)
+    1. [Pop the balloons](#Pop-the-balloons)
     </details>
     <details><summary>Recursive functions</summary>
 
-    1. [Stop and restart the moving button](#stop-restart-moving-element)
+    1. [Stop and restart the moving button](#Stop-and-restart-the-moving-button)
     </details>
 
 
