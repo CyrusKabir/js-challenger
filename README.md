@@ -155,16 +155,15 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes two numbers (a and b) as argument Sum a and b Return the result.
+        ```
+        javascript :
         ```js
-        
-        // Write a function that takes two numbers (a and b) as argument
-        // Sum a and b
-        // Return the result
-        
         function myFunction(a, b) {
             return a + b;
         }
-
         ```
         </p>
         </details>
@@ -172,31 +171,33 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes two values, say a and b, as arguments
+        Return true if the two values are equal and of the same type
+        ```
+        javascript :
         ```js
-        
-        // Write a function that takes two values, say a and b, as arguments
-        // Return true if the two values are equal and of the same type
-
         function myFunction(a, b) {
             return a === b;
         }
-
         ```
         </p>
         </details>
     - #### Get type of value
         <details ><summary>Solution 1</summary>
         <p>
-
-        ```js
         
-        // Write a function that takes a value as argument
-        // Return the type of the value
-
+        scenario :
+        ```python
+        Write a function that takes a value as argument
+        Return the type of the value
+        ```
+        javascript :
+        ```js
         function myFunction(a) {
             return typeof a;
         }
-
         ```
         </p>
         </details>
@@ -204,34 +205,34 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes a string (a) and a number (n) as argument
+        Return the nth character of 'a'
+        ```
+        javascript :
         ```js
-        
-        // Write a function that takes a string (a) and a number (n) as argument
-        // Return the nth character of 'a'
-
         function myFunction(a, n) {
             return a[b - 1];
         }
-
-
         ```
         </p>
         </details>
     - #### Remove first n characters of string
         <details ><summary>Solution 1</summary>
         <p>
-
-        ```js
         
-        // Write a function that takes a string (a) as argument
-        // Remove the first 3 characters of a
-        // Return the result
-
+        scenario :
+        ```python
+        Write a function that takes a string (a) as argument
+        Remove the first 3 characters of a
+        Return the result
+        ```
+        javascript :
+        ```js
         function myFunction(a){
             return a.slice(3) 
         }
-
-
         ```
         </p>
         </details>
@@ -1051,24 +1052,25 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details open><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        In this scenario, the existing code adds an eventListener for a click event on a variable 'buttonElem'. It expects 'buttonElem' to be the button element in the example UI. But, that element is not selected yet.
+        Assign the button element to the variable 'buttonElem' with one of the existing selector methods.
+        Click the button to verify that the code is working.
+        Hint: Make use of the unique id identifier of the button element.
+        ```
         html :
         ```html
         <button type="button" id="button">OFF</button>
         ```
         javascript :
         ```js
-        /*In this scenario, the existing code adds an eventListener for a click event on a variable 'buttonElem'. It expects 'buttonElem' to be the button element in the example UI. But, that element is not selected yet.
-        Assign the button element to the variable 'buttonElem' with one of the existing selector methods.
-        Click the button to verify that the code is working.
-        Hint: Make use of the unique id identifier of the button element.*/
-
         const buttonElem = document.getElementById("button");
 
         buttonElem.addEventListener('click', () => {
             const oldText = buttonElem.innerText;
             return button.innerText = oldText === "ON" ? "OFF" : "ON";
         });
-
         ```
         </p>
         </details>
@@ -1076,6 +1078,13 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details open><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Here, the existing code expects the variables 'buttonElem' and 'inputElem' to represent the button and input elements in the example UI.
+        Assign the respective elements to the variables.
+        In this case, the two elements do not have unique identifiers - like for example an id. Instead they are direct descendents of a div element with id 'wrapper'. Use an appropriate selector method!
+        Click the button to verify that the code is working.
+        ```
         html :
         ```html
         <div id="wrapper">
@@ -1085,11 +1094,6 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         javascript :
         ```js
-        /*Here, the existing code expects the variables 'buttonElem' and 'inputElem' to represent the button and input elements in the example UI.
-        Assign the respective elements to the variables.
-        In this case, the two elements do not have unique identifiers - like for example an id. Instead they are direct descendents of a div element with id 'wrapper'. Use an appropriate selector method!
-        Click the button to verify that the code is working.*/
-
         // assign the correct elements to the variables
         const buttonElem = document.querySelector("#wrapper button");
         const inputElem = document.querySelector("#wrapper input");
@@ -1098,7 +1102,6 @@ In this repo, I put all the available solutions to solve the challenges of this 
             const oldText = inputElem.value;
             return inputElem.value = oldText === "ON" ? "OFF" : "ON";
         });
-
         ```
         </p>
         </details>
@@ -1106,6 +1109,12 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details open><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        In this scenario, we are looking for a list of elements gathered in one variable - rather than only one element.
+        Assign the list items in the view to the variable 'listItems' by using an appropriate selector method.
+        Once you have completed the code below, verify it by hovering over the list items until all items have the value 'ON'
+        ```
         html :
         ```html
         <ul id="list">
@@ -1119,10 +1128,6 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         javascript :
         ```js
-        /*In this scenario, we are looking for a list of elements gathered in one variable - rather than only one element.
-        Assign the list items in the view to the variable 'listItems' by using an appropriate selector method.
-        Once you have completed the code below, verify it by hovering over the list items until all items have the value 'ON'*/
-
         // assign the correct elements to the variable
         const listItems = document.querySelectorAll("#list li");
 
@@ -1132,8 +1137,6 @@ In this repo, I put all the available solutions to solve the challenges of this 
         if(listItems.length > 1) {
             listItems.forEach(item => item.addEventListener('mouseover',    handleHover));
         }
-
-
         ```
         </p>
         </details>
@@ -1141,6 +1144,13 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details open><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        In this scenario, you need to query all list items that belong to the list with id 'list'. 
+        But, exclude the ones with id 'disabled' Assign those items to the variable 'listItems' by using an appropriate selector method.
+        Once you have completed the code below, verify it by clicking the button. 
+        The respective items should change their text.
+        ```
         html :
         ```html
         <ul id="list">
@@ -1157,15 +1167,11 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         javascript :
         ```js
-        /*In this scenario, you need to query all list items that belong to the list with id 'list'. But, exclude the ones with id 'disabled'
-        Assign those items to the variable 'listItems' by using an appropriate selector method.
-        Once you have completed the code below, verify it by clicking the button. The respective items should change their text.*/
-
         // assign the correct elements to the variable
         const listItems = document.querySelectorAll("#list li:not(#disabled)");
-        
+
         const button = document.getElementById('button');
-        
+
         const handleClick = () => {
           listItems.forEach(item => {
           const oldText = item.innerText;
