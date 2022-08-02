@@ -1218,10 +1218,28 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details open><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        The Javascript function changeText changes the text inside the circle. But again, there is no code to execute this function.
+        Complete the existing code below such that the function is called when the cursor moves onto the circle. 
+        Verify that your code works by hovering over the circle.
+        ```
+        html :
+        ```html
+        <div id="element">
+            Hover Me
+        </div>
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
+        const element = document.getElementById('element');
 
+        const changeText = () => {
+          element.innerText = 'Thanks!';
+        };
+
+        // type in your code here
+        element.addEventListener("mouseover", changeText);
         ```
         </p>
         </details>
