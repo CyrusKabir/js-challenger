@@ -1247,10 +1247,29 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details open><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        In this scenario we want the color of the circle to change depending on the type of cursor movement. Use the function toggleColor to turn the circle orange when the cursor moves onto it. Reuse the same function to turn it black when the cursor leaves it.
+        The tricky part is that you have to call toggleColor with different values for the parameter isEntering. 
+        Verify that your code is working by hovering the circle with the mouse cursor and leaving it again.
+        ```
+        html :
+        ```html
+        <div id="element">
+            Hover Me
+        </div>
+        ```
+        javascript :
         ```js
+        const element = document.querySelector('#element');
         
-        // in progress ...
-
+        const toggleColor = (isEntering) => {
+          element.style.background = isEntering ? 'orange' : 'black';
+        };
+        
+        // type in your code here
+        element.addEventListener('mouseover', () => toggleColor(true));
+        element.addEventListener('mouseleave', () => toggleColor(false));
         ```
         </p>
         </details>
