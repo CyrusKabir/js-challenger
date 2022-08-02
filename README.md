@@ -1378,10 +1378,36 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details open><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        In this scenario the existing code listens to a click on the button. 
+        When the button is clicked, the function changeInput is triggered. 
+        changeInput tries to select an input field with id inputEl. But, the existing input field does not have this id. 
+        Add some Javascript code to add the id inputEl to the existing input field.
+        Verify that your code works by clicking the button.
+        ```
+        html :
+        ```html
+        <div id="wrapper">
+            <input type="text" placeholder="Text" readonly/>
+            <button type="button">Click Me</button>
+        </div>
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
+        const button = document.querySelector('#wrapper button');
 
+        const changeInput = () => {
+          const input = document.querySelector('#inputEl');
+          if(input) {
+            input.value = 'Hello World';
+          }
+        };
+
+        button.addEventListener('click', changeInput);
+
+        const input = document.querySelector("#wrapper input[type=text]");
+        input.setAttribute("id", "inputEl");
         ```
         </p>
         </details>
