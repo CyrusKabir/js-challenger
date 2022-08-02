@@ -1443,7 +1443,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
             btn.innerText = 'Thank you! ❤️'
           }
 
-          btn.addEventListener('click', handleClick)
+        btn.addEventListener('click', handleClick)
         ```
         </p>
         </details>
