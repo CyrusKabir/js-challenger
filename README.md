@@ -1572,10 +1572,36 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details open><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        In this challenge, we create a dynamic input filter with JavaScript.
+        Extend the code below to interact with the displayed HTML elements. 
+        Type a search term in the input field. 
+        The displayed items in the list should match your search term. 
+        The rest of the list elements should be hidden.
+        ```
+        html :
+        ```html
+        <input type="text" id="input" placeholder="Filter..."/>
+        <ul id="list">
+            <li>paris</li>
+            <li>berlin</li>
+            <li>new york</li>
+            <li>sao paulo</li>
+            <li>hong kong</li>
+            <li>vienna</li>
+        </ul>
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+          const input = document.getElementById('input');
+          input.addEventListener('input', () => {
+            const listItems = document.querySelectorAll('#list li');
+            listItems.forEach(li => {
+              if(li.innerText.includes(input.value)) return li.hidden = false;
+              return li.hidden = true;
+            })
+          });
         ```
         </p>
         </details>
