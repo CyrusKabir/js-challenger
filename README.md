@@ -1544,10 +1544,27 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details open><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Extend the JavaScript code below to interact with the displayed HTML elements.
+        On each button click, increase the value of the button by 1.
+        Confirm your code by clicking the button!
+        ```
+        html :
+        ```html
+        <button type="button" id="button">0</button>
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        const button = document.getElementById('button');
+        button.addEventListener('click' , () => {
+          // type in your code here
+          const button = document.getElementById('button');
+          button.addEventListener('click' , () => {
+            const oldValue = parseInt(button.innerText, 10);
+            button.innerText = oldValue + 1;
+          });
+        });
         ```
         </p>
         </details>
