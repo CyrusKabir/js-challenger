@@ -1485,10 +1485,26 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details open><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Your first JavaScript DOM exercise. Let's start simple.
+        Extend the JavaScript code below to interact with the displayed HTML elements. 
+        Once you click the button, the checkbox should be checked.
+        Confirm your code by clicking the button!
+        ```
+        html :
+        ```html
+        <input id="checkbox" disabled/>
+        <label for="checkbox">checkbox</label>
+        <button type="button" id="button">Verify Code</button>
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        const button = document.getElementById('button');
+        button.addEventListener('click', () => {
+            const checkbox = document.getElementById('checkbox');
+            checkbox.checked = true;
+        });
         ```
         </p>
         </details>
