@@ -1799,10 +1799,38 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details open><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Make the balloons pop by hovering over them.
+        Extend the JavaScript code below to interact with the displayed HTML elements. 
+        Every time you hover over a balloon, it should become invisible.
+        Your goal is to pop all the balloons one after the other.
+        ```
+        html :
+        ```html
+        <ul id="list">
+            <li/>
+            <li/>
+            <li/>
+            <li/>
+            <li/>
+            <li/>
+            <li/>
+            <li/>
+            <li/>
+            <li/>
+        </ul>
+        ```
+        javascript :
         ```js
+        const list = document.getElementById('list');
+        const handleHover = event => {
+          if(event.target !== list) {
+            event.target.style.visibility = 'hidden';
+          }
+        };
         
-        // in progress ...
-
+        list.addEventListener('mouseover', handleHover);
         ```
         </p>
         </details>
