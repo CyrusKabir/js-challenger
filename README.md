@@ -167,6 +167,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Comparison operators, strict equality
         <details><summary>Solution 1</summary>
         <p>
@@ -184,6 +186,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Get type of value
         <details ><summary>Solution 1</summary>
         <p>
@@ -201,6 +205,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Get nth character of string
         <details ><summary>Solution 1</summary>
         <p>
@@ -218,6 +224,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Remove first n characters of string
         <details ><summary>Solution 1</summary>
         <p>
@@ -236,6 +244,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Get last n characters of string
         <details ><summary>Solution 1</summary>
         <p>
@@ -247,6 +257,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Get first n characters of string
         <details ><summary>Solution 1</summary>
         <p>
@@ -258,6 +270,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Extract first half of string
         <details ><summary>Solution 1</summary>
         <p>
@@ -269,6 +283,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Remove last n characters of string
         <details ><summary>Solution 1</summary>
         <p>
@@ -280,6 +296,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Return the percentage of a number
         <details ><summary>Solution 1</summary>
         <p>
@@ -291,6 +309,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Basic JavaScript math operators
         <details ><summary>Solution 1</summary>
         <p>
@@ -302,6 +322,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Check whether a string contains another string and concatenate
         <details ><summary>Solution 1</summary>
         <p>
@@ -313,6 +335,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Check if a number is even
         <details ><summary>Solution 1</summary>
         <p>
@@ -324,6 +348,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### How many times does a character occur?
         <details ><summary>Solution 1</summary>
         <p>
@@ -335,6 +361,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Check if a number is a whole number
         <details ><summary>Solution 1</summary>
         <p>
@@ -346,6 +374,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Multiplication, division, and comparison operators
         <details ><summary>Solution 1</summary>
         <p>
@@ -357,6 +387,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Round a number to 2 decimal places
         <details ><summary>Solution 1</summary>
         <p>
@@ -368,6 +400,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Split a number into its digits
         <details ><summary>Solution 1</summary>
         <p>
@@ -379,6 +413,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Clear up the chaos behind these strings
         <details ><summary>Solution 1</summary>
         <p>
@@ -390,6 +426,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Return the next higher prime number
         <details ><summary>Solution 1</summary>
         <p>
@@ -401,6 +439,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Find next higher natural number that is divisble by y
         <details ><summary>Solution 1</summary>
         <p>
@@ -412,6 +452,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Insert character after every n characters (backwards)
         <details ><summary>Solution 1</summary>
         <p>
@@ -423,6 +465,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Find the correct word by incrementing letters in alphabet
         <details ><summary>Solution 1</summary>
         <p>
@@ -434,6 +478,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
 - ### Javascript arrays 
     - #### Get nth element of array
         <details ><summary>Solution 1</summary>
@@ -446,6 +492,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Remove first n elements of an array
         <details ><summary>Solution 1</summary>
         <p>
@@ -457,6 +505,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Get last n elements of an array
         <details ><summary>Solution 1</summary>
         <p>
@@ -468,6 +518,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Get first n elements of an array
         <details ><summary>Solution 1</summary>
         <p>
@@ -479,6 +531,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Return last n array elements
         <details ><summary>Solution 1</summary>
         <p>
@@ -490,6 +544,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Remove a specific array element
         <details ><summary>Solution 1</summary>
         <p>
@@ -501,6 +557,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Count number of elements in JavaScript array
         <details ><summary>Solution 1</summary>
         <p>
@@ -512,6 +570,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Count number of negative values in array
         <details ><summary>Solution 1</summary>
         <p>
@@ -523,6 +583,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Sort an array of strings alphabetically
         <details ><summary>Solution 1</summary>
         <p>
@@ -534,6 +596,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Sort an array of numbers in descending order
         <details ><summary>Solution 1</summary>
         <p>
@@ -545,6 +609,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Calculate the sum of an array of numbers
         <details ><summary>Solution 1</summary>
         <p>
@@ -555,7 +621,9 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```
         </p>
-        </details> 
+        </details>
+
+        [Back to table ⬆](#table-of-solutions) 
     - #### Return the average of an array of numbers
         <details ><summary>Solution 1</summary>
         <p>
@@ -567,6 +635,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Return the longest string from an array of strings
         <details ><summary>Solution 1</summary>
         <p>
@@ -578,6 +648,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Check if all array elements are equal
         <details ><summary>Solution 1</summary>
         <p>
@@ -589,6 +661,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Merge an arbitrary number of arrays
         <details ><summary>Solution 1</summary>
         <p>
@@ -600,6 +674,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Sort array by object property
         <details ><summary>Solution 1</summary>
         <p>
@@ -611,6 +687,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Merge two arrays with duplicate values
         <details ><summary>Solution 1</summary>
         <p>
@@ -622,6 +700,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Sum up all array elements with values greater 
         <details ><summary>Solution 1</summary>
         <p>
@@ -633,6 +713,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Create a range of numbers 
         <details ><summary>Solution 1</summary>
         <p>
@@ -643,7 +725,9 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```
         </p>
-        </details>   
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)   
     - #### Group array of strings by first letter
         <details ><summary>Solution 1</summary>
         <p>
@@ -655,6 +739,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Define an array with conditional elements
         <details ><summary>Solution 1</summary>
         <p>
@@ -666,6 +752,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Get every nth element of array
         <details ><summary>Solution 1</summary>
         <p>
@@ -677,6 +765,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
 - ### Javascript objects 
     - #### Accessing object properties one
         <details ><summary>Solution 1</summary>
@@ -689,6 +779,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Accessing object properties two
         <details ><summary>Solution 1</summary>
         <p>
@@ -700,6 +792,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Accessing object properties three
         <details ><summary>Solution 1</summary>
         <p>
@@ -711,6 +805,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Check if property exists in object
         <details ><summary>Solution 1</summary>
         <p>
@@ -722,6 +818,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Check if property exists in object and is truthy
         <details ><summary>Solution 1</summary>
         <p>
@@ -733,6 +831,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Creating Javascript objects one
         <details ><summary>Solution 1</summary>
         <p>
@@ -744,6 +844,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Creating Javascript objects two
         <details ><summary>Solution 1</summary>
         <p>
@@ -755,6 +857,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Creating Javascript objects three
         <details ><summary>Solution 1</summary>
         <p>
@@ -766,6 +870,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Extract keys from Javascript object
         <details ><summary>Solution 1</summary>
         <p>
@@ -777,6 +883,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Sum object values
         <details ><summary>Solution 1</summary>
         <p>
@@ -788,6 +896,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Remove a property from an object
         <details ><summary>Solution 1</summary>
         <p>
@@ -799,6 +909,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Merge two objects with matching keys
         <details ><summary>Solution 1</summary>
         <p>
@@ -810,6 +922,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Multiply all object values by x
         <details ><summary>Solution 1</summary>
         <p>
@@ -821,6 +935,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Swap object keys and values
         <details ><summary>Solution 1</summary>
         <p>
@@ -832,6 +948,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Replace empty strings in object with null values
         <details ><summary>Solution 1</summary>
         <p>
@@ -843,6 +961,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Extracting information from objects
         <details ><summary>Solution 1</summary>
         <p>
@@ -854,6 +974,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Add property to each object in array
         <details ><summary>Solution 1</summary>
         <p>
@@ -865,6 +987,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Convert array to object with counter
         <details ><summary>Solution 1</summary>
         <p>
@@ -875,7 +999,9 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         ```
         </p>
-        </details> 
+        </details>
+
+        [Back to table ⬆](#table-of-solutions) 
 - ### Javascript dates
     - #### Check if two dates are equal
         <details ><summary>Solution 1</summary>
@@ -888,6 +1014,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Return the number of days between two dates
         <details ><summary>Solution 1</summary>
         <p>
@@ -899,6 +1027,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Check if two dates fall on the exact same day
         <details ><summary>Solution 1</summary>
         <p>
@@ -910,6 +1040,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Check if two dates are within 1 hour from each other
         <details ><summary>Solution 1</summary>
         <p>
@@ -921,6 +1053,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Check if one date is earlier than another
         <details ><summary>Solution 1</summary>
         <p>
@@ -932,6 +1066,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Add n days to an existing date
         <details ><summary>Solution 1</summary>
         <p>
@@ -943,6 +1079,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Calculate difference between two dates in hours, minutes, and seconds
         <details ><summary>Solution 1</summary>
         <p>
@@ -954,6 +1092,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Return the next nearest quarter hour of a date
         <details ><summary>Solution 1</summary>
         <p>
@@ -965,6 +1105,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
 - ### Javascript Sets
     - #### Check if value is present in Set
         <details ><summary>Solution 1</summary>
@@ -977,6 +1119,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Convert a Set to Array
         <details ><summary>Solution 1</summary>
         <p>
@@ -988,6 +1132,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Get union of two sets
         <details ><summary>Solution 1</summary>
         <p>
@@ -999,6 +1145,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Creating Javascript Sets
         <details ><summary>Solution 1</summary>
         <p>
@@ -1010,6 +1158,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Delete element from Set
         <details ><summary>Solution 1</summary>
         <p>
@@ -1021,6 +1171,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Add multiple elements to Set
         <details ><summary>Solution 1</summary>
         <p>
@@ -1032,6 +1184,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Get Intersection of two Javascript Sets
         <details ><summary>Solution 1</summary>
         <p>
@@ -1043,6 +1197,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     
 
 ## **Javascript DOM :**
@@ -1074,6 +1230,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Query descendent HTML elements
         <details open><summary>Solution 1</summary>
         <p>
@@ -1105,6 +1263,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Select multiple HTML elements
         <details open><summary>Solution 1</summary>
         <p>
@@ -1140,6 +1300,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Query and exclude HTML elements
         <details open><summary>Solution 1</summary>
         <p>
@@ -1184,6 +1346,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
 - ### Events and user interactions
     - #### Execute function on button click
         <details open><summary>Solution 1</summary>
@@ -1214,6 +1378,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Execute function when cursor moves onto element
         <details open><summary>Solution 1</summary>
         <p>
@@ -1243,6 +1409,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Cursor enters and leaves element
         <details open><summary>Solution 1</summary>
         <p>
@@ -1273,6 +1441,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Move element with mouse cursor
         <details open><summary>Solution 1</summary>
         <p>
@@ -1310,6 +1480,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Drop element into another element
         <details open><summary>Solution 1</summary>
         <p>
@@ -1343,6 +1515,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
 - ### DOM manipulation 
     - #### Remove element from the DOM
         <details open><summary>Solution 1</summary>
@@ -1374,6 +1548,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Change id of HTML element
         <details open><summary>Solution 1</summary>
         <p>
@@ -1411,6 +1587,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Wrap element in div
         <details open><summary>Solution 1</summary>
         <p>
@@ -1447,6 +1625,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Create new list item and add to DOM
         <details open><summary>Solution 1</summary>
         <p>
@@ -1480,6 +1660,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
 - ### DOM fundamentals
     - #### Check the checkbox
         <details open><summary>Solution 1</summary>
@@ -1508,6 +1690,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Get full-name from inputs
         <details open><summary>Solution 1</summary>
         <p>
@@ -1540,6 +1724,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Increment the counter on button click
         <details open><summary>Solution 1</summary>
         <p>
@@ -1568,6 +1754,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Input filter list
         <details open><summary>Solution 1</summary>
         <p>
@@ -1605,6 +1793,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Pop the balloons
         <details open><summary>Solution 1</summary>
         <p>
@@ -1616,6 +1806,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
 - ### Recursive functions
     - #### Stop and restart the moving button
         <details open><summary>Solution 1</summary>
@@ -1628,3 +1820,5 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         </p>
         </details>
+
+        [Back to table ⬆](#table-of-solutions)
