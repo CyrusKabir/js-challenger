@@ -310,10 +310,17 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes a string (a) as argument
+        Remove the last 3 characters of a
+        Return the result
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(a) {
+            return a.slice(0, -3);
+        }
         ```
         </p>
         </details>
