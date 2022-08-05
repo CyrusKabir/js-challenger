@@ -330,10 +330,16 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes two numbers (a and b) as argument
+        Return b percent of a
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(a, b) {
+            return b / 100 * a
+        }
         ```
         </p>
         </details>
