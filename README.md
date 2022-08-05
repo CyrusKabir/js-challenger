@@ -250,10 +250,17 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes a string as argument.
+        Extract the last 3 characters from the string.
+        Return the result.
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(str) {
+            return str.slice(-3);
+        }
         ```
         </p>
         </details>
@@ -1859,7 +1866,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```js
         const button = document.getElementById('button');
         let stopped = false;
-        
+
         function move(isReturning) {
          const width = button.parentNode.clientWidth;
          const left = parseInt(button.style.left , 10) || 0;
@@ -1868,9 +1875,9 @@ In this repo, I put all the available solutions to solve the challenges of this 
             setTimeout(() => move ((isReturning && left > 0) || left === width - button.clientWidth), 10);
          };
         };
-        
+
         move();
-        
+
         button.addEventListener('click', () => {
           stopped = !stopped;
           move();
