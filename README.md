@@ -1165,10 +1165,17 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes a Set as argument
+        Convert the Set to an Array
+        Return the Array
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(set) {
+            return [...set];
+        }  
         ```
         </p>
         </details>
