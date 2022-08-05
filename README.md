@@ -290,10 +290,17 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes a string (a) as argument
+        Extract the first half a
+        Return the result
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(str) {
+            return str.slice(0, a.length / 2);
+        }
         ```
         </p>
         </details>
