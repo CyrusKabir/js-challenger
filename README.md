@@ -1146,10 +1146,16 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes a Set and a value as arguments
+        Check if the value is present in the Set
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(set, val) {
+            return set.has(val);
+        }   
         ```
         </p>
         </details>
