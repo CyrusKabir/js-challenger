@@ -2,7 +2,7 @@
 
 ## **Welcome !** 👋
 
-Thanks for checking out this js-challenger solutions repo.
+Thanks for checking out this [js-challenger solutions repo](https://github.com/CyrusKabir/js-challenger).
 
 ## **What is JSchallenger ?** 🙂
 
