@@ -1253,10 +1253,18 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes a Set and an array as arguments
+        If not already existing, add each element in the array to the Set
+        Return the modified Set
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(set, arr) {
+            arr.forEach((e) => set.add(e));
+            return set;
+        }
         ```
         </p>
         </details>
