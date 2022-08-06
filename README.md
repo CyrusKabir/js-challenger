@@ -1232,10 +1232,18 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes a Set and a value as argument
+        If existing in the Set, remove the value from the Set
+        Return the result
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(set, val) {
+            set.delete(val);
+            return set;
+        }
         ```
         </p>
         </details>
