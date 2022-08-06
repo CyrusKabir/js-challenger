@@ -1208,10 +1208,21 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes three elements of any type as arguments
+        Create a Set from those elements
+        Return the result
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(a, b, c) {
+            const set = new Set();
+            set.add(a);
+            set.add(b);
+            set.add(c);
+            return set;
+        }
         ```
         </p>
         </details>
