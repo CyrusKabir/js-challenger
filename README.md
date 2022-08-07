@@ -28,7 +28,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
      1. [Return the percentage of a number](#return-percentage-of-number)
      1. [Basic JavaScript math operators](#basic-javascript-math-operators)
      1. [Check whether a string contains another string and concatenate](#check-whether-a-string-contains-another-string-and-concatenate)
-     1. [Check if a number is even](#check-if-number-is-even)
+     1. [Check if a number is even](#check-if-a-number-is-even)
      1. [How many times does a character occur?](#how-many-times-does-a-character-occur)
      1. [Check if a number is a whole number](#check-if-a-number-is-a-whole-number)
      1. [Multiplication, division, and comparison operators](#multiplication-division-and-comparison-operators)
