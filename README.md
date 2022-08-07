@@ -413,10 +413,16 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes two strings (a and b) as arguments
+        Return the number of times a occurs in b
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(a, b) {
+            return b.split(a).length - 1
+        }
         ```
         </p>
         </details>
