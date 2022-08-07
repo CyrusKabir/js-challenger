@@ -1274,10 +1274,19 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes two sets (a and b) as arguments
+        Get the intersection of the sets
+        In other words, return a set containing all elements that are both in a as well as b
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(a, b) {
+            const intersectTwoSets = new Set();
+            b.forEach(setItem => a.has(setItem) && intersectTwoSets.add(setItem));
+            return intersectTwoSets;
+        }
         ```
         </p>
         </details>
