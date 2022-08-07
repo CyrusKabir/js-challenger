@@ -1072,10 +1072,18 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Sounds easy, but you need to know the trick
+        Write a function that takes two date instances as arguments
+        It should return true if the dates are equal
+        It should return false otherwise
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(a, b) {
+            return a.getTime() === b.getTime()
+        }
         ```
         </p>
         </details>
