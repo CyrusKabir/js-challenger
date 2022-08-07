@@ -393,10 +393,17 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes a number as argument
+        If the number is even, return true
+        Otherwise, return false
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(a) {
+            return a % 2 === 0
+        }
         ```
         </p>
         </details>
