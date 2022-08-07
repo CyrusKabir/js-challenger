@@ -349,10 +349,20 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes 6 values (a,b,c,d,e,f) as arguments
+        Sum a and b
+        Then substract by c
+        Then multiply by d and divide by e
+        Finally raise to the power of f and return the result
+        Tipp: mind the order
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(a, b, c, d, e, f) {
+            return (((a + b - c) * d) / e) ** f;
+        }
         ```
         </p>
         </details>
