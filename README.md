@@ -432,10 +432,17 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes a number (a) as argument
+        If a is a whole number (has no decimal place), return true
+        Otherwise, return false
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(a) {
+            return a - Math.floor(a) === 0
+        }
         ```
         </p>
         </details>
