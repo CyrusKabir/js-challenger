@@ -452,10 +452,18 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes two numbers (a and b) as arguments
+        If a is smaller than b, divide a by b
+        Otherwise, multiply both numbers
+        Return the resulting value
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(a, b) {
+            return a < b ? a / b : a * b
+        }
         ```
         </p>
         </details>
