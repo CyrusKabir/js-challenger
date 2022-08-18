@@ -515,10 +515,22 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        It seems like something happened to these strings
+        Can you figure out how to clear up the chaos?
+        Write a function that joins these strings together such that they form the following words:
+        'Javascript', 'Countryside', and 'Downtown'
+        You might want to apply basic JS string methods such as replace(), split(), slice() etc
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(a, b) {
+            const firstWord = (a.replace(/[^0-9a-zA-Z]/gi, "")) && a[0].toUpperCase() + a.slice(1);
+            const secondWord = (b.replace(/[^0-9a-zA-Z]/gi, "")) && b.split("").reverse().join("");
+            const result = (firstWord + secondWord).replace(/[^0-9a-zA-Z]/gi, "");
+            return result;
+        }
         ```
         </p>
         </details>
