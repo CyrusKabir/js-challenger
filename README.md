@@ -502,9 +502,9 @@ In this repo, I put all the available solutions to solve the challenges of this 
         javascript :
         ```js
         function myFunction( a ) {
-        const string = a + '';
-        const strings = string.split('');
-        return strings.map(digit => Number(digit))
+            const string = a + '';
+            const strings = string.split('');
+            return strings.map(digit => Number(digit))
         }
         ```
         </p>
