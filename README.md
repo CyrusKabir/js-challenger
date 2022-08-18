@@ -473,10 +473,17 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        Write a function that takes a number (a) as argument
+        Round a to the 2nd digit after the comma
+        Return the rounded number
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction(a, b) {
+            return a < b ? a / b : a * b
+        }
         ```
         </p>
         </details>
@@ -1352,7 +1359,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
 - ### DOM selector methods
     - #### Select the button element on the page
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1380,7 +1387,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         [Back to table ⬆](#table-of-solutions)
     - #### Query descendent HTML elements
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1413,7 +1420,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         [Back to table ⬆](#table-of-solutions)
     - #### Select multiple HTML elements
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1450,7 +1457,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         [Back to table ⬆](#table-of-solutions)
     - #### Query and exclude HTML elements
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1497,7 +1504,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         [Back to table ⬆](#table-of-solutions)
 - ### Events and user interactions
     - #### Execute function on button click
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1528,7 +1535,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         [Back to table ⬆](#table-of-solutions)
     - #### Execute function when cursor moves onto element
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1559,7 +1566,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         [Back to table ⬆](#table-of-solutions)
     - #### Cursor enters and leaves element
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1591,7 +1598,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         [Back to table ⬆](#table-of-solutions)
     - #### Move element with mouse cursor
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
        
         scenario :
@@ -1630,7 +1637,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         [Back to table ⬆](#table-of-solutions)
     - #### Drop element into another element
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1666,7 +1673,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         [Back to table ⬆](#table-of-solutions)
 - ### DOM manipulation 
     - #### Remove element from the DOM
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1698,7 +1705,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         [Back to table ⬆](#table-of-solutions)
     - #### Change id of HTML element
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1737,7 +1744,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         [Back to table ⬆](#table-of-solutions)
     - #### Wrap element in div
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1775,7 +1782,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         [Back to table ⬆](#table-of-solutions)
     - #### Create new list item and add to DOM
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1811,7 +1818,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         [Back to table ⬆](#table-of-solutions)
 - ### DOM fundamentals
     - #### Check the checkbox
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1840,7 +1847,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         [Back to table ⬆](#table-of-solutions)
     - #### Get full-name from inputs
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1874,7 +1881,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         [Back to table ⬆](#table-of-solutions)
     - #### Increment the counter on button click
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1904,7 +1911,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         [Back to table ⬆](#table-of-solutions)
     - #### Input filter list
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1943,7 +1950,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
 
         [Back to table ⬆](#table-of-solutions)
     - #### Pop the balloons
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
@@ -1985,7 +1992,7 @@ In this repo, I put all the available solutions to solve the challenges of this 
         [Back to table ⬆](#table-of-solutions)
 - ### Recursive functions
     - #### Stop and restart the moving button
-        <details open><summary>Solution 1</summary>
+        <details  ><summary>Solution 1</summary>
         <p>
 
         scenario :
