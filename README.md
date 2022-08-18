@@ -481,8 +481,8 @@ In this repo, I put all the available solutions to solve the challenges of this 
         ```
         javascript :
         ```js
-        function myFunction(a, b) {
-            return a < b ? a / b : a * b
+        function myFunction(a) {
+            return Number(a.toFixed(2));
         }
         ```
         </p>
