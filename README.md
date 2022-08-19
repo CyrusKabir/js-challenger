@@ -540,10 +540,26 @@ In this repo, I put all the available solutions to solve the challenges of this 
         <details ><summary>Solution 1</summary>
         <p>
 
+        scenario :
+        ```python
+        This challenge is a little bit more complex
+        Write a function that takes a number (a) as argument
+        If a is prime, return a
+        If not, return the next higher prime number
+        ```
+        javascript :
         ```js
-        
-        // in progress ...
-
+        function myFunction( a ) {
+            function isPrime(num) {
+              for (let i = 2; i <= Math.sqrt(num); i++) {
+                if (num % i === 0) return false;
+              }
+              return num > 1;
+            }
+            let n = a;
+            while (!isPrime(n)) n++;
+            return n
+        }
         ```
         </p>
         </details>
