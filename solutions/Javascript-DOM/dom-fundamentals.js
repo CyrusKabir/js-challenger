@@ -98,30 +98,6 @@ const dom_fundamentals = [
       });
       `
   },
-  {
-    category: "DOM fundamentals",
-    title: "Increment the counter on button click 2",
-    nth: 1,
-    scenario: `
-    Extend the JavaScript code below to interact with the displayed HTML elements.
-    On each button click, increase the value of the button by 1.
-    Confirm your code by clicking the button!
-    `,
-    html: `
-    <button type="button" id="button">0</button>
-    `,
-    javascript: `
-    const button = document.getElementById('button');
-    button.addEventListener('click' , () => {
-      // type in your code here
-      const button = document.getElementById('button');
-      button.addEventListener('click' , () => {
-        const oldValue = parseInt(button.innerText, 10);
-        button.innerText = oldValue + 1;
-      });
-    });
-    `
-},
 ]
 
 module.exports = dom_fundamentals;

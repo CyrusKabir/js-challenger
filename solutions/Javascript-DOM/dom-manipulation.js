@@ -2,7 +2,6 @@ const dom_manipulation = [
     {
         category: "DOM manipulation",
         title: "Remove element from the DOM",
-        nth: 1,
         scenario: `
         You may not see it in the example UI, but underneath the red circle is a green circle. 
         Extend the function removeRedCircle to remove the circle with id red from the DOM.
@@ -14,7 +13,7 @@ const dom_manipulation = [
         <div id="red"/>
         <button type="button" id="button">Click Me</button>
         `,
-        javascript: `
+        javascript: [`
         const button = document.querySelector('#button');
 
         const removeRedCircle = () => {
@@ -23,12 +22,17 @@ const dom_manipulation = [
         };
 
         button.addEventListener('click', removeRedCircle);
+        `,`
+        const removeRedCircle = () => {
+           const redCircle = document.querySelector('#red');
+           redCircle.parentNode.removeChild(redCircle);
+        };
         `
+        ],
     },
     {
         category: "DOM manipulation",
         title: "Change id of HTML element",
-        nth: 1,
         scenario: `
         In this scenario the existing code listens to a click on the button. 
         When the button is clicked, the function changeInput is triggered. 
@@ -42,7 +46,8 @@ const dom_manipulation = [
             <button type="button">Click Me</button>
         </div>
         `,
-        javascript: `
+        javascript: [
+        `
         const button = document.querySelector('#wrapper button');
 
         const changeInput = () => {
@@ -56,12 +61,11 @@ const dom_manipulation = [
 
         const input = document.querySelector("#wrapper input[type=text]");
         input.setAttribute("id", "inputEl");
-        `
+        `]
     },
     {
         category: "DOM manipulation",
         title: "Wrap element in div",
-        nth: 1,
         scenario: `
         The JavaScript code below installs en eventListener on a variable btn. 
         A button element that is a descendent of another element with id wrapper was assigned to the variable btn. 
@@ -73,7 +77,8 @@ const dom_manipulation = [
         html: `
         <button type="button" id="button">Click Me</button>
         `,
-        javascript: `
+        javascript: [
+        `
         const button = document.querySelector('#button');
         const wrapper = document.createElement('div');
         wrapper.setAttribute('id', 'wrapper');
@@ -88,7 +93,7 @@ const dom_manipulation = [
           }
 
         btn.addEventListener('click', handleClick)
-        `
+        `]
     },
 ]
 

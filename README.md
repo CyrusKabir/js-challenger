@@ -16,170 +16,90 @@ In this repo, I put all the available solutions to solve the challenges of this 
 - **Javascript Fundamentals**
     <details><summary>Javascript basics</summary>
 
-     1. [Sum two numbers](#sum-two-numbers)
-     1. [Comparison operators, strict equality](#comparison-operators-strict-equality)
-     1. [Get type of value](#get-type-of-value)
-     1. [Get nth character of string](#get-nth-character-of-string)
-     1. [Remove first n characters of string](#remove-first-n-characters-of-string)
-     1. [Get last n characters of string](#get-last-n-characters-of-string)
-     1. [Get first n characters of string](#get-first-n-characters-of-string)
-     1. [Extract first half of string](#extract-first-half-of-string)
-     1. [Remove last n characters of string](#remove-last-n-characters-of-string)
-     1. [Return the percentage of a number](#return-percentage-of-number)
-     1. [Basic JavaScript math operators](#basic-javascript-math-operators)
-     1. [Check whether a string contains another string and concatenate](#check-whether-a-string-contains-another-string-and-concatenate)
-     1. [Check if a number is even](#check-if-a-number-is-even)
-     1. [How many times does a character occur?](#how-many-times-does-a-character-occur)
-     1. [Check if a number is a whole number](#check-if-a-number-is-a-whole-number)
-     1. [Multiplication, division, and comparison operators](#multiplication-division-and-comparison-operators)
-     1. [Round a number to 2 decimal places](#round-a-number-to-2-decimal-places)
-     1. [Split a number into its digits](#split-a-number-into-its-digits)
-     1. [Clear up the chaos behind these strings](#clear-up-the-chaos-behind-these-strings)
-     1. [Return the next higher prime number](#return-the-next-higher-prime-number)
-     1. [Find next higher natural number that is divisble by y](#find-next-higher-natural-number-that-is-divisble-by-y)
-     1. [Insert character after every n characters (backwards)](#insert-character-after-every-n-characters-backwards)
-     1. [Find the correct word by incrementing letters in alphabet](#find-the-correct-word-by-incrementing-letters-in-alphabet)
+    <!-- inject tos-basics start -->
+    <!-- inject tos-basics end -->
     </details>
     <details><summary>Javascript arrays</summary>
 
-     1. [Get nth element of array](#get-nth-element-of-array)
-     1. [Remove first n elements of an array](#remove-first-n-elements-of-an-array)
-     1. [Get last n elements of an array](#get-last-n-elements-of-an-array)
-     1. [Get first n elements of an array](#get-first-n-elements-of-an-array)
-     1. [Return last n array elements](#return-last-n-array-elements)
-     1. [Remove a specific array element](#remove-a-specific-array-element)
-     1. [Count number of elements in JavaScript array](#count-number-of-elements-in-javascript-array)
-     1. [Count number of negative values in array](#count-number-of-negative-values-in-array)
-     1. [Sort an array of strings alphabetically](#sort-an-array-of-strings-alphabetically)
-     1. [Sort an array of numbers in descending order](#sort-an-array-of-numbers-in-descending-order)
-     1. [Calculate the sum of an array of numbers](#calculate-the-sum-of-an-array-of-numbers)
-     1. [Return the average of an array of numbers](#return-the-average-of-an-array-of-numbers)
-     1. [Return the longest string from an array of strings](#return-the-longest-string-from-an-array-of-strings)
-     1. [Check if all array elements are equal](#check-if-all-array-elements-are-equal)
-     1. [Merge an arbitrary number of arrays](#merge-an-arbitrary-number-of-arrays)
-     1. [Sort array by object property](#sort-array-by-object-property)
-     1. [Merge two arrays with duplicate values](#merge-two-arrays-with-duplicate-values)
-     1. [Sum up all array elements with values greater than](#sum-up-all-array-elements-with-values-greater-than)
-     1. [Create a range of numbers](#create-a-range-of-numbers)
-     1. [Group array of strings by first letter](#group-array-of-strings-by-first-letter)
-     1. [Define an array with conditional elements](#define-an-array-with-conditional-elements)
-     1. [Get every nth element of array](#get-every-nth-element-of-array)
+    <!-- inject tos-arrays start -->
+    <!-- inject tos-arrays end -->
     </details>
-
     <details><summary>Javascript objects</summary>
 
-     1. [Accessing object properties one](#accessing-object-properties-one)
-     1. [Accessing object properties two](#accessing-object-properties-two)
-     1. [Accessing object properties three](#accessing-object-properties-three)
-     1. [Check if property exists in object](#check-if-property-exists-in-object)
-     1. [Check if property exists in object and is truthy](#check-if-property-exists-in-object-and-is-truthy)
-     1. [Creating Javascript objects one](#creating-javascript-objects-one)
-     1. [Creating Javascript objects two](#creating-javascript-objects-two)
-     1. [Creating Javascript objects three](#creating-javascript-objects-three)
-     1. [Extract keys from Javascript object](#extract-keys-from-javascript-object)
-     1. [Sum object values](#sum-object-values)
-     1. [Remove a property from an object](#remove-a-property-from-an-object)
-     1. [Merge two objects with matching keys](#merge-two-objects-with-matching-keys)
-     1. [Multiply all object values by x](#multiply-all-object-values-by-x)
-     1. [Swap object keys and values](#swap-object-keys-and-values)
-     1. [Replace empty strings in object with null values](#replace-empty-strings-in-object-with-null-values)
-     1. [Extracting information from objects](#extracting-information-from-objects)
-     1. [Add property to each object in array](#add-property-to-each-object-in-array)
-     1. [Convert array to object with counter](#convert-array-to-object-with-counter)
+    <!-- inject tos-objects start -->
+    <!-- inject tos-objects end -->
     </details>
-
     <details><summary>Javascript dates</summary>
 
-     1. [Check if two dates are equal](#check-if-two-dates-are-equal)
-     1. [Return the number of days between two dates](#return-the-number-of-days-between-two-dates)
-     1. [Check if two dates fall on the exact same day](#check-if-two-dates-fall-on-the-exact-same-day)
-     1. [Check if two dates are within 1 hour from each other](#check-if-two-dates-are-within-1-hour-from-each-other)
-     1. [Check if one date is earlier than another](#check-if-one-date-is-earlier-than-another)
-     1. [Add n days to an existing date](#add-n-days-to-an-existing-date)
-     1. [Calculate difference between two dates in hours, minutes, and seconds](#difference-between-dates)
-     1. [Return the next nearest quarter hour of a date](#return-the-next-nearest-quarter-hour-of-a-date)
+    <!-- inject tos-dates start -->
+    <!-- inject tos-dates end -->
     </details>
-
     <details><summary>Javascript Sets</summary>
 
-     1. [Check if value is present in Set](#check-if-value-is-present-in-set)
-     1. [Convert a Set to Array](#convert-a-set-to-array)
-     1. [Get union of two sets](#get-union-of-two-sets)
-     1. [Creating Javascript Sets](#creating-javascript-sets)
-     1. [Delete element from Set](#delete-element-from-set)
-     1. [Add multiple elements to Set](#add-multiple-elements-to-set)
-     1. [Get Intersection of two Javascript Sets](#get-intersection-of-two-javascript-sets)
+    <!-- inject tos-Sets start -->
+    <!-- inject tos-Sets end -->
     </details>
 
 - **Javascript DOM**
     <details><summary>DOM selector methods</summary>
 
-    1. [Select the button element on the page](#select-the-button-element-on-the-page)
-    1. [Query descendent HTML elements](#query-descendent-HTML-elements)
-    1. [Select multiple HTML elements](#Select-multiple-HTML-elements)
-    1. [Query and exclude HTML elements](#Query-and-exclude-HTML-elements)
+    <!-- inject tos-DOM selector methods start -->
+    <!-- inject tos-DOM selector methods end -->
     </details>
     <details><summary>Events and user interactions</summary>
 
-    1. [Execute function on button click](#Execute-function-on-button-click)
-    1. [Execute function when cursor moves onto element](#Execute-function-when-cursor-moves-onto-element)
-    1. [Cursor enters and leaves element](#Cursor-enters-and-leaves-element)
-    1. [Move element with mouse cursor](#Move-element-with-mouse-cursor)
-    1. [Drop element into another element](#Drop-element-into-another-element)
+    <!-- inject tos-Events and user interactions start -->
+    <!-- inject tos-Events and user interactions end -->
     </details>
     <details><summary>DOM manipulation</summary>
 
-    1. [Remove element from the DOM](#remove-element-from-the-dom)
-    1. [Change id of HTML element](#change-id-of-html-element)
-    1. [Wrap element in div](#Wrap-element-in-div)
-    1. [Create new list item and add to DOM](#Create-new-list-item-and-add-to-DOM)
+    <!-- inject tos-DOM manipulation start -->
+    <!-- inject tos-DOM manipulation end -->
     </details>
     <details><summary>DOM fundamentals</summary>
 
-    1. [Check the checkbox](#check-the-checkbox)
-    1. [Get full-name from inputs](#Get-full-name-from-inputs)
-    1. [Increment the counter on button click](#Increment-the-counter-on-button-click)
-    1. [Input filter list](#Input-filter-list)
-    1. [Pop the balloons](#Pop-the-balloons)
+    <!-- inject tos-DOM fundamentals start -->
+    <!-- inject tos-DOM fundamentals end -->
     </details>
     <details><summary>Recursive functions</summary>
 
-    1. [Stop and restart the moving button](#Stop-and-restart-the-moving-button)
+    <!-- inject tos-Recursive functions start -->
+    <!-- inject tos-Recursive functions end -->
     </details>
 
 
 ## **Javascript Fundamentals :**
 
 - ### Javascript basics
-<!-- inject basics start -->
-<!-- inject basics end -->
+    <!-- inject basics start -->
+    <!-- inject basics end -->
 - ### Javascript arrays
-<!-- inject arrays start -->
-<!-- inject arrays end -->
+    <!-- inject arrays start -->
+    <!-- inject arrays end -->
 - ### Javascript objects  
-<!-- inject objects start -->
-<!-- inject objects end -->
+    <!-- inject objects start -->
+    <!-- inject objects end -->
 - ### Javascript dates
-<!-- inject dates start -->
-<!-- inject dates end -->
+    <!-- inject dates start -->
+    <!-- inject dates end -->
 - ### Javascript Sets
-<!-- inject sets start -->
-<!-- inject sets end -->
+    <!-- inject sets start -->
+    <!-- inject sets end -->
 
 ## **Javascript DOM :**
 
 - ### DOM selector methods
-<!-- inject DOM selector start -->
-<!-- inject DOM selector end -->
+    <!-- inject DOM selector start -->
+    <!-- inject DOM selector end -->
 - ### Events and user interactions
-<!-- inject Events and user interactions start -->
-<!-- inject Events and user interactions end --> 
+    <!-- inject Events and user interactions start -->
+    <!-- inject Events and user interactions end --> 
 - ### DOM manipulation
-<!-- inject DOM manipulation start -->
-<!-- inject DOM manipulation end -->
+    <!-- inject DOM manipulation start -->
+    <!-- inject DOM manipulation end -->
 - ### DOM fundamentals
-<!-- inject DOM fundamentals start -->
-<!-- inject DOM fundamentals end -->
+    <!-- inject DOM fundamentals start -->
+    <!-- inject DOM fundamentals end -->
 - ### Recursive functions
-<!-- inject Recursive functions start -->
-<!-- inject Recursive functions end -->
+    <!-- inject Recursive functions start -->
+    <!-- inject Recursive functions end -->

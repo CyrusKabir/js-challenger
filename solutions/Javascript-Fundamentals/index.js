@@ -1,0 +1,6 @@
+const ARRAYS = require("./arrays");
+const ALL_JAVASCRIPT_FUNDAMENTALS_SOLUTIONS = [
+    ...ARRAYS
+];
+
+module.exports = ALL_JAVASCRIPT_FUNDAMENTALS_SOLUTIONS;
