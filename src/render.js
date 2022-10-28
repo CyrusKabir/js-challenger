@@ -1,3 +1,4 @@
+// rendering solution markup
 function renderSolution(solution_obj) {
     return `    - #### ${solution_obj.title}
         scenario :
@@ -31,7 +32,7 @@ function renderSolution(solution_obj) {
 
         [Back to table ⬆](#table-of-solutions)`
 }
-
+// rendering challenge title markup in table of solutions
 function renderTableOfSolution(solutionTitle_str) {
     let linkToSolution_str = solutionTitle_str.toLowerCase().split(" ").join("-");
     return `    1. [${solutionTitle_str}](#${linkToSolution_str})`
