@@ -1,17 +1,17 @@
 const { renderSolution, renderTableOfSolution } = require("./render");
 
-function findInjectPosInfo(injectType_str, solution_obj, readMeFileLines_arr) {
+function findInjectPosInfo({injectType_str, solutionInfo_obj, fileLines_arr}) {
     let injectStartSign_str, injectEndSign_str;
     if(injectType_str === "table-of-solutions") {
-        injectStartSign_str = `<!-- inject tos-${solution_obj.category} start -->`;
-        injectEndSign_str = `<!-- inject tos-${solution_obj.category} end -->`;
+        injectStartSign_str = `<!-- inject tos-${solutionInfo_obj.category} start -->`;
+        injectEndSign_str = `<!-- inject tos-${solutionInfo_obj.category} end -->`;
     }
     if(injectType_str === "solution") {
-        injectStartSign_str = `<!-- inject ${solution_obj.category} start -->`;
-        injectEndSign_str = `<!-- inject ${solution_obj.category} end -->`;
+        injectStartSign_str = `<!-- inject ${solutionInfo_obj.category} start -->`;
+        injectEndSign_str = `<!-- inject ${solutionInfo_obj.category} end -->`;
     }
-    let startPos_num = readMeFileLines_arr.map(line => line.trim()).indexOf(injectStartSign_str);
-    let endPos_num = readMeFileLines_arr.map(line => line.trim()).indexOf(injectEndSign_str);
+    let startPos_num = fileLines_arr.map(line => line.trim()).indexOf(injectStartSign_str);
+    let endPos_num = fileLines_arr.map(line => line.trim()).indexOf(injectEndSign_str);
     let injectPos_num = (endPos_num - startPos_num) + startPos_num;
     return {
         startPos_num,
@@ -28,8 +28,16 @@ function processInject(solutions_obj, readMeFileLines_arr) {
     for(let solution_obj of solutions_obj) {
         let renderedSolution_str = renderSolution(solution_obj);
         let renderedTableOfSolution_str = renderTableOfSolution(solution_obj.title);
-        let injectPosInfoForSolution_obj = findInjectPosInfo("solution", solution_obj, readMeFileLines_arr);
-        let injectPosInfoForTableOfSolutions_obj = findInjectPosInfo("table-of-solutions", solution_obj, readMeFileLines_arr);
+        let injectPosInfoForSolution_obj = findInjectPosInfo({
+            injectType_str: "solution", 
+            solutionInfo_obj: solution_obj, 
+            fileLines_arr: readMeFileLines_arr
+        });
+        let injectPosInfoForTableOfSolutions_obj = findInjectPosInfo({
+            injectType_str: "table-of-solution", 
+            solutionInfo_obj: solution_obj, 
+            fileLines_arr: readMeFileLines_arr
+        });
         let challengeExist_bool = readMeFileLines_arr.join("\n").includes(solution_obj.title);
         if(challengeExist_bool) {
             let renderedSolutionTitle_str = `- #### ${solution_obj.title}`;
