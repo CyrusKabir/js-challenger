@@ -110,6 +110,9 @@ In this repo, I put all the available solutions to solve the challenges of this 
     <details><summary>Events and user interactions</summary>
 
     <!-- inject tos-Events and user interactions start -->
+    1. [Execute function on button click](#execute-function-on-button-click)
+    1. [Execute function when cursor moves onto element](#execute-function-when-cursor-moves-onto-element)
+    1. [Cursor enters and leaves element](#cursor-enters-and-leaves-element)
     <!-- inject tos-Events and user interactions end -->
     </details>
     <details><summary>DOM manipulation</summary>
@@ -736,6 +739,94 @@ In this repo, I put all the available solutions to solve the challenges of this 
     <!-- inject DOM selector methods end -->
 - ### Events and user interactions
     <!-- inject Events and user interactions start -->
+    - #### Execute function on button click
+        scenario :
+        ```python
+        The Javascript function handleText fills the input field with the words Hello World. But, there is no code to execute this function.
+        Complete the existing code below such that the function is called when the button is clicked. Verify by clicking the button.
+        ```
+        html :
+        ```html
+        <input type="text" id="input" readonly/>
+        <button type="button" id="button">Click Me</button>
+        ```
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const button = document.getElementById('button');
+        const input = document.getElementById('input');
+
+        const handleClick = () => {
+          input.value = 'Hello World';
+        };
+
+        button.addEventListener('click', handleClick);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Execute function when cursor moves onto element
+        scenario :
+        ```python
+        The Javascript function changeText changes the text inside the circle. But again, there is no code to execute this function.
+        Complete the existing code below such that the function is called when the cursor moves onto the circle. Verify that your code works by hovering over the circle.
+        ```
+        html :
+        ```html
+        <div id="element">
+            Hover Me
+        </div>
+        ```
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const element = document.getElementById('element');
+  
+        const changeText = () => {
+          element.innerText = 'Thanks!';
+        };
+
+        element.addEventListener("mouseover", changeText);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Cursor enters and leaves element
+        scenario :
+        ```python
+        In this scenario we want the color of the circle to change depending on the type of cursor movement. Use the function toggleColor to turn the circle orange when the cursor moves onto it. Reuse the same function to turn it black when the cursor leaves it.
+        The tricky part is that you have to call toggleColor with different values for the parameter isEntering. Verify that your code is working by hovering the circle with the mouse cursor and leaving it again.
+        ```
+        html :
+        ```html
+        <div id="element">
+            Hover Me
+        </div>
+        ```
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const element = document.querySelector('#element');
+  
+        const toggleColor = (isEntering) => {
+          element.style.background = isEntering ? 'orange' : 'black';
+        };
+        
+        element.addEventListener('mouseover', () => toggleColor(true));
+        element.addEventListener('mouseleave', () => toggleColor(false));
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
     <!-- inject Events and user interactions end --> 
 - ### DOM manipulation
     <!-- inject DOM manipulation start -->
