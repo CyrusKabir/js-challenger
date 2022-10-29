@@ -1,0 +1,22 @@
+{
+  "name": "js-challenger",
+  "version": "1.0.0",
+  "description": "## **Welcome !** 👋",
+  "main": "index.js",
+  "scripts": {
+    "backup": "cp ./README.MD ./backup.md",
+    "generate-readme": "npm run backup && node ./readme-automate.js",
+    "git": "git add ./README.md && git commit && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyrusKabir/js-challenger.git"
+  },
+  "keywords": [],
+  "author": "Cyruskabir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyrusKabir/js-challenger/issues"
+  },
+  "homepage": "https://github.com/CyrusKabir/js-challenger#readme"
+}

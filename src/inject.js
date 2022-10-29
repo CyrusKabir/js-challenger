@@ -18,63 +18,114 @@ function findInjectPosInfo({injectType_str, solutionCategory_str, fileLinesTrimm
         injectStartSign_str = `<!-- inject ${solutionCategory_str} start -->`;
         injectEndSign_str = `<!-- inject ${solutionCategory_str} end -->`;
     }
-    let startPos_num = fileLinesTrimmed_arr.indexOf(injectStartSign_str);
-    let endPos_num = fileLinesTrimmed_arr.indexOf(injectEndSign_str);
-    let injectPos_num = (endPos_num - startPos_num) + startPos_num;
+    let startSignPos_num = fileLinesTrimmed_arr.indexOf(injectStartSign_str);
+    let endSignPos_num = fileLinesTrimmed_arr.indexOf(injectEndSign_str);
+    let injectPos_num = (endSignPos_num - startSignPos_num) + startSignPos_num;
     return {
-        startPos_num,
-        endPos_num,
+        startSignPos_num,
+        endSignPos_num,
         injectPos_num
     };
 }
 
 /* 
-adding rendered results for both table of solutions and solutions in injection process start to array of lines 
+adding rendered results for both table of solutions and solutions in injection process start position to array of lines 
 adding new changes from solutions to file or editing :(
 */
-function injectRenderedResultToArray(injectPos_num, remove_num = 0, renderedResult_str, fileLines_arr) {
-    fileLines_arr.splice(injectPos_num, remove_num, renderedResult_str);
+function injectRenderedResultToArray({injectPos_num, numberOfItemsToRemoveInArray_num = 0, renderedResult_str, array_arr}) {
+    array_arr.splice(injectPos_num, numberOfItemsToRemoveInArray_num, renderedResult_str);
 }
 
+// function edit({editType, }) {
+
+// }
 /*
 process :
     - finding position for injection for both table of solutions and solutions 
     - injecting new rendered result to file 
     - editing or adding new changes from solutions to file
-*/
-function processInject(solutions_obj, readMeFileLines_arr) {
+    */
+   function processInject(solutions_obj, fileLines_arr) {
+    const file = {
+         trim: (file) => file.map(line => line.trim()),
+         join: (file, joiner) => file.join(joiner)
+    }
     for(let solution_obj of solutions_obj) {
-        let readMeFileLinesTrimmed_arr = readMeFileLines_arr.map(line => line.trim());
-        let renderedSolution_str = renderSolution(solution_obj);
-        let renderedTableOfSolution_str = renderTableOfSolution(solution_obj.title);
-        let injectPosInfoForSolution_obj = findInjectPosInfo({
-            injectType_str: "solution", 
-            solutionCategory_str: solution_obj.category, 
-            fileLinesTrimmed_arr: readMeFileLinesTrimmed_arr
-        });
-        let injectPosInfoForTableOfSolutions_obj = findInjectPosInfo({
-            injectType_str: "table-of-solutions", 
-            solutionCategory_str: solution_obj.category, 
-            fileLinesTrimmed_arr: readMeFileLinesTrimmed_arr
-        });
-        let challengeExist_bool = readMeFileLines_arr.join("\n").includes(solution_obj.title);
+        let solutionFileName = solution_obj.category.toLowerCase().split(" ").join("-");
+        let trimmedFile_arr = file.trim(fileLines_arr);
+        let joinedFileBeLineBreak_str = file.join(fileLines_arr, "\n");
+        let challengeExist_bool = joinedFileBeLineBreak_str.includes(solution_obj.title) || 
+                                  joinedFileBeLineBreak_str.includes(solution_obj.scenario);
         if(challengeExist_bool) {
-            let renderedSolutionTitle_str = `- #### ${solution_obj.title}`;
-            let injectPosStart_num = readMeFileLinesTrimmed_arr.indexOf(renderedSolutionTitle_str);
-            let injectPosEnd_num = readMeFileLinesTrimmed_arr.indexOf("[Back to table ⬆](#table-of-solutions)", injectPosStart_num)
-            if(injectPosStart_num !== -1) {
-                injectRenderedResultToArray(injectPosStart_num, injectPosEnd_num - injectPosStart_num + 1, renderedSolution_str, readMeFileLines_arr);
+            try {
+                if(solution_obj.edit === true) {
+                    let renderedSolution_str = renderSolution(solution_obj);
+                    let renderedSolutionTitle_str = `- #### ${solution_obj.title}`;
+                    let injectPosSolutionStart_num = trimmedFile_arr.indexOf(renderedSolutionTitle_str);
+                    let injectPosSolutionEnd_num = trimmedFile_arr.indexOf("[Back to table ⬆](#table-of-solutions)", injectPosSolutionStart_num);
+                    if(injectPosSolutionStart_num !== -1) {
+                        injectRenderedResultToArray({
+                            injectPos_num: injectPosSolutionStart_num,
+                            numberOfItemsToRemoveInArray_num: injectPosSolutionEnd_num - injectPosSolutionStart_num + 1,
+                            renderedResult_str: renderedSolution_str,
+                            array_arr: fileLines_arr
+                        });                    
+                    }
+                } else throw new Error(`${solution_obj.title} in ${solutionFileName} is defined in file if you want to edit this challenge please change edit value`);
+            } catch (err) {
+                console.warn(err);
+                continue;
             }
         } else {
-            console.log("test");
-            let isCategoryDefined_bool = injectPosInfoForSolution_obj.startPos_num + injectPosInfoForSolution_obj.endPos_num !== -1; 
-            if(isCategoryDefined_bool) {
-                injectRenderedResultToArray(injectPosInfoForSolution_obj.injectPos_num, renderedSolution_str, readMeFileLines_arr);
-                injectRenderedResultToArray(injectPosInfoForTableOfSolutions_obj.injectPos_num, renderedTableOfSolution_str, readMeFileLines_arr);
+            try {
+                if(Array.isArray(solution_obj.javascript)) {
+                    try {
+                        if(solution_obj.javascript.length !== 0) {
+                            let renderedSolution_str = renderSolution(solution_obj);
+                            let renderedTableOfSolution_str = renderTableOfSolution(solution_obj.title);
+                            let injectPosInfoForSolution_obj = findInjectPosInfo({
+                                injectType_str: "solution", 
+                                solutionCategory_str: solution_obj.category, 
+                                fileLinesTrimmed_arr: trimmedFile_arr
+                            });
+                            let injectPosInfoForTableOfSolutions_obj = findInjectPosInfo({
+                                injectType_str: "table-of-solutions", 
+                                solutionCategory_str: solution_obj.category, 
+                                fileLinesTrimmed_arr: trimmedFile_arr
+                            });
+                            const {startSignPos_num, endSignPos_num} = injectPosInfoForSolution_obj;
+                            let isCategoryDefined_bool = startSignPos_num + endSignPos_num !== -1 && startSignPos_num < endSignPos_num;
+                            try {
+                                if(isCategoryDefined_bool) {
+                                    injectRenderedResultToArray({
+                                        injectPos_num: injectPosInfoForSolution_obj.injectPos_num,
+                                        renderedResult_str: renderedSolution_str,
+                                        array_arr: fileLines_arr
+                                    })
+                                    injectRenderedResultToArray({
+                                        injectPos_num: injectPosInfoForTableOfSolutions_obj.injectPos_num,
+                                        renderedResult_str: renderedTableOfSolution_str,
+                                        array_arr: fileLines_arr
+                                    })
+                                } else throw new Error(`${solution_obj.category} inject signs is not defined correctly. Please check the desired file. (e.g README.MD)`)
+                            } catch (err) {
+                                console.error(err);
+                                break;
+                            }
+                        } else throw new Error(`javascript solutions in solution obj should have at least one solution! please check ${solutionFileName}.js file`)
+                    } catch (err) {
+                        console.error(err);
+                        break;
+                    }
+                } else throw new Error(`javascript solutions in solution obj must be array! please check ${solutionFileName}.js file`)
+            } catch (err) {
+                console.error(err);
+                break;
             }
+
         }
     }
-    return readMeFileLines_arr.join("\n");
+    return file.join(fileLines_arr, "\n");
 }
 
 module.exports = {

@@ -1,8 +1,7 @@
 const fs = require("fs");
-const solutions_obj = require("../solutions/all");
-const { processInject } = require("./inject");
-const readMeFilePath = "../README.md";
-
+const solutions_obj = require("./solutions/all");
+const { processInject } = require("./src/inject");
+const readMeFilePath = "./README.md";
 fs.readFile(readMeFilePath, "utf-8", (err, readMeFileData_str) => {
     if (err) {
         console.log(err);
