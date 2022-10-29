@@ -27,6 +27,18 @@ In this repo, I put all the available solutions to solve the challenges of this 
     <details><summary>operators</summary>
 
     <!-- inject tos-operators start -->
+    1. [Comparison operators - Equal](#comparison-operators---equal)
+    1. [Comparison operators - Not Equal](#comparison-operators---not-equal)
+    1. [Comparison operators - Greater than](#comparison-operators---greater-than)
+    1. [Comparison operators - Less than](#comparison-operators---less-than)
+    1. [Comparison operators - Greater than or equal](#comparison-operators---greater-than-or-equal)
+    1. [Comparison operators - Less than or equal](#comparison-operators---less-than-or-equal)
+    1. [Logical operators - logical AND](#logical-operators---logical-and)
+    1. [Arithmetic operators - Addition](#arithmetic-operators---addition)
+    1. [Arithmetic operators - Subtraction](#arithmetic-operators---subtraction)
+    1. [Arithmetic operators - Multiplication](#arithmetic-operators---multiplication)
+    1. [Arithmetic operators - Division](#arithmetic-operators---division)
+    1. [Arithmetic operators - Exponential](#arithmetic-operators---exponential)
     <!-- inject tos-operators end -->
     </details>
     <details><summary>strings</summary>
@@ -209,6 +221,243 @@ In this repo, I put all the available solutions to solve the challenges of this 
     <!-- inject variables end -->
 - ### operators
     <!-- inject operators start -->
+    - #### Comparison operators - Equal
+        scenario :
+        ```python
+        In the console.log() statement below we use the Equal operator to check whether numOne and numTwo have the same value. Change the code so that the console.log() statement logs true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const numOne = 5;
+        const numTwo = 5;
+        console.log(numOne == numTwo);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Comparison operators - Not Equal
+        scenario :
+        ```python
+        In the console.log() statement below we use the Not Equal operator to check whether numOne and numTwo have different values. Change the code so that the console.log() statement logs true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const numOne = 5;
+        const numTwo = 6;
+        console.log(numOne != numTwo);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Comparison operators - Greater than
+        scenario :
+        ```python
+        In the console.log() statement below we use the Greater Than operator to check whether the value of numOne is greater than the value of numTwo. Change the code so that the console.log() statement logs true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const numOne = 6;
+        const numTwo = 5;
+        console.log(numOne > numTwo);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Comparison operators - Less than
+        scenario :
+        ```python
+        In the console.log() statement below we use the Less Than operator to check whether the value of numOne is less than the value of numTwo. Change the code so that the console.log() statement logs true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const numOne = 1;
+        const numTwo = 2;
+        console.log(numOne < numTwo);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Comparison operators - Greater than or equal
+        scenario :
+        ```python
+        In the console.log() statement below we use the Greater Than Or Equal operator to check whether the value of numOne is greater than or equal the value of numTwo. It also checks whether the value of numTwo is greater than or equal the value of numThree. Change the code so that both expressions in the console.log() statement logs true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const numOne = 3;
+        const numTwo = 2;
+        const numThree = 2;
+        console.log(numOne >= numTwo, numTwo >= numThree);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Comparison operators - Less than or equal
+        scenario :
+        ```python
+        In the console.log() statement below we use the Less Than Or Equal operator to check whether the value of numOne is less than or equal the value of numTwo. It also checks whether the value of numTwo is less than or equal the value of numThree. Change the code so that both expressions in the console.log() statement logs true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const numOne = 1;
+        const numTwo = 1;
+        const numThree = 2;
+        console.log(numOne <= numTwo, numTwo <= numThree);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Logical operators - logical AND
+        scenario :
+        ```python
+        You can chain multiple comparison operators using the logical AND (&&) operator. In the code below, result will only have the value true if both comparison expressions evaluate to true.
+        Adjust the code below such that result will have the value true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const numOne = 13;
+        const numTwo = 13;
+        const result = numOne > 12 && numTwo > 12;
+        console.log(result);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Arithmetic operators - Addition
+        scenario :
+        ```python
+        In the code below we calculate the sum of numOne and numTwo with the Addition operator +. Then, the console.log() statement checks whether the sum equals 10. Change the code so that the console.log() statement logs true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const numOne = 4;
+        const numTwo = 6;
+        const sum = numOne + numTwo;
+        console.log(sum == 10);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Arithmetic operators - Subtraction
+        scenario :
+        ```python
+        In the code below we calculate the difference of numOne and numTwo with the Substraction operator -. Then, the console.log() statement checks whether the difference equals 5. Change the code so that the console.log() statement logs true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const numOne = 9;
+        const numTwo = 4;
+        const dif = numOne - numTwo;
+        console.log(dif == 5);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Arithmetic operators - Multiplication
+        scenario :
+        ```python
+        In the code below we calculate the product of numOne and numTwo with the Multiplication operator *. Then, the console.log() statement checks whether the product equals 81. Change the code so that the console.log() statement logs true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const numOne = 9;
+        const numTwo = 9;
+        const product = numOne * numTwo;
+        console.log(product == 81);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Arithmetic operators - Division
+        scenario :
+        ```python
+        In the code below we divide numOne by numTwo with the Division operator /. Then, the console.log() statement checks whether the quotient equals 9. Change the code so that the console.log() statement logs true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const numOne = 81;
+        const numTwo = 9;
+        const quotient = numOne / numTwo;
+        console.log(quotient == 9);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Arithmetic operators - Exponential
+        scenario :
+        ```python
+        In the code below we calculate numOne to the power of numTwo with the Exponential operator **. Then, the console.log() statement checks whether the result of this calculation equals 8. Change the code so that the console.log() statement logs true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const numOne = 2;
+        const numTwo = 3;
+        const res = numOne**numTwo;
+        console.log(res == 8);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
     <!-- inject operators end -->
 - ### strings
     <!-- inject strings start -->
