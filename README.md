@@ -52,6 +52,9 @@ In this repo, I put all the available solutions to solve the challenges of this 
     <details><summary>conditionals</summary>
 
     <!-- inject tos-conditionals start -->
+    1. [if statement - satisfy condition](#if-statement---satisfy-condition)
+    1. [if...else statement - run else](#if...else-statement---run-else)
+    1. [if statement - add missing condition](#if-statement---add-missing-condition)
     <!-- inject tos-conditionals end -->
     </details>
     <details><summary>functions I</summary>
@@ -531,6 +534,74 @@ In this repo, I put all the available solutions to solve the challenges of this 
     <!-- inject strings end -->
 - ### conditionals
     <!-- inject conditionals start -->
+    - #### if statement - satisfy condition
+        scenario :
+        ```python
+        In this exercise we will work with our first if-statement. In the code below we declare a variable num with a value 0. Then, we have an if-statement. The if-statement consists of a condition – the part inside the parentheses – and some code inside a pair of curly braces. The code will assign the variable num a new value 1. But it will only run if the condition is met.
+        Adjust the condition such that the code inside the curly braces will execute and the console.log() statement logs true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        let num = 0;
+        if (1 < 2) {
+           num = 1;
+        }
+        console.log(num === 1);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### if...else statement - run else
+        scenario :
+        ```python
+        This exercise is very similar to the previous one. But, this time we also have an else statement. An else statement is another piece of code – wrapped by curly braces – that only runs if the condition is not satisfied.
+        Adjust the condition such that the code inside the else statement will be executed and the console.log() statement logs true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        let num = 0;
+        if (2 < 1) {
+           num = 1;
+        } else {
+           num = 2;
+        }
+        console.log(num === 2);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### if statement - add missing condition
+        scenario :
+        ```python
+        Time to practice what we've learnt so far. In the code below, the if...statement will assign a new value to the variable text. But only if its condition is met. Currently, the condition is missing.
+        Add any condition that will be satisfied such that the console.log() statement logs true.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        let text = 'hello';
+        if (text === 'hello') {
+           text = text + ' world';
+        }
+        console.log(text === 'hello world');
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
     <!-- inject conditionals end -->
 - ### functions I
     <!-- inject functions I start -->
