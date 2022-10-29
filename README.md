@@ -125,6 +125,8 @@ In this repo, you can find available solutions for a challenge.
     <details><summary>DOM fundamentals</summary>
 
     <!-- inject tos-DOM fundamentals start -->
+    1. [Check the checkbox](#check-the-checkbox)
+    1. [Get full-name from input](#get-full-name-from-input)
     <!-- inject tos-DOM fundamentals end -->
     </details>
     <details><summary>Recursive functions</summary>
@@ -913,6 +915,66 @@ In this repo, you can find available solutions for a challenge.
     <!-- inject DOM manipulation end -->
 - ### DOM fundamentals
     <!-- inject DOM fundamentals start -->
+    - #### Check the checkbox
+        scenario :
+        ```python
+        Your first JavaScript DOM exercise. Let's start simple.
+        Extend the JavaScript code below to interact with the displayed HTML elements. Once you click the button, the checkbox should be checked.
+        Confirm your code by clicking the button!
+        ```
+        html :
+        ```html
+        <input id="checkbox" disabled/>
+        <label for="checkbox">checkbox</label>
+        <button type="button" id="button">Verify Code</button>
+        ```
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const button = document.getElementById('button');
+        button.addEventListener('click', () => {
+          const checkbox = document.getElementById('checkbox');
+          checkbox.checked = true;
+        });
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Get full-name from input
+        scenario :
+        ```python
+        Extend the JavaScript code below to interact with the displayed HTML elements.
+        This time we are looking for the full name. When the button is clicked, combine the names of the first two input fields. Insert the full name in the third input field.
+        Hint: Check if your code still works if you change the first or last name.
+        Confirm your code by clicking the button!
+        ```
+        html :
+        ```html
+        <input type="text" id="firstName" placeholder="Max" value="Max"/>
+        <input type="text" id="lastName" placeholder="Musterman" value="Musterman"/>
+        <input type="text" id="fullName" placeholder="full name" readonly/>
+        <button type="button" id="button">Verify Code</button>
+        ```
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const button = document.getElementById('button');
+        button.addEventListener('click' , () => {
+          const firstName = document.getElementById('firstName');
+          const lastName = document.getElementById('lastName');
+          const fullName = document.getElementById('fullName');
+          fullName.value = firstName.value + ' ' + lastName.value;
+        });
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
     <!-- inject DOM fundamentals end -->
 - ### Recursive functions
     <!-- inject Recursive functions start -->
