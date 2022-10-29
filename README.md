@@ -17,6 +17,11 @@ In this repo, I put all the available solutions to solve the challenges of this 
     <details><summary>variables</summary>
 
     <!-- inject tos-variables start -->
+    1. [Accessing a variable 1](#accessing-a-variable-1)
+    1. [Accessing a variable 2](#accessing-a-variable-2)
+    1. [Declare a variable and assign a number](#declare-a-variable-and-assign-a-number)
+    1. [Reassign a value to a variable 1](#reassign-a-value-to-a-variable-1)
+    1. [Reassign a value to a variable 2](#reassign-a-value-to-a-variable-2)
     <!-- inject tos-variables end -->
     </details>
     <details><summary>operators</summary>
@@ -104,6 +109,103 @@ In this repo, I put all the available solutions to solve the challenges of this 
 ## **Javascript Basics :**
 - ### variables
     <!-- inject variables start -->
+    - #### Accessing a variable 1
+        scenario :
+        ```python
+        In this simple exercise we declare a variable called num and assign it a value of 5. Then we try to log the value of the variable using the console.log() method.
+        But, the console.log() method contains a small mistake. If you try the run the code, you will see an error message.
+        Fix the mistake and run the code again.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const num = 5;
+        console.log(num);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Accessing a variable 2
+        scenario :
+        ```python
+        This exercise is very similar to the previous one. We declare a variable called num, assign it a value of 5, and try to log it. But again, we introduced a small mistake.
+        Fix the code and run it.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const num = 5;
+        console.log(num);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Declare a variable and assign a number
+        scenario :
+        ```python
+        In this exercise we practice how to declare a new variable and how to assign it a number. The console.log() statement below attempts to log a variable named num.
+        Declare a variable with this name and assign it a number of your choice. Run the code to see if the number is being logged.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const num = 5;
+        console.log('The value of num is: ' + num);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Reassign a value to a variable 1
+        scenario :
+        ```python
+        The code below first declares a variable named text with a string value hello. Then, a new value bye is assigned. Finally, the variable is logged.
+        But, the code will not work like that. Find the mistake and fix it. Execute the corrected code.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        let text = 'hello';
+        text = 'bye';
+        console.log(text);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Reassign a value to a variable 2
+        scenario :
+        ```python
+        Here again, we want to assign a new value to a variable that we previously declared. Again, the code will not work the way it is. Find the mistake and fix it. Execute the corrected code.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        let text = 'hello';
+        text = 'hello world';
+        console.log(text);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
     <!-- inject variables end -->
 - ### operators
     <!-- inject operators start -->
