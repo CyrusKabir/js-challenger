@@ -70,6 +70,7 @@ In this repo, you can find available solutions for a challenge.
     <details><summary>arrays</summary>
 
     <!-- inject tos-arrays start -->
+    1. [Create a JavaScript array](#create-a-javascript-array)
     <!-- inject tos-arrays end -->
     </details>
     <details><summary>loops</summary>
@@ -81,6 +82,7 @@ In this repo, you can find available solutions for a challenge.
     <details><summary>Javascript fundamentals</summary>
 
     <!-- inject tos-Javascript fundamentals start -->
+    1. [Sum two numbers](#sum-two-numbers)
     <!-- inject tos-Javascript fundamentals end -->
     </details>
     <details><summary>Javascript arrays</summary>
@@ -747,6 +749,27 @@ In this repo, you can find available solutions for a challenge.
     <!-- inject functions I end -->
 - ### arrays
     <!-- inject arrays start -->
+    - #### Create a JavaScript array
+        scenario :
+        ```python
+        In this exercise, we will create our first JavaScript array. In the code below we declare an array named arr using the so called literal notation. The literal notation is a pair or square brackets that enclose the values that we want to put inside the array: [value, value, ...]. Each value is separated by a comma. In the context of an array, these values are called the elements of the array.
+        Currently arr contains two strings. But, you can put as many values inside an array as you want.
+        In the console.log() statement we use the array.length property to get the number of array elements. The statement logs true if the array has 3 elements.
+        Task: Add a third element to the array. It can have any value.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const arr = ['a', 'b', 'c'];
+        console.log(arr.length === 3);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
     <!-- inject arrays end -->
 - ### loops
     <!-- inject loops start -->
@@ -754,9 +777,30 @@ In this repo, you can find available solutions for a challenge.
 
 ## **Javascript Practice :**
 
-- ### Javascript basics
-    <!-- inject Javascript basics start -->
-    <!-- inject Javascript basics end -->
+- ### Javascript fundamentals
+    <!-- inject Javascript fundamentals start -->
+    - #### Sum two numbers
+        scenario :
+        ```python
+        Write a function that takes two numbers (a and b) as argument
+        Sum a and b
+        Return the result
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return a + b;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    <!-- inject Javascript fundamentals end -->
 - ### Javascript arrays
     <!-- inject Javascript arrays start -->
     <!-- inject Javascript arrays end -->
