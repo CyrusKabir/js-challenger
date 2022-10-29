@@ -3,7 +3,7 @@
 ```js
 const category = [
     {
-        edit: false || true
+        edit: false || true,
         category: "challenge_category",
         title: "challenge_title",
         scenario: `
