@@ -127,6 +127,7 @@ In this repo, you can find available solutions for a challenge.
     <!-- inject tos-DOM fundamentals start -->
     1. [Check the checkbox](#check-the-checkbox)
     1. [Get full-name from input](#get-full-name-from-input)
+    1. [Pop the balloons](#pop-the-balloons)
     <!-- inject tos-DOM fundamentals end -->
     </details>
     <details><summary>Recursive functions</summary>
@@ -970,6 +971,46 @@ In this repo, you can find available solutions for a challenge.
           const fullName = document.getElementById('fullName');
           fullName.value = firstName.value + ' ' + lastName.value;
         });
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Pop the balloons
+        scenario :
+        ```python
+        Make the balloons pop by hovering over them.
+        Extend the JavaScript code below to interact with the displayed HTML elements. Every time you hover over a balloon, it should become invisible.
+        Your goal is to pop all the balloons one after the other.
+        ```
+        html :
+        ```html
+        <ul id="list">
+          <li/>
+          <li/>
+          <li/>
+          <li/>
+          <li/>
+          <li/>
+          <li/>
+          <li/>
+          <li/>
+          <li/>
+        </ul>
+        ```
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        const list = document.getElementById('list');
+        const handleHover = event => {
+          if(event.target !== list) {
+            event.target.style.visibility = 'hidden';
+          }
+        };
+
+        list.addEventListener('mouseover', handleHover);
         ```
         </p>
         </details>
