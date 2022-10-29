@@ -57,25 +57,20 @@ process :
         let challengeExist_bool = joinedFileBeLineBreak_str.includes(solution_obj.title) || 
                                   joinedFileBeLineBreak_str.includes(solution_obj.scenario);
         if(challengeExist_bool) {
-            try {
-                if(solution_obj.edit === true) {
-                    let renderedSolution_str = renderSolution(solution_obj);
-                    let renderedSolutionTitle_str = `- #### ${solution_obj.title}`;
-                    let injectPosSolutionStart_num = trimmedFile_arr.indexOf(renderedSolutionTitle_str);
-                    let injectPosSolutionEnd_num = trimmedFile_arr.indexOf("[Back to table ⬆](#table-of-solutions)", injectPosSolutionStart_num);
-                    if(injectPosSolutionStart_num !== -1) {
-                        injectRenderedResultToArray({
-                            injectPos_num: injectPosSolutionStart_num,
-                            numberOfItemsToRemoveInArray_num: injectPosSolutionEnd_num - injectPosSolutionStart_num + 1,
-                            renderedResult_str: renderedSolution_str,
-                            array_arr: fileLines_arr
-                        });                    
-                    }
-                } else throw new Error(`${solution_obj.title} in ${solutionFileName} is defined in file if you want to edit this challenge please change edit value`);
-            } catch (err) {
-                console.warn(err);
-                continue;
-            }
+            if(solution_obj.edit === true) {
+                let renderedSolution_str = renderSolution(solution_obj);
+                let renderedSolutionTitle_str = `- #### ${solution_obj.title}`;
+                let injectPosSolutionStart_num = trimmedFile_arr.indexOf(renderedSolutionTitle_str);
+                let injectPosSolutionEnd_num = trimmedFile_arr.indexOf("[Back to table ⬆](#table-of-solutions)", injectPosSolutionStart_num);
+                if(injectPosSolutionStart_num !== -1) {
+                    injectRenderedResultToArray({
+                        injectPos_num: injectPosSolutionStart_num,
+                        numberOfItemsToRemoveInArray_num: injectPosSolutionEnd_num - injectPosSolutionStart_num + 1,
+                        renderedResult_str: renderedSolution_str,
+                        array_arr: fileLines_arr
+                    });                    
+                }
+            } else continue;
         } else {
             try {
                 if(Array.isArray(solution_obj.javascript)) {
