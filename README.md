@@ -83,6 +83,8 @@ In this repo, you can find available solutions for a challenge.
 
     <!-- inject tos-Javascript fundamentals start -->
     1. [Sum two numbers](#sum-two-numbers)
+    1. [Comparison operators, strict equality](#comparison-operators,-strict-equality)
+    1. [Get type of value](#get-type-of-value)
     <!-- inject tos-Javascript fundamentals end -->
     </details>
     <details><summary>Javascript arrays</summary>
@@ -794,6 +796,46 @@ In this repo, you can find available solutions for a challenge.
         ```js
         function myFunction(a, b) {
             return a + b;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Comparison operators, strict equality
+        scenario :
+        ```python
+        Write a function that takes two values, say a and b, as arguments
+        Return true if the two values are equal and of the same type
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return a === b;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Get type of value
+        scenario :
+        ```python
+        Write a function that takes a value as argument
+        Return the type of the value
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return typeof a;
         }
         ```
         </p>
