@@ -85,6 +85,11 @@ In this repo, you can find available solutions for a challenge.
     1. [Sum two numbers](#sum-two-numbers)
     1. [Comparison operators, strict equality](#comparison-operators,-strict-equality)
     1. [Get type of value](#get-type-of-value)
+    1. [Get nth character of string](#get-nth-character-of-string)
+    1. [Remove first n characters of string](#remove-first-n-characters-of-string)
+    1. [Get first n characters of string](#get-first-n-characters-of-string)
+    1. [Find the position of one string in another](#find-the-position-of-one-string-in-another)
+    1. [Extract first half of string](#extract-first-half-of-string)
     <!-- inject tos-Javascript fundamentals end -->
     </details>
     <details><summary>Javascript arrays</summary>
@@ -836,6 +841,110 @@ In this repo, you can find available solutions for a challenge.
         ```js
         function myFunction(a) {
             return typeof a;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Get nth character of string
+        scenario :
+        ```python
+        Write a function that takes a string (a) and a number (n) as argument
+        Return the nth character of 'a'
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, n) {
+            return a[n - 1];
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Remove first n characters of string
+        scenario :
+        ```python
+        Write a function that takes a string (a) as argument
+        Remove the first 3 characters of a
+        Return the result
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return a.slice(3);
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Get first n characters of string
+        scenario :
+        ```python
+        Write a function that takes a string (a) as argument
+        Get the first 3 characters of a
+        Return the result
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return a.slice(0, 3);
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Find the position of one string in another
+        scenario :
+        ```python
+        Write a function that takes a string as argument
+        The string contains the substring 'is'
+        Return the index of 'is'
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return a.indexOf('is');
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Extract first half of string
+        scenario :
+        ```python
+        Write a function that takes a string (a) as argument
+        Extract the first half a
+        Return the result
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return a.slice(0, a.length / 2);
         }
         ```
         </p>
