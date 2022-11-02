@@ -90,6 +90,9 @@ In this repo, you can find available solutions for a challenge.
     1. [Get first n characters of string](#get-first-n-characters-of-string)
     1. [Find the position of one string in another](#find-the-position-of-one-string-in-another)
     1. [Extract first half of string](#extract-first-half-of-string)
+    1. [Remove last n characters of string](#remove-last-n-characters-of-string)
+    1. [Return the percentage of a number](#return-the-percentage-of-a-number)
+    1. [Basic JavaScript math operators](#basic-javascript-math-operators)
     <!-- inject tos-Javascript fundamentals end -->
     </details>
     <details><summary>Javascript arrays</summary>
@@ -945,6 +948,71 @@ In this repo, you can find available solutions for a challenge.
         ```js
         function myFunction(a) {
             return a.slice(0, a.length / 2);
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Remove last n characters of string
+        scenario :
+        ```python
+        Write a function that takes a string (a) as argument
+        Remove the last 3 characters of a
+        Return the result
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return a.slice(0, -3);
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Return the percentage of a number
+        scenario :
+        ```python
+        Write a function that takes two numbers (a and b) as argument
+        Return b percent of a
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return b / 100 * a
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Basic JavaScript math operators
+        scenario :
+        ```python
+        Write a function that takes 6 values (a,b,c,d,e,f) as arguments
+        Sum a and b
+        Then substract by c
+        Then multiply by d and divide by e
+        Finally raise to the power of f and return the result
+        Tip: mind the order
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b, c, d, e, f) {
+            return (((a + b - c) * d) / e) ** f;
         }
         ```
         </p>

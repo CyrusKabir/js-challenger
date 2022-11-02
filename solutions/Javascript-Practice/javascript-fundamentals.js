@@ -99,6 +99,48 @@ const javascript_fundamentals = [
         function myFunction(a) {
             return a.slice(0, a.length / 2);
         }`]
-    }
+    },
+    {
+        edit: false,
+        category: "Javascript fundamentals",
+        title: "Remove last n characters of string",
+        scenario: `
+        Write a function that takes a string (a) as argument
+        Remove the last 3 characters of a
+        Return the result`,
+        javascript: [`
+        function myFunction(a) {
+            return a.slice(0, -3);
+        }`]
+    },
+    {
+        edit: false,
+        category: "Javascript fundamentals",
+        title: "Return the percentage of a number",
+        scenario: `
+        Write a function that takes two numbers (a and b) as argument
+        Return b percent of a`,
+        javascript: [`
+        function myFunction(a, b) {
+            return b / 100 * a
+        }`]
+    },
+    {
+        edit: false,
+        category: "Javascript fundamentals",
+        title: "Basic JavaScript math operators",
+        scenario: `
+        Write a function that takes 6 values (a,b,c,d,e,f) as arguments
+        Sum a and b
+        Then substract by c
+        Then multiply by d and divide by e
+        Finally raise to the power of f and return the result
+        Tip: mind the order`,
+        javascript: [`
+        function myFunction(a, b, c, d, e, f) {
+            return (((a + b - c) * d) / e) ** f;
+        }`]
+    },
+    
 ]
 module.exports = javascript_fundamentals;
