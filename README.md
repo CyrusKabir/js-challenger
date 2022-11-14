@@ -93,6 +93,10 @@ In this repo, you can find available solutions for a challenge.
     1. [Remove last n characters of string](#remove-last-n-characters-of-string)
     1. [Return the percentage of a number](#return-the-percentage-of-a-number)
     1. [Basic JavaScript math operators](#basic-javascript-math-operators)
+    1. [Check whether a string contains another string and concatenate](#check-whether-a-string-contains-another-string-and-concatenate)
+    1. [Check if a number is even](#check-if-a-number-is-even)
+    1. [How many times does a character occur?](#how-many-times-does-a-character-occur?)
+    1. [Check if a number is a whole number](#check-if-a-number-is-a-whole-number)
     <!-- inject tos-Javascript fundamentals end -->
     </details>
     <details><summary>Javascript arrays</summary>
@@ -1013,6 +1017,108 @@ In this repo, you can find available solutions for a challenge.
         ```js
         function myFunction(a, b, c, d, e, f) {
             return (((a + b - c) * d) / e) ** f;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Check whether a string contains another string and concatenate
+        scenario :
+        ```python
+        Write a function that takes two strings (a and b) as arguments. If a contains b, append b to the 
+        beginning of a. If not, append it to the end. Return the concatenation
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return a.indexOf(b) === -1 ? a + b : b + a
+        }
+        ```
+        </p>
+        </details>
+        <details><summary>Solution 2</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return a.includes(b) ? `${b}${a}` : `${a}${b}`
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Check if a number is even
+        scenario :
+        ```python
+        Write a function that takes a number as argument. If the number is even, return true. Otherwise, 
+        return false
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return a % 2 === 0
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### How many times does a character occur?
+        scenario :
+        ```python
+        Write a function that takes two strings (a and b) as arguments. Return the number of times a occurs in 
+        b.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return b.split(a).length - 1
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Check if a number is a whole number
+        scenario :
+        ```python
+        Write a function that takes a number (a) as argument. If a is a whole number (has no decimal place), 
+        return true. Otherwise, return false.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return a - Math.floor(a) === 0
+        }
+        ```
+        </p>
+        </details>
+        <details><summary>Solution 2</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return parseInt(a) === a
         }
         ```
         </p>

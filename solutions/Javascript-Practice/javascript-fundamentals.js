@@ -141,6 +141,59 @@ const javascript_fundamentals = [
             return (((a + b - c) * d) / e) ** f;
         }`]
     },
-    
+    {
+        edit: false,
+        category: "Javascript fundamentals",
+        title: "Check whether a string contains another string and concatenate",
+        scenario: `
+        Write a function that takes two strings (a and b) as arguments. If a contains b, append b to the 
+        beginning of a. If not, append it to the end. Return the concatenation`,
+        javascript: [`
+        function myFunction(a, b) {
+            return a.indexOf(b) === -1 ? a + b : b + a
+        }`,`
+        function myFunction(a, b) {
+            return a.includes(b) ? \`\${b}\${a}\` : \`\${a}\${b}\`
+        }`]
+    },
+    {
+        edit: false,
+        category: "Javascript fundamentals",
+        title: "Check if a number is even",
+        scenario: `
+        Write a function that takes a number as argument. If the number is even, return true. Otherwise, 
+        return false`,
+        javascript: [`
+        function myFunction(a) {
+            return a % 2 === 0
+        }`]
+    },
+    {
+        edit: false,
+        category: "Javascript fundamentals",
+        title: "How many times does a character occur?",
+        scenario: `
+        Write a function that takes two strings (a and b) as arguments. Return the number of times a occurs in 
+        b.`,
+        javascript: [`
+        function myFunction(a, b) {
+            return b.split(a).length - 1
+        }`]
+    },
+    {
+        edit: false,
+        category: "Javascript fundamentals",
+        title: "Check if a number is a whole number",
+        scenario: `
+        Write a function that takes a number (a) as argument. If a is a whole number (has no decimal place), 
+        return true. Otherwise, return false.`,
+        javascript: [`
+        function myFunction(a) {
+            return a - Math.floor(a) === 0
+        }`,`
+        function myFunction(a) {
+            return parseInt(a) === a
+        }`]
+    },
 ]
 module.exports = javascript_fundamentals;
