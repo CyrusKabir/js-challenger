@@ -97,6 +97,9 @@ In this repo, you can find available solutions for a challenge.
     1. [Check if a number is even](#check-if-a-number-is-even)
     1. [How many times does a character occur?](#how-many-times-does-a-character-occur?)
     1. [Check if a number is a whole number](#check-if-a-number-is-a-whole-number)
+    1. [Multiplication, division, and comparison operators](#multiplication,-division,-and-comparison-operators)
+    1. [Round a number to 2 decimal places](#round-a-number-to-2-decimal-places)
+    1. [Split a number into its digits](#split-a-number-into-its-digits)
     <!-- inject tos-Javascript fundamentals end -->
     </details>
     <details><summary>Javascript arrays</summary>
@@ -1119,6 +1122,81 @@ In this repo, you can find available solutions for a challenge.
         ```js
         function myFunction(a) {
             return parseInt(a) === a
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Multiplication, division, and comparison operators
+        scenario :
+        ```python
+        Write a function that takes two numbers (a and b) as arguments. If a is smaller than b, divide a by b. 
+        Otherwise, multiply both numbers. Return the resulting value
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return a < b ? a / b : a * b
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Round a number to 2 decimal places
+        scenario :
+        ```python
+        Write a function that takes a number (a) as argument. Round a to the 2nd digit after the comma. 
+        Return the rounded number
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return Number(a.toFixed(2));
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Split a number into its digits
+        scenario :
+        ```python
+        Write a function that takes a number (a) as argument. Split a into its individual digits and return 
+        them in an array. Tipp: you might want to change the type of the number for the splitting
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction( a ) {
+            const string = a + '';
+            const strings = string.split('');
+            return strings.map(digit => Number(digit))
+        }
+        ```
+        </p>
+        </details>
+        <details><summary>Solution 2</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return a.toString()
+                    .split('')
+                    .map(charNum => parseInt(charNum))
         }
         ```
         </p>

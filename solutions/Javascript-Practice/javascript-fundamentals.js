@@ -195,5 +195,50 @@ const javascript_fundamentals = [
             return parseInt(a) === a
         }`]
     },
+    {
+        edit: false,
+        category: "Javascript fundamentals",
+        title: "Multiplication, division, and comparison operators",
+        scenario: `
+        Write a function that takes two numbers (a and b) as arguments. If a is smaller than b, divide a by b. 
+        Otherwise, multiply both numbers. Return the resulting value`,
+        javascript: [`
+        function myFunction(a, b) {
+            return a < b ? a / b : a * b
+        }`]
+    },
+    {
+        edit: false,
+        category: "Javascript fundamentals",
+        title: "Round a number to 2 decimal places",
+        scenario: `
+        Write a function that takes a number (a) as argument. Round a to the 2nd digit after the comma. 
+        Return the rounded number`,
+        javascript: [`
+        function myFunction(a) {
+            return Number(a.toFixed(2));
+        }
+        `]
+    },
+    {
+        edit: false,
+        category: "Javascript fundamentals",
+        title: "Split a number into its digits",
+        scenario: `
+        Write a function that takes a number (a) as argument. Split a into its individual digits and return 
+        them in an array. Tipp: you might want to change the type of the number for the splitting`,
+        javascript: [`
+        function myFunction( a ) {
+            const string = a + '';
+            const strings = string.split('');
+            return strings.map(digit => Number(digit))
+        }`,`
+        function myFunction(a) {
+            return a.toString()
+                    .split('')
+                    .map(charNum => parseInt(charNum))
+        }
+        `]
+    }
 ]
 module.exports = javascript_fundamentals;
