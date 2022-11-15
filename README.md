@@ -105,6 +105,8 @@ In this repo, you can find available solutions for a challenge.
     <details><summary>Javascript arrays</summary>
 
     <!-- inject tos-Javascript arrays start -->
+    1. [Get nth element of array](#get-nth-element-of-array)
+    1. [Remove first n elements of an array](#remove-first-n-elements-of-an-array)
     <!-- inject tos-Javascript arrays end -->
     </details>
     <details><summary>Javascript objects</summary>
@@ -1206,6 +1208,45 @@ In this repo, you can find available solutions for a challenge.
     <!-- inject Javascript fundamentals end -->
 - ### Javascript arrays
     <!-- inject Javascript arrays start -->
+    - #### Get nth element of array
+        scenario :
+        ```python
+        Write a function that takes an array (a) and a value (n) as argument. Return the nth element of 'a'
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, n) {
+            return a[n - 1];
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Remove first n elements of an array
+        scenario :
+        ```python
+        Write a function that takes an array (a) as argument. Remove the first 3 elements of 'a'. Return the 
+        result
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return a.slice(3);
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
     <!-- inject Javascript arrays end -->
 - ### Javascript objects  
     <!-- inject Javascript objects start -->
