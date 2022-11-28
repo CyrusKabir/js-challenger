@@ -107,6 +107,14 @@ In this repo, you can find available solutions for a challenge.
     <!-- inject tos-Javascript arrays start -->
     1. [Get nth element of array](#get-nth-element-of-array)
     1. [Remove first n elements of an array](#remove-first-n-elements-of-an-array)
+    1. [Get last n elements of an array](#get-last-n-elements-of-an-array)
+    1. [Get first n elements of an array](#get-first-n-elements-of-an-array)
+    1. [Return last n array elements](#return-last-n-array-elements)
+    1. [Remove a specific array element](#remove-a-specific-array-element)
+    1. [Count number of elements in JavaScript array](#count-number-of-elements-in-javascript-array)
+    1. [Count number of negative values in array](#count-number-of-negative-values-in-array)
+    1. [Sort an array of strings alphabetically](#sort-an-array-of-strings-alphabetically)
+    1. [Sort an array of numbers in descending order](#sort-an-array-of-numbers-in-descending-order)
     <!-- inject tos-Javascript arrays end -->
     </details>
     <details><summary>Javascript objects</summary>
@@ -1241,6 +1249,180 @@ In this repo, you can find available solutions for a challenge.
         ```js
         function myFunction(a) {
             return a.slice(3);
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Get last n elements of an array
+        scenario :
+        ```python
+        Write a function that takes an array (a) as argument. Extract the last 3 elements of 'a'. Return the 
+        resulting array
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return a.slice(-3);
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Get first n elements of an array
+        scenario :
+        ```python
+        Write a function that takes an array (a) as argument. Extract the first 3 elements of a. Return the 
+        resulting array
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return a.slice(0, 3);
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Return last n array elements
+        scenario :
+        ```python
+        Write a function that takes an array (a) and a number (n) as arguments. It should return the last n 
+        elements of a.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, n) {
+            return a.slice(-n);
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Remove a specific array element
+        scenario :
+        ```python
+        Write a function that takes an array (a) and a value (b) as argument. The function should remove all 
+        elements equal to 'b' from the array. Return the filtered array.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction( a, b ) {
+            return a.filter(arrItem => arrItem !== b)
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Count number of elements in JavaScript array
+        scenario :
+        ```python
+        Write a function that takes an array (a) as argument. Return the number of elements in a.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return a.length;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Count number of negative values in array
+        scenario :
+        ```python
+        Write a function that takes an array of numbers as argument. Return the number of negative values 
+        in the array.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return a.filter((el) => el < 0).length;
+        }
+        ```
+        </p>
+        </details>
+        <details><summary>Solution 2</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            const isNegative = num => num < 0;
+            return a.filter(isNegative).length;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Sort an array of strings alphabetically
+        scenario :
+        ```python
+        Write a function that takes an array of strings as argument. Sort the array elements alphabetically. 
+        Return the result.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(arr) {
+            return arr.sort();
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Sort an array of numbers in descending order
+        scenario :
+        ```python
+        Write a function that takes an array of numbers as argument. It should return an array with the 
+        numbers sorted in descending order.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction( arr ) {
+            // > 0 => sort a after b
+            // < 0 => sort a before b
+            // === 0 => keep original order of a and b
+            return arr.sort((a, b) => b - a)
         }
         ```
         </p>
