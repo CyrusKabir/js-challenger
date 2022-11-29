@@ -127,6 +127,13 @@ In this repo, you can find available solutions for a challenge.
     <details><summary>Javascript objects</summary>
 
     <!-- inject tos-Javascript objects start -->
+    1. [Accessing object properties one](#accessing-object-properties-one)
+    1. [Accessing object properties two](#accessing-object-properties-two)
+    1. [Accessing object properties three](#accessing-object-properties-three)
+    1. [Check if property exists in object](#check-if-property-exists-in-object)
+    1. [Check if property exists in object and is truthy](#check-if-property-exists-in-object-and-is-truthy)
+    1. [Creating Javascript objects one](#creating-javascript-objects-one)
+    1. [Creating Javascript objects two](#creating-javascript-objects-two)
     <!-- inject tos-Javascript objects end -->
     </details>
     <details><summary>Javascript dates</summary>
@@ -1596,6 +1603,161 @@ In this repo, you can find available solutions for a challenge.
     <!-- inject Javascript arrays end -->
 - ### Javascript objects  
     <!-- inject Javascript objects start -->
+    - #### Accessing object properties one
+        scenario :
+        ```python
+        Write a function that takes an object with two properties as argument. It should return the value of 
+        the property with key country.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(obj) {
+            return obj.country;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Accessing object properties two
+        scenario :
+        ```python
+        Write a function that takes an object with two properties as argument. It should return the value of 
+        the property with key 'prop-2'. Tipp: you might want to use the square brackets property accessor
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(obj) {
+            return obj['prop-2'];
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Accessing object properties three
+        scenario :
+        ```python
+        Write a function that takes an object with two properties and a string as arguments. It should return 
+        the value of the property with key equal to the value of the string
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(obj, key) {
+            return obj[key]
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Check if property exists in object
+        scenario :
+        ```python
+        Write a function that takes an object (a) and a string (b) as argument. Return true if the object has a 
+        property with key 'b'. Return false otherwise. Tipp: test case 3 is a bit tricky because the value of 
+        property 'z' is undefined. But the property itself exists.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            // The in operator returns true if the specified property is in 
+            // the object or its prototype chain.
+            return b in a;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Check if property exists in object and is truthy
+        scenario :
+        ```python
+        Write a function that takes an object (a) and a string (b) as argument. Return true if the object has a 
+        property with key 'b', but only if it has a truthy value. In other words, it should not be null or 
+        undefined or false. Return false otherwise.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return Boolean(a[b]);
+        }
+        ```
+        </p>
+        </details>
+        <details><summary>Solution 2</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return a[b] ? true : false;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Creating Javascript objects one
+        scenario :
+        ```python
+        Write a function that takes a string as argument. Create an object that has a property with key 'key' 
+        and a value equal to the string. Return the object.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return { key: a }
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Creating Javascript objects two
+        scenario :
+        ```python
+        Write a function that takes two strings (a and b) as arguments. Create an object that has a property 
+        with key 'a' and a value of 'b'. Return the object.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return { [a]: b }
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
     <!-- inject Javascript objects end -->
 - ### Javascript dates
     <!-- inject Javascript dates start -->
