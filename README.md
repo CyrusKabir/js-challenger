@@ -115,6 +115,13 @@ In this repo, you can find available solutions for a challenge.
     1. [Count number of negative values in array](#count-number-of-negative-values-in-array)
     1. [Sort an array of strings alphabetically](#sort-an-array-of-strings-alphabetically)
     1. [Sort an array of numbers in descending order](#sort-an-array-of-numbers-in-descending-order)
+    1. [Calculate the sum of an array of numbers](#calculate-the-sum-of-an-array-of-numbers)
+    1. [Return the average of an array of numbers](#return-the-average-of-an-array-of-numbers)
+    1. [Return the longest string from an array of strings](#return-the-longest-string-from-an-array-of-strings)
+    1. [Check if all array elements are equal](#check-if-all-array-elements-are-equal)
+    1. [Merge an arbitrary number of arrays](#merge-an-arbitrary-number-of-arrays)
+    1. [Sort array by object property](#sort-array-by-object-property)
+    1. [Merge two arrays with duplicate values](#merge-two-arrays-with-duplicate-values)
     <!-- inject tos-Javascript arrays end -->
     </details>
     <details><summary>Javascript objects</summary>
@@ -1423,6 +1430,163 @@ In this repo, you can find available solutions for a challenge.
             // < 0 => sort a before b
             // === 0 => keep original order of a and b
             return arr.sort((a, b) => b - a)
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Calculate the sum of an array of numbers
+        scenario :
+        ```python
+        Write a function that takes an array of numbers as argument. It should return the sum of the 
+        numbers.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return a.reduce((acc, cur) => acc + cur, 0);
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Return the average of an array of numbers
+        scenario :
+        ```python
+        Write a function that takes an array of numbers as argument. It should return the average of the 
+        numbers.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction( arr ) {
+            return arr.reduce((acc, cur) => acc + cur, 0) / arr.length
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Return the longest string from an array of strings
+        scenario :
+        ```python
+        Write a function that takes an array of strings as argument. Return the longest string.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction( arr ) {
+            return arr.reduce((a, b) => a.length <= b.length ? b : a)
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Check if all array elements are equal
+        scenario :
+        ```python
+        Write a function that takes an array as argument. It should return true if all elements in the array are 
+        equal. It should return false otherwise.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction( arr ) {
+            return new Set(arr).size === 1;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Merge an arbitrary number of arrays
+        scenario :
+        ```python
+        Write a function that takes arguments an arbitrary number of arrays. It should return an array 
+        containing the values of all arrays.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(...arrays) {
+            return arrays.flat();
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Sort array by object property
+        scenario :
+        ```python
+        Write a function that takes an array of objects as argument. Sort the array by property b in ascending 
+        order. Return the sorted array
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(arr) {
+            // > 0 => sort a after b
+            // < 0 => sort a before b
+            // === 0 => keep original order of a and b
+            const sort = (x, y) => x.b - y.b;
+            return arr.sort(sort);
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Merge two arrays with duplicate values
+        scenario :
+        ```python
+        Write a function that takes two arrays as arguments. Merge both arrays and remove duplicate values. 
+        Sort the merge result in ascending order. Return the resulting array
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return [...new Set([...a, ...b])].sort((x, y) => x - y);
+        }
+        ```
+        </p>
+        </details>
+        <details><summary>Solution 2</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            let merged = a.concat(b);
+            let noDuplicate = Array.from(new Set(merged));
+            let sorted = noDuplicate.sort((a, b) => a - b);
+            return sorted;
         }
         ```
         </p>

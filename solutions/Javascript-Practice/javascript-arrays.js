@@ -124,5 +124,103 @@ const javascript_arrays = [
             return arr.sort((a, b) => b - a)
         }`]
     },
+    {
+        edit: false,
+        category: "Javascript arrays",
+        title: "Calculate the sum of an array of numbers",
+        scenario: `
+        Write a function that takes an array of numbers as argument. It should return the sum of the 
+        numbers.`,
+        javascript: [`
+        function myFunction(a) {
+            return a.reduce((acc, cur) => acc + cur, 0);
+        }`]
+    },
+    {
+        edit: false,
+        category: "Javascript arrays",
+        title: "Return the average of an array of numbers",
+        scenario: `
+        Write a function that takes an array of numbers as argument. It should return the average of the 
+        numbers.`,
+        javascript: [`
+        function myFunction( arr ) {
+            return arr.reduce((acc, cur) => acc + cur, 0) / arr.length
+        }`]
+    },
+    {
+        edit: false,
+        category: "Javascript arrays",
+        title: "Return the longest string from an array of strings",
+        scenario: `
+        Write a function that takes an array of strings as argument. Return the longest string.`,
+        javascript: [`
+        function myFunction( arr ) {
+            return arr.reduce((a, b) => a.length <= b.length ? b : a)
+        }`]
+    },
+    {
+        edit: false,
+        category: "Javascript arrays",
+        title: "Check if all array elements are equal",
+        scenario: `
+        Write a function that takes an array as argument. It should return true if all elements in the array are 
+        equal. It should return false otherwise.
+        `,
+        javascript: [`
+        function myFunction( arr ) {
+            return new Set(arr).size === 1;
+        }`]
+    },
+    {
+        edit: false,
+        category: "Javascript arrays",
+        title: "Merge an arbitrary number of arrays",
+        scenario: `
+        Write a function that takes arguments an arbitrary number of arrays. It should return an array 
+        containing the values of all arrays.
+        `,
+        javascript: [`
+        function myFunction(...arrays) {
+            return arrays.flat();
+        }`]
+    },
+    {
+        edit: false,
+        category: "Javascript arrays",
+        title: "Sort array by object property",
+        scenario: `
+        Write a function that takes an array of objects as argument. Sort the array by property b in ascending 
+        order. Return the sorted array
+        `,
+        javascript: [`
+        function myFunction(arr) {
+            // > 0 => sort a after b
+            // < 0 => sort a before b
+            // === 0 => keep original order of a and b
+            const sort = (x, y) => x.b - y.b;
+            return arr.sort(sort);
+        }`]
+    },
+    {
+        edit: false,
+        category: "Javascript arrays",
+        title: "Merge two arrays with duplicate values",
+        scenario: `
+        Write a function that takes two arrays as arguments. Merge both arrays and remove duplicate values. 
+        Sort the merge result in ascending order. Return the resulting array
+        `,
+        javascript: [`
+        function myFunction(a, b) {
+            return [...new Set([...a, ...b])].sort((x, y) => x - y);
+        }`,`
+        function myFunction(a, b) {
+            let merged = a.concat(b);
+            let noDuplicate = Array.from(new Set(merged));
+            let sorted = noDuplicate.sort((a, b) => a - b);
+            return sorted;
+        }
+        `]
+    },
 ]
 module.exports = javascript_arrays;
