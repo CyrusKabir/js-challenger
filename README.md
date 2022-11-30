@@ -146,6 +146,7 @@ In this repo, you can find available solutions for a challenge.
     <details><summary>Javascript dates</summary>
 
     <!-- inject tos-Javascript dates start -->
+    1. [Check if two dates are equal](#check-if-two-dates-are-equal)
     <!-- inject tos-Javascript dates end -->
     </details>
     <details><summary>Javascript Sets</summary>
@@ -1949,6 +1950,37 @@ In this repo, you can find available solutions for a challenge.
     <!-- inject Javascript objects end -->
 - ### Javascript dates
     <!-- inject Javascript dates start -->
+    - #### Check if two dates are equal
+        scenario :
+        ```python
+        Sounds easy, but you need to know the trick. Write a function that takes two date instances as 
+        arguments. It should return true if the dates are equal. It should return false otherwise.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return a.getTime() === b.getTime();
+        }
+        ```
+        </p>
+        </details>
+        <details><summary>Solution 2</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return a - b === 0;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
     <!-- inject Javascript dates end -->
 - ### Javascript Sets
     <!-- inject Javascript Sets start -->
