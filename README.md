@@ -134,6 +134,13 @@ In this repo, you can find available solutions for a challenge.
     1. [Check if property exists in object and is truthy](#check-if-property-exists-in-object-and-is-truthy)
     1. [Creating Javascript objects one](#creating-javascript-objects-one)
     1. [Creating Javascript objects two](#creating-javascript-objects-two)
+    1. [Creating Javascript objects three](#creating-javascript-objects-three)
+    1. [Extract keys from Javascript object](#extract-keys-from-javascript-object)
+    1. [Return nested object property](#return-nested-object-property)
+    1. [Sum object values](#sum-object-values)
+    1. [Remove a property from an object](#remove-a-property-from-an-object)
+    1. [Merge two objects with matching keys](#merge-two-objects-with-matching-keys)
+    1. [Multiply all object values by x](#multiply-all-object-values-by-x)
     <!-- inject tos-Javascript objects end -->
     </details>
     <details><summary>Javascript dates</summary>
@@ -1752,6 +1759,187 @@ In this repo, you can find available solutions for a challenge.
         ```js
         function myFunction(a, b) {
             return { [a]: b }
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Creating Javascript objects three
+        scenario :
+        ```python
+        WWrite a function that takes two arrays (a and b) as arguments. Create an object that has properties 
+        with keys 'a' and corresponding values 'b'. Return the object.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return a.reduce((acc, cur, i) => ({ ...acc, [cur]: b[i] }), {})
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Extract keys from Javascript object
+        scenario :
+        ```python
+        Write a function that takes an object (a) as argument. Return an array with all object keys.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return Object.keys(a);
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Return nested object property
+        scenario :
+        ```python
+        Write a function that takes an object as argument. In some cases the object contains other objects 
+        with some deeply nested properties. Return the property 'b' of object 'a' inside the original object if it 
+        exists. If not, return undefined
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(obj) {
+            return obj?.a?.b;
+        }
+        ```
+        </p>
+        </details>
+        <details><summary>Solution 2</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(obj) {
+            return obj.a && obj.a.b ? obj.a.b : undefined
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Sum object values
+        scenario :
+        ```python
+        Write a function that takes an object (a) as argument. Return the sum of all object values.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a) {
+            return Object.values(a).reduce((sum, cur) => sum + cur, 0);
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Remove a property from an object
+        scenario :
+        ```python
+        Write a function that takes an object as argument. It should return an object with all original object 
+        properties. except for the property with key 'b'
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(obj) {
+            const { b, ...rest } = obj;
+            return rest;
+        }
+        ```
+        </p>
+        </details>
+        <details><summary>Solution 2</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(obj) {
+            if("b" in obj) {
+                return delete obj.b && obj;
+            }
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Merge two objects with matching keys
+        scenario :
+        ```python
+        Write a function that takes two objects as arguments. Unfortunately, the property 'b' in the second 
+        object has the wrong key. It should be named 'd' instead. Merge both objects and correct the wrong 
+        property name. Return the resulting object. It should have the properties 'a', 'b', 'c', 'd', and 'e'
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(x, y) {
+            const {b, ...rest} = y;
+            return {...x, ...rest, d: b};
+        }
+        ```
+        </p>
+        </details>
+        <details><summary>Solution 2</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(x, y) {
+            y.d = y.b;
+            delete y.b;
+            return {...x, ...y};
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Multiply all object values by x
+        scenario :
+        ```python
+        Write a function that takes an object (a) and a number (b) as arguments. Multiply all values of 'a' by 
+        'b'. Return the resulting object.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return Object.entries(a).reduce((acc, [key, val]) => {
+                return { ...acc, [key]: val * b };
+            }, {});
         }
         ```
         </p>
