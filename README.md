@@ -147,6 +147,8 @@ In this repo, you can find available solutions for a challenge.
 
     <!-- inject tos-Javascript dates start -->
     1. [Check if two dates are equal](#check-if-two-dates-are-equal)
+    1. [Return the number of days between two dates](#return-the-number-of-days-between-two-dates)
+    1. [Check if two dates fall on the exact same day](#check-if-two-dates-fall-on-the-exact-same-day)
     <!-- inject tos-Javascript dates end -->
     </details>
     <details><summary>Javascript Sets</summary>
@@ -1975,6 +1977,60 @@ In this repo, you can find available solutions for a challenge.
         ```js
         function myFunction(a, b) {
             return a - b === 0;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Return the number of days between two dates
+        scenario :
+        ```python
+        Write a function that takes two date instances as argument. It should return the number of days that 
+        lies between those dates.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            const dif = Math.abs(a - b);
+            return dif / 1000 / 60 / 60 / 24
+        }
+        ```
+        </p>
+        </details>
+        <details><summary>Solution 2</summary>
+        <p>
+
+        js :
+        ```js
+        functiion myFunction(a, b) {
+            return Math.abs( (a.getTime() / 86400000) - (b.getTime() / 86400000) )
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Check if two dates fall on the exact same day
+        scenario :
+        ```python
+        Write a function that takes two date instances as argument. It should return true if they fall on the 
+        exact same day. It should return false otherwise.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return a.getFullYear() === b.getFullYear() &&
+                   a.getMonth() === b.getMonth() &&
+                   a.getDate()=== b.getDate()
         }
         ```
         </p>
