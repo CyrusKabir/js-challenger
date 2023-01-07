@@ -154,6 +154,11 @@ In this repo, you can find available solutions for a challenge.
     <details><summary>Javascript Sets</summary>
 
     <!-- inject tos-Javascript Sets start -->
+    1. [Check if value is present in Set](#check-if-value-is-present-in-set)
+    1. [Convert a Set to Array](#convert-a-set-to-array)
+    1. [Get union of two sets](#get-union-of-two-sets)
+    1. [Creating Javascript Sets](#creating-javascript-sets)
+    1. [Delete element from Set](#delete-element-from-set)
     <!-- inject tos-Javascript Sets end -->
     </details>
 - **Javascript DOM**
@@ -2040,6 +2045,123 @@ In this repo, you can find available solutions for a challenge.
     <!-- inject Javascript dates end -->
 - ### Javascript Sets
     <!-- inject Javascript Sets start -->
+    - #### Check if value is present in Set
+        scenario :
+        ```python
+        Write a function that takes a Set and a value as arguments. Check if the value is present in 
+        the Set
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(set, val) {
+            return set.has(val);
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Convert a Set to Array
+        scenario :
+        ```python
+        Write a function that takes a Set as argument. Convert the Set to an Array. Return the Array
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(set) {
+            return [...set];
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Get union of two sets
+        scenario :
+        ```python
+        Write a function that takes two Sets as arguments. Create the union of the two sets. Return 
+        the result. Tipp: try not to switch to Arrays, this would slow down your code
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            const result = new Set(a);
+            b.forEach((el) => result.add(el));
+            return result;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Creating Javascript Sets
+        scenario :
+        ```python
+        Write a function that takes three elements of any type as arguments. Create a Set from 
+        those elements. Return the result
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b, c) {
+            const set = new Set();
+            set.add(a);
+            set.add(b);
+            set.add(c);
+            return set;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Delete element from Set
+        scenario :
+        ```python
+        Write a function that takes a Set and a value as argument. If existing in the Set, remove the 
+        value from the Set. Return the result
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(set, val) {
+            set.delete(val);
+            return set;
+        }
+        ```
+        </p>
+        </details>
+        <details><summary>Solution 2</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(set, val) {
+            return set.has(val) ? set.delete(val) && set : set;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
     <!-- inject Javascript Sets end -->
 ## **Javascript DOM :**
 
