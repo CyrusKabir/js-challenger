@@ -1,4 +1,5 @@
 const VARIABLES = require("./variables");
+const BOOLEANS = require("./booleans");
 const OPERATORS = require("./operators");
 const STRINGS = require("./strings");
 const CONDITIONALS = require("./conditionals");
@@ -7,6 +8,7 @@ const ARRAYS = require("./arrays");
 const LOOPS = require("./loops");
 const ALL_EXISTING_SOLUTIONS = [
     VARIABLES,
+    BOOLEANS,
     OPERATORS,
     STRINGS,
     CONDITIONALS,

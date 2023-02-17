@@ -24,6 +24,13 @@ In this repo, you can find available solutions for a challenge.
     1. [Reassign a value to a variable 2](#reassign-a-value-to-a-variable-2)
     <!-- inject tos-variables end -->
     </details>
+    <details><summary>booleans</summary>
+
+    <!-- inject tos-booleans start -->
+    1. [Assign boolean to a variable](#assign-boolean-to-a-variable)
+    1. [Convert Number to Boolean](#convert-number-to-boolean)
+    <!-- inject tos-booleans end -->
+    </details>
     <details><summary>operators</summary>
 
     <!-- inject tos-operators start -->
@@ -301,6 +308,50 @@ In this repo, you can find available solutions for a challenge.
 
         [Back to table ⬆](#table-of-solutions)
     <!-- inject variables end -->
+- ### booleans
+    <!-- inject booleans start -->
+    - #### Assign boolean to a variable
+        scenario :
+        ```python
+        Here, we declare the variable isTrue. But, it has no value yet. Assign a boolean value to it and run the code.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        let isTrue;
+        isTrue = true;
+        console.log(isTrue);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Convert Number to Boolean
+        scenario :
+        ```python
+        Here, we declare the variable num and assign it the value 5. We also declare the variable bool which we assign the boolean 
+        representation of num.
+        Extend the code such that the console.log() statement logs false.
+        ```
+        
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        let num = 5;
+        num = 0;
+        const bool = Boolean(bool);
+        console.log(bool);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    <!-- inject booleans end -->
 - ### operators
     <!-- inject operators start -->
     - #### Comparison operators - Equal
