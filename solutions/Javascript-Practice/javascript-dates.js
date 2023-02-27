@@ -7,6 +7,10 @@ const javascript_dates = [
         Sounds easy, but you need to know the trick. Write a function that takes two date instances as 
         arguments. It should return true if the dates are equal. It should return false otherwise.
         `,
+        codeScenario: `
+        function myFunction(a, b) {
+            return 
+        }`,
         javascript: [`
         function myFunction(a, b) {
             return a.getTime() === b.getTime();
@@ -24,6 +28,10 @@ const javascript_dates = [
         Write a function that takes two date instances as argument. It should return the number of days that 
         lies between those dates.
         `,
+        codeScenario: `
+        function myFunction(a, b) {
+            return 
+        }`,
         javascript: [`
         function myFunction(a, b) {
             const dif = Math.abs(a - b);
@@ -41,6 +49,10 @@ const javascript_dates = [
         Write a function that takes two date instances as argument. It should return true if they fall on the 
         exact same day. It should return false otherwise.
         `,
+        codeScenario: `
+        function myFunction(a, b) {
+            return 
+        }`,
         javascript: [`
         function myFunction(a, b) {
             return a.getFullYear() === b.getFullYear() &&

@@ -6,6 +6,10 @@ const javascript_arrays = [
         scenario: `
         Write a function that takes an array (a) and a value (n) as argument. Return the nth element of 'a'
         `,
+        codeScenario: `
+        function myFunction(a, n) {
+            return 
+        }`,
         javascript: [`
         function myFunction(a, n) {
             return a[n - 1];
@@ -18,6 +22,10 @@ const javascript_arrays = [
         scenario: `
         Write a function that takes an array (a) as argument. Remove the first 3 elements of 'a'. Return the 
         result`,
+        codeScenario: `
+        function myFunction(a) {
+            return 
+        }`,
         javascript: [`
         function myFunction(a) {
             return a.slice(3);
@@ -30,6 +38,10 @@ const javascript_arrays = [
         scenario: `
         Write a function that takes an array (a) as argument. Extract the last 3 elements of 'a'. Return the 
         resulting array`,
+        codeScenario: `
+        function myFunction(a) {
+            return 
+        }`,
         javascript: [`
         function myFunction(a) {
             return a.slice(-3);
@@ -42,6 +54,10 @@ const javascript_arrays = [
         scenario: `
         Write a function that takes an array (a) as argument. Extract the first 3 elements of a. Return the 
         resulting array`,
+        codeScenario: `
+        function myFunction(a) {
+            return 
+        }`,
         javascript: [`
         function myFunction(a) {
             return a.slice(0, 3);
@@ -54,6 +70,10 @@ const javascript_arrays = [
         scenario: `
         Write a function that takes an array (a) and a number (n) as arguments. It should return the last n 
         elements of a.`,
+        codeScenario: `
+        function myFunction(a, n) {
+            return 
+        }`,
         javascript: [`
         function myFunction(a, n) {
             return a.slice(-n);
@@ -66,6 +86,10 @@ const javascript_arrays = [
         scenario: `
         Write a function that takes an array (a) and a value (b) as argument. The function should remove all 
         elements equal to 'b' from the array. Return the filtered array.`,
+        codeScenario: `
+        function myFunction( a, b ) {
+            return 
+        }`,
         javascript: [`
         function myFunction( a, b ) {
             return a.filter(arrItem => arrItem !== b)
@@ -76,6 +100,10 @@ const javascript_arrays = [
         category: "Javascript arrays",
         title: "Count number of elements in JavaScript array",
         scenario: `Write a function that takes an array (a) as argument. Return the number of elements in a.`,
+        codeScenario: `
+        function myFunction(a) {
+            return 
+        }`,
         javascript: [`
         function myFunction(a) {
             return a.length;
@@ -87,6 +115,10 @@ const javascript_arrays = [
         title: "Count number of negative values in array",
         scenario: `Write a function that takes an array of numbers as argument. Return the number of negative values 
         in the array.`,
+        codeScenario: `
+        function myFunction(a) {
+            return 
+        }`,
         javascript: [`
         function myFunction(a) {
             return a.filter((el) => el < 0).length;
@@ -104,6 +136,10 @@ const javascript_arrays = [
         scenario: `
         Write a function that takes an array of strings as argument. Sort the array elements alphabetically. 
         Return the result.`,
+        codeScenario: `
+        function myFunction(arr) {
+            return 
+        }`,
         javascript: [`
         function myFunction(arr) {
             return arr.sort();
@@ -116,6 +152,10 @@ const javascript_arrays = [
         scenario: `
         Write a function that takes an array of numbers as argument. It should return an array with the 
         numbers sorted in descending order.`,
+        codeScenario: `
+        function myFunction( arr ) {
+            return 
+        }`,
         javascript: [`
         function myFunction( arr ) {
             // > 0 => sort a after b
@@ -131,6 +171,10 @@ const javascript_arrays = [
         scenario: `
         Write a function that takes an array of numbers as argument. It should return the sum of the 
         numbers.`,
+        codeScenario: `
+        function myFunction(a) {
+            return 
+        }`,
         javascript: [`
         function myFunction(a) {
             return a.reduce((acc, cur) => acc + cur, 0);
@@ -143,6 +187,10 @@ const javascript_arrays = [
         scenario: `
         Write a function that takes an array of numbers as argument. It should return the average of the 
         numbers.`,
+        codeScenario: `
+        function myFunction( arr ) {
+            return 
+        }`,
         javascript: [`
         function myFunction( arr ) {
             return arr.reduce((acc, cur) => acc + cur, 0) / arr.length
@@ -154,6 +202,10 @@ const javascript_arrays = [
         title: "Return the longest string from an array of strings",
         scenario: `
         Write a function that takes an array of strings as argument. Return the longest string.`,
+        codeScenario: `
+        function myFunction( arr ) {
+            return 
+        }`,
         javascript: [`
         function myFunction( arr ) {
             return arr.reduce((a, b) => a.length <= b.length ? b : a)
@@ -167,6 +219,10 @@ const javascript_arrays = [
         Write a function that takes an array as argument. It should return true if all elements in the array are 
         equal. It should return false otherwise.
         `,
+        codeScenario: `
+        function myFunction( arr ) {
+            return 
+        }`,
         javascript: [`
         function myFunction( arr ) {
             return new Set(arr).size === 1;
@@ -180,6 +236,10 @@ const javascript_arrays = [
         Write a function that takes arguments an arbitrary number of arrays. It should return an array 
         containing the values of all arrays.
         `,
+        codeScenario: `
+        function myFunction(...arrays) {
+            return 
+        }`,
         javascript: [`
         function myFunction(...arrays) {
             return arrays.flat();
@@ -193,6 +253,10 @@ const javascript_arrays = [
         Write a function that takes an array of objects as argument. Sort the array by property b in ascending 
         order. Return the sorted array
         `,
+        codeScenario: `
+        function myFunction(arr) {
+            return 
+        }`,
         javascript: [`
         function myFunction(arr) {
             // > 0 => sort a after b
@@ -210,6 +274,10 @@ const javascript_arrays = [
         Write a function that takes two arrays as arguments. Merge both arrays and remove duplicate values. 
         Sort the merge result in ascending order. Return the resulting array
         `,
+        codeScenario: `
+        function myFunction(a, b) {
+            return 
+        }`,
         javascript: [`
         function myFunction(a, b) {
             return [...new Set([...a, ...b])].sort((x, y) => x - y);

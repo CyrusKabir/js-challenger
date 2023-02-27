@@ -7,6 +7,10 @@ const javascript_sets = [
         Write a function that takes a Set and a value as arguments. Check if the value is present in 
         the Set
         `,
+        codeScenario: `
+        function myFunction(set, val) {
+            return 
+        }`,
         javascript: [`
         function myFunction(set, val) {
             return set.has(val);
@@ -20,6 +24,10 @@ const javascript_sets = [
         scenario: `
         Write a function that takes a Set as argument. Convert the Set to an Array. Return the Array
         `,
+        codeScenario: `
+        function myFunction(set) {
+            return 
+        }`,
         javascript: [`
         function myFunction(set) {
             return [...set];
@@ -33,6 +41,10 @@ const javascript_sets = [
         scenario: `
         Write a function that takes two Sets as arguments. Create the union of the two sets. Return 
         the result. Tipp: try not to switch to Arrays, this would slow down your code`,
+        codeScenario: `
+        function myFunction(a, b) {
+            return 
+        }`,
         javascript: [`
         function myFunction(a, b) {
             const result = new Set(a);
@@ -49,6 +61,10 @@ const javascript_sets = [
         Write a function that takes three elements of any type as arguments. Create a Set from 
         those elements. Return the result
         `,
+        codeScenario: `
+        function myFunction(a, b, c) {
+            return 
+        }`,
         javascript: [`
         function myFunction(a, b, c) {
             const set = new Set();
@@ -67,6 +83,10 @@ const javascript_sets = [
         Write a function that takes a Set and a value as argument. If existing in the Set, remove the 
         value from the Set. Return the result
         `,
+        codeScenario: `
+        function myFunction(set, val) {
+            return 
+        }`,
         javascript: [`
         function myFunction(set, val) {
             set.delete(val);
