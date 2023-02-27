@@ -11,6 +11,12 @@ const dom_fundamentals = [
         <input id="checkbox" disabled/>
         <label for="checkbox">checkbox</label>
         <button type="button" id="button">Verify Code</button>        `,
+        codeScenario: `
+        const button = document.getElementById('button');
+        button.addEventListener('click', () => {
+          
+        });
+        `,
         javascript: [`
         const button = document.getElementById('button');
         button.addEventListener('click', () => {
@@ -32,6 +38,12 @@ const dom_fundamentals = [
         <input type="text" id="lastName" placeholder="Musterman" value="Musterman"/>
         <input type="text" id="fullName" placeholder="full name" readonly/>
         <button type="button" id="button">Verify Code</button>        `,
+        codeScenario: `
+        const button = document.getElementById('button');
+        button.addEventListener('click' , () => {
+          
+        });
+        `,
         javascript: [`
         const button = document.getElementById('button');
         button.addEventListener('click' , () => {
@@ -62,6 +74,9 @@ const dom_fundamentals = [
           <li/>
           <li/>
         </ul>`,
+        codeScenario: `
+        const list = document.getElementById('list');
+        `,
         javascript: [`
         const list = document.getElementById('list');
         const handleHover = event => {

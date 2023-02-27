@@ -11,6 +11,14 @@ const dom_selector_methods = [
         html: `
         <button type="button" id="button">OFF</button>
         `,
+        codeScenario: `
+        const buttonElem = 
+  
+        buttonElem.addEventListener('click', () => {
+          const oldText = buttonElem.innerText;
+          return button.innerText = oldText === "ON" ? "OFF" : "ON";
+        });
+        `,
         javascript: [`
         const buttonElem = document.getElementById("button");
   
@@ -35,6 +43,15 @@ const dom_selector_methods = [
             <input type="text" value="OFF" readonly/>
             <button type="button">Click Me</button>
         </div>        `,
+        codeScenario: `
+        const buttonElem = 
+        const inputElem = 
+
+        buttonElem.addEventListener('click', () => {
+          const oldText = inputElem.value;
+            return inputElem.value = oldText === "ON" ? "OFF" : "ON";
+        });
+        `,
         javascript: [`
         const buttonElem = document.querySelector("#wrapper button");
         const inputElem = document.querySelector("#wrapper input");
@@ -63,6 +80,17 @@ const dom_selector_methods = [
             <li>OFF</li>
             <li>OFF</li>
         </ul>`,
+        codeScenario: `
+        const listItems = 
+  
+        const handleHover = (event) => {
+          return event.target.innerText = 'ON';
+        };
+        
+        if(listItems.length > 1) {
+          listItems.forEach(item => item.addEventListener('mouseover', handleHover));
+        }
+        `,
         javascript: [`
         const listItems = document.querySelectorAll("#list li");
   

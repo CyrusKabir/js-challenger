@@ -11,6 +11,14 @@ const events_and_user_interactions = [
         <input type="text" id="input" readonly/>
         <button type="button" id="button">Click Me</button>
         `,
+        codeScenario: `
+        const button = document.getElementById('button');
+        const input = document.getElementById('input');
+
+        const handleClick = () => {
+          input.value = 'Hello World';
+        };
+        `,
         javascript: [`
         const button = document.getElementById('button');
         const input = document.getElementById('input');
@@ -34,6 +42,13 @@ const events_and_user_interactions = [
             Hover Me
         </div>
         `,
+        codeScenario: `
+        const element = document.getElementById('element');
+  
+        const changeText = () => {
+          element.innerText = 'Thanks!';
+        };
+        `,
         javascript: [`
         const element = document.getElementById('element');
   
@@ -55,6 +70,13 @@ const events_and_user_interactions = [
         <div id="element">
             Hover Me
         </div>        `,
+        codeScenario: `
+        const element = document.querySelector('#element');
+  
+        const toggleColor = (isEntering) => {
+          element.style.background = isEntering ? 'orange' : 'black';
+        };
+        `,
         javascript: [`
         const element = document.querySelector('#element');
   

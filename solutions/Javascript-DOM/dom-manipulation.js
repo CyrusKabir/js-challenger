@@ -11,6 +11,14 @@ const dom_manipulation = [
         <div id="green"/>
         <div id="red"/>
         <button type="button" id="button">Click Me</button>        `,
+        codeScenario: `
+        const button = document.querySelector('#button');
+  
+        const removeRedCircle = () => {
+          
+        };
+        button.addEventListener('click', removeRedCircle);
+        `,
         javascript: [`
         const button = document.querySelector('#button');
   
@@ -40,6 +48,18 @@ const dom_manipulation = [
             <input type="text" placeholder="Text" readonly/>
             <button type="button">Click Me</button>
         </div>
+        `,
+        codeScenario: `
+        const button = document.querySelector('#wrapper button');
+  
+        const changeInput = () => {
+          const input = document.querySelector('#inputEl');
+          if(input) {
+            input.value = 'Hello World';
+          }
+        };
+        
+        button.addEventListener('click', changeInput);
         `,
         javascript: [`
         const button = document.querySelector('#wrapper button');
