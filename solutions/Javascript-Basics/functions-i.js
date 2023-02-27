@@ -9,12 +9,19 @@ const functions_i = [
         When we create a function in JavaScript, the statement inside the curly braces is exectued only when the function is called. You can call a function by using its name and a pair of parentheses func().
         Below, we call our function and assign its return value to the variable result. Then, we log the result. To solve this exercise simply have the console.log() statement log the words hello world.
         `,
+        codeScenario: `
+        function func() {
+            return 'hello';
+        };
+        const result = func();
+        console.log(result);
+        `,
         javascript: [`
         function func() {
             return 'hello world';
-         };
-         const result = func();
-         console.log(result);`]
+        };
+        const result = func();
+        console.log(result);`]
     }
     ,{
         edit: false,
@@ -23,12 +30,19 @@ const functions_i = [
         scenario: `
         In this exercise, we use a slightly different way to create a function – a function expression. Here, we create a function and assign it to the variable func. Notice that we omit the name of the function after the function keyword. We call this function the same way as in the previous exercise. But, instead of using the name of the function itself, we call it using the name of the variable to which the function was assigned.
         In the code below, we introduced a small mistake when calling the function. Find the mistake and run the code to see if the words hello world are correctly logged.        `,
+        codeScenario: `
+        const func = function() {
+            return 'hello world';
+        };
+        const result = func;
+        console.log(result);
+        `,
         javascript: [`
         const func = function() {
             return 'hello world';
-         };
-         const result = func();
-         console.log(result);        `]
+        };
+        const result = func();
+        console.log(result);`]
     }
     ,{
         edit: false,
@@ -38,14 +52,22 @@ const functions_i = [
         In this exercise, we create a function func. Then, we call func and assign its return value to the variable result.
         When you run the code like this, you see that the value undefined is logged. This is the current return value of func because we do not explicitly define a return value ourselfs.
         Let func return the value of the variable text.        `,
+        codeScenario: `
+        const func = function() {
+            let text = 'hello';
+            text = text + ' world';
+        };
+        const result = func();
+        console.log(result);
+        `,
         javascript: [`
         const func = function() {
             let text = 'hello';
             text = text + ' world';
             return text;
-         };
-         const result = func();
-         console.log(result);`]
+        };
+        const result = func();
+        console.log(result);`]
     }
     ,{
         edit: false,
@@ -55,6 +77,16 @@ const functions_i = [
         In this exercise, func declares a variable text with the value hello. Then it returns the value of text. After that, it assigns a new value hello world to the variable text and returns the new value.
         But, when you run the code, you see that only the initial value of text (hello) is logged. This is because once a function call reaches a return statement, further function execution is stopped. All code after the return statement is ignored.
         Adjust the code so that the final value of text is logged.        `,
+        codeScenario: `
+        const func = function () {
+            let text = 'hello';
+            return text;
+            text = text + ' world';
+            return text;
+        };
+        const result = func();
+        console.log(result);
+        `,
         javascript: [`
         const func = function () {
             let text = 'hello';
@@ -65,24 +97,5 @@ const functions_i = [
         console.log(result);
         `]
     }
-    ,{
-        edit: false,
-        category: "functions I",
-        title: "Functions - parameters and arguments 1",
-        scenario: `
-        When you call a function in JavaScript, you can pass values to the function. These values are called arguments. In order to access these arguments, functions can define parameters. Parameters are variables that contain the values of the arguments passed to the function.
-        In the code below, we define a function multiply that has a parameter named num. The function returns num multiplied by itself. Then, multiply is called with an argument. The argument is the value of the variable arg.
-        Adjust the code below so that the console.log() statement logs true.        `,
-        javascript: [`
-        const multiply = function (num) {
-            return num * num;
-        };
-          
-        const arg = 5;
-         
-        const result = multiply(arg);
-        console.log(result === 25);`]
-    }
-    ,
 ]
 module.exports = functions_i;
