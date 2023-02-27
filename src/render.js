@@ -11,6 +11,10 @@ function renderSolution(solution_obj) {
         ${solution_obj.html.trim()}
         \`\`\`` : "")()
         }
+        code scenario :
+        \`\`\`js
+        ${solution_obj.codeScenario.trim()}
+        \`\`\`
         ${
         (() => {
             let javascriptSolutions_str = "";

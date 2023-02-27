@@ -40,12 +40,6 @@ In this repo, you can find available solutions for a challenge.
     1. [Comparison operators - Less than](#comparison-operators---less-than)
     1. [Comparison operators - Greater than or equal](#comparison-operators---greater-than-or-equal)
     1. [Comparison operators - Less than or equal](#comparison-operators---less-than-or-equal)
-    1. [Logical operators - logical AND](#logical-operators---logical-and)
-    1. [Arithmetic operators - Addition](#arithmetic-operators---addition)
-    1. [Arithmetic operators - Subtraction](#arithmetic-operators---subtraction)
-    1. [Arithmetic operators - Multiplication](#arithmetic-operators---multiplication)
-    1. [Arithmetic operators - Division](#arithmetic-operators---division)
-    1. [Arithmetic operators - Exponential](#arithmetic-operators---exponential)
     <!-- inject tos-operators end -->
     </details>
     <details><summary>strings</summary>
@@ -60,7 +54,6 @@ In this repo, you can find available solutions for a challenge.
 
     <!-- inject tos-conditionals start -->
     1. [if statement - satisfy condition](#if-statement---satisfy-condition)
-    1. [if...else statement - run else](#if...else-statement---run-else)
     1. [if statement - add missing condition](#if-statement---add-missing-condition)
     <!-- inject tos-conditionals end -->
     </details>
@@ -71,13 +64,11 @@ In this repo, you can find available solutions for a challenge.
     1. [Function expression](#function-expression)
     1. [Correctly return value from function 1](#correctly-return-value-from-function-1)
     1. [Correctly return value from function 2](#correctly-return-value-from-function-2)
-    1. [Functions - parameters and arguments 1](#functions---parameters-and-arguments-1)
     <!-- inject tos-functions I end -->
     </details>
     <details><summary>arrays</summary>
 
     <!-- inject tos-arrays start -->
-    1. [Create a JavaScript array](#create-a-javascript-array)
     <!-- inject tos-arrays end -->
     </details>
     <details><summary>loops</summary>
@@ -218,6 +209,11 @@ In this repo, you can find available solutions for a challenge.
         Fix the mistake and run the code again.
         ```
         
+        code scenario :
+        ```js
+        const num = 5;
+        console.log(Num);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -237,6 +233,11 @@ In this repo, you can find available solutions for a challenge.
         Fix the code and run it.
         ```
         
+        code scenario :
+        ```js
+        console.log(num);
+        const num = 5;
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -256,6 +257,10 @@ In this repo, you can find available solutions for a challenge.
         Declare a variable with this name and assign it a number of your choice. Run the code to see if the number is being logged.
         ```
         
+        code scenario :
+        ```js
+        console.log('The value of num is: ' + num);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -275,6 +280,12 @@ In this repo, you can find available solutions for a challenge.
         But, the code will not work like that. Find the mistake and fix it. Execute the corrected code.
         ```
         
+        code scenario :
+        ```js
+        let text = 'hello';
+        let text = 'bye';
+        console.log(text);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -294,6 +305,12 @@ In this repo, you can find available solutions for a challenge.
         Here again, we want to assign a new value to a variable that we previously declared. Again, the code will not work the way it is. Find the mistake and fix it. Execute the corrected code.
         ```
         
+        code scenario :
+        ```js
+        const text = 'hello';
+        text = 'hello world';
+        console.log(text);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -316,6 +333,12 @@ In this repo, you can find available solutions for a challenge.
         Here, we declare the variable isTrue. But, it has no value yet. Assign a boolean value to it and run the code.
         ```
         
+        code scenario :
+        ```js
+        let isTrue;
+
+        console.log(isTrue);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -337,6 +360,13 @@ In this repo, you can find available solutions for a challenge.
         Extend the code such that the console.log() statement logs false.
         ```
         
+        code scenario :
+        ```js
+        let num = 5;
+        
+        const bool = Boolean(bool);
+        console.log(bool);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -360,6 +390,12 @@ In this repo, you can find available solutions for a challenge.
         In the console.log() statement below we use the Equal operator to check whether numOne and numTwo have the same value. Change the code so that the console.log() statement logs true.
         ```
         
+        code scenario :
+        ```js
+        const numOne = 5;
+        const numTwo = 6;
+        console.log(numOne == numTwo);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -379,6 +415,12 @@ In this repo, you can find available solutions for a challenge.
         In the console.log() statement below we use the Not Equal operator to check whether numOne and numTwo have different values. Change the code so that the console.log() statement logs true.
         ```
         
+        code scenario :
+        ```js
+        const numOne = 5;
+        const numTwo = 5;
+        console.log(numOne != numTwo);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -398,6 +440,12 @@ In this repo, you can find available solutions for a challenge.
         In the console.log() statement below we use the Greater Than operator to check whether the value of numOne is greater than the value of numTwo. Change the code so that the console.log() statement logs true.
         ```
         
+        code scenario :
+        ```js
+        const numOne = 5;
+        const numTwo = 6;
+        console.log(numOne > numTwo);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -417,6 +465,12 @@ In this repo, you can find available solutions for a challenge.
         In the console.log() statement below we use the Less Than operator to check whether the value of numOne is less than the value of numTwo. Change the code so that the console.log() statement logs true.
         ```
         
+        code scenario :
+        ```js
+        const numOne = 2;
+        const numTwo = 1;
+        console.log(numOne < numTwo);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -436,6 +490,13 @@ In this repo, you can find available solutions for a challenge.
         In the console.log() statement below we use the Greater Than Or Equal operator to check whether the value of numOne is greater than or equal the value of numTwo. It also checks whether the value of numTwo is greater than or equal the value of numThree. Change the code so that both expressions in the console.log() statement logs true.
         ```
         
+        code scenario :
+        ```js
+        const numOne = 3;
+        const numTwo = 4;
+        const numThree = 2;
+        console.log(numOne >= numTwo, numTwo >= numThree);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -456,6 +517,13 @@ In this repo, you can find available solutions for a challenge.
         In the console.log() statement below we use the Less Than Or Equal operator to check whether the value of numOne is less than or equal the value of numTwo. It also checks whether the value of numTwo is less than or equal the value of numThree. Change the code so that both expressions in the console.log() statement logs true.
         ```
         
+        code scenario :
+        ```js
+        const numOne = 1;
+        const numTwo = 4;
+        const numThree = 2;
+        console.log(numOne <= numTwo, numTwo <= numThree);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -465,127 +533,6 @@ In this repo, you can find available solutions for a challenge.
         const numTwo = 1;
         const numThree = 2;
         console.log(numOne <= numTwo, numTwo <= numThree);
-        ```
-        </p>
-        </details>
-
-        [Back to table ⬆](#table-of-solutions)
-    - #### Logical operators - logical AND
-        scenario :
-        ```python
-        You can chain multiple comparison operators using the logical AND (&&) operator. In the code below, result will only have the value true if both comparison expressions evaluate to true.
-        Adjust the code below such that result will have the value true.
-        ```
-        
-        <details><summary>Solution 1</summary>
-        <p>
-
-        js :
-        ```js
-        const numOne = 13;
-        const numTwo = 13;
-        const result = numOne > 12 && numTwo > 12;
-        console.log(result);
-        ```
-        </p>
-        </details>
-
-        [Back to table ⬆](#table-of-solutions)
-    - #### Arithmetic operators - Addition
-        scenario :
-        ```python
-        In the code below we calculate the sum of numOne and numTwo with the Addition operator +. Then, the console.log() statement checks whether the sum equals 10. Change the code so that the console.log() statement logs true.
-        ```
-        
-        <details><summary>Solution 1</summary>
-        <p>
-
-        js :
-        ```js
-        const numOne = 4;
-        const numTwo = 6;
-        const sum = numOne + numTwo;
-        console.log(sum == 10);
-        ```
-        </p>
-        </details>
-
-        [Back to table ⬆](#table-of-solutions)
-    - #### Arithmetic operators - Subtraction
-        scenario :
-        ```python
-        In the code below we calculate the difference of numOne and numTwo with the Substraction operator -. Then, the console.log() statement checks whether the difference equals 5. Change the code so that the console.log() statement logs true.
-        ```
-        
-        <details><summary>Solution 1</summary>
-        <p>
-
-        js :
-        ```js
-        const numOne = 9;
-        const numTwo = 4;
-        const dif = numOne - numTwo;
-        console.log(dif == 5);
-        ```
-        </p>
-        </details>
-
-        [Back to table ⬆](#table-of-solutions)
-    - #### Arithmetic operators - Multiplication
-        scenario :
-        ```python
-        In the code below we calculate the product of numOne and numTwo with the Multiplication operator *. Then, the console.log() statement checks whether the product equals 81. Change the code so that the console.log() statement logs true.
-        ```
-        
-        <details><summary>Solution 1</summary>
-        <p>
-
-        js :
-        ```js
-        const numOne = 9;
-        const numTwo = 9;
-        const product = numOne * numTwo;
-        console.log(product == 81);
-        ```
-        </p>
-        </details>
-
-        [Back to table ⬆](#table-of-solutions)
-    - #### Arithmetic operators - Division
-        scenario :
-        ```python
-        In the code below we divide numOne by numTwo with the Division operator /. Then, the console.log() statement checks whether the quotient equals 9. Change the code so that the console.log() statement logs true.
-        ```
-        
-        <details><summary>Solution 1</summary>
-        <p>
-
-        js :
-        ```js
-        const numOne = 81;
-        const numTwo = 9;
-        const quotient = numOne / numTwo;
-        console.log(quotient == 9);
-        ```
-        </p>
-        </details>
-
-        [Back to table ⬆](#table-of-solutions)
-    - #### Arithmetic operators - Exponential
-        scenario :
-        ```python
-        In the code below we calculate numOne to the power of numTwo with the Exponential operator **. Then, the console.log() statement checks whether the result of this calculation equals 8. Change the code so that the console.log() statement logs true.
-        ```
-        
-        <details><summary>Solution 1</summary>
-        <p>
-
-        js :
-        ```js
-        const numOne = 2;
-        const numTwo = 3;
-        const res = numOne**numTwo;
-        console.log(res == 8);
         ```
         </p>
         </details>
@@ -601,6 +548,11 @@ In this repo, you can find available solutions for a challenge.
         Fill in the string with some characters and run the code to see if the string is being logged.
         ```
         
+        code scenario :
+        ```js
+        const text = '';
+        console.log('The value of text is: ' + text);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -622,6 +574,13 @@ In this repo, you can find available solutions for a challenge.
         Fill in the string with some characters and run the code to see if the string is being logged.
         ```
         
+        code scenario :
+        ```js
+        const textOne = '';
+        const textTwo = "";
+        const textThree = ``;
+        console.log(textOne, textTwo, textThree);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -630,7 +589,7 @@ In this repo, you can find available solutions for a challenge.
         const textOne = 'Hello, ';
         const textTwo = "it's ";
         const textThree = `me`;
-        console.log('The value of text is: ' + text);
+        console.log(textOne, textTwo, textThree);
         ```
         </p>
         </details>
@@ -643,6 +602,13 @@ In this repo, you can find available solutions for a challenge.
         Change the code below so that the value of res is Hello World
         ```
         
+        code scenario :
+        ```js
+        const textOne = 'Hello';
+        const textTwo = 'World';
+        const combined = textOne + textTwo;
+        console.log(combined);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -667,6 +633,14 @@ In this repo, you can find available solutions for a challenge.
         Adjust the condition such that the code inside the curly braces will execute and the console.log() statement logs true.
         ```
         
+        code scenario :
+        ```js
+        let num = 0;
+        if (1 > 2) {
+           num = 1;
+        }
+        console.log(num === 1);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -682,30 +656,6 @@ In this repo, you can find available solutions for a challenge.
         </details>
 
         [Back to table ⬆](#table-of-solutions)
-    - #### if...else statement - run else
-        scenario :
-        ```python
-        This exercise is very similar to the previous one. But, this time we also have an else statement. An else statement is another piece of code – wrapped by curly braces – that only runs if the condition is not satisfied.
-        Adjust the condition such that the code inside the else statement will be executed and the console.log() statement logs true.
-        ```
-        
-        <details><summary>Solution 1</summary>
-        <p>
-
-        js :
-        ```js
-        let num = 0;
-        if (2 < 1) {
-           num = 1;
-        } else {
-           num = 2;
-        }
-        console.log(num === 2);
-        ```
-        </p>
-        </details>
-
-        [Back to table ⬆](#table-of-solutions)
     - #### if statement - add missing condition
         scenario :
         ```python
@@ -713,6 +663,14 @@ In this repo, you can find available solutions for a challenge.
         Add any condition that will be satisfied such that the console.log() statement logs true.
         ```
         
+        code scenario :
+        ```js
+        let text = 'hello';
+        if () {
+           text = text + ' world';
+        }
+        console.log(text === 'hello world');
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -740,6 +698,14 @@ In this repo, you can find available solutions for a challenge.
         Below, we call our function and assign its return value to the variable result. Then, we log the result. To solve this exercise simply have the console.log() statement log the words hello world.
         ```
         
+        code scenario :
+        ```js
+        function func() {
+            return 'hello';
+        };
+        const result = func();
+        console.log(result);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -747,9 +713,9 @@ In this repo, you can find available solutions for a challenge.
         ```js
         function func() {
             return 'hello world';
-         };
-         const result = func();
-         console.log(result);
+        };
+        const result = func();
+        console.log(result);
         ```
         </p>
         </details>
@@ -762,6 +728,14 @@ In this repo, you can find available solutions for a challenge.
         In the code below, we introduced a small mistake when calling the function. Find the mistake and run the code to see if the words hello world are correctly logged.
         ```
         
+        code scenario :
+        ```js
+        const func = function() {
+            return 'hello world';
+        };
+        const result = func;
+        console.log(result);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -769,9 +743,9 @@ In this repo, you can find available solutions for a challenge.
         ```js
         const func = function() {
             return 'hello world';
-         };
-         const result = func();
-         console.log(result);
+        };
+        const result = func();
+        console.log(result);
         ```
         </p>
         </details>
@@ -785,6 +759,15 @@ In this repo, you can find available solutions for a challenge.
         Let func return the value of the variable text.
         ```
         
+        code scenario :
+        ```js
+        const func = function() {
+            let text = 'hello';
+            text = text + ' world';
+        };
+        const result = func();
+        console.log(result);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -794,9 +777,9 @@ In this repo, you can find available solutions for a challenge.
             let text = 'hello';
             text = text + ' world';
             return text;
-         };
-         const result = func();
-         console.log(result);
+        };
+        const result = func();
+        console.log(result);
         ```
         </p>
         </details>
@@ -810,6 +793,17 @@ In this repo, you can find available solutions for a challenge.
         Adjust the code so that the final value of text is logged.
         ```
         
+        code scenario :
+        ```js
+        const func = function () {
+            let text = 'hello';
+            return text;
+            text = text + ' world';
+            return text;
+        };
+        const result = func();
+        console.log(result);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -827,56 +821,9 @@ In this repo, you can find available solutions for a challenge.
         </details>
 
         [Back to table ⬆](#table-of-solutions)
-    - #### Functions - parameters and arguments 1
-        scenario :
-        ```python
-        When you call a function in JavaScript, you can pass values to the function. These values are called arguments. In order to access these arguments, functions can define parameters. Parameters are variables that contain the values of the arguments passed to the function.
-        In the code below, we define a function multiply that has a parameter named num. The function returns num multiplied by itself. Then, multiply is called with an argument. The argument is the value of the variable arg.
-        Adjust the code below so that the console.log() statement logs true.
-        ```
-        
-        <details><summary>Solution 1</summary>
-        <p>
-
-        js :
-        ```js
-        const multiply = function (num) {
-            return num * num;
-        };
-          
-        const arg = 5;
-         
-        const result = multiply(arg);
-        console.log(result === 25);
-        ```
-        </p>
-        </details>
-
-        [Back to table ⬆](#table-of-solutions)
     <!-- inject functions I end -->
 - ### arrays
     <!-- inject arrays start -->
-    - #### Create a JavaScript array
-        scenario :
-        ```python
-        In this exercise, we will create our first JavaScript array. In the code below we declare an array named arr using the so called literal notation. The literal notation is a pair or square brackets that enclose the values that we want to put inside the array: [value, value, ...]. Each value is separated by a comma. In the context of an array, these values are called the elements of the array.
-        Currently arr contains two strings. But, you can put as many values inside an array as you want.
-        In the console.log() statement we use the array.length property to get the number of array elements. The statement logs true if the array has 3 elements.
-        Task: Add a third element to the array. It can have any value.
-        ```
-        
-        <details><summary>Solution 1</summary>
-        <p>
-
-        js :
-        ```js
-        const arr = ['a', 'b', 'c'];
-        console.log(arr.length === 3);
-        ```
-        </p>
-        </details>
-
-        [Back to table ⬆](#table-of-solutions)
     <!-- inject arrays end -->
 - ### loops
     <!-- inject loops start -->
@@ -894,6 +841,12 @@ In this repo, you can find available solutions for a challenge.
         Return the result
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -914,6 +867,12 @@ In this repo, you can find available solutions for a challenge.
         Return true if the two values are equal and of the same type
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -934,6 +893,12 @@ In this repo, you can find available solutions for a challenge.
         Return the type of the value
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -954,6 +919,12 @@ In this repo, you can find available solutions for a challenge.
         Return the nth character of 'a'
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, n) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -975,6 +946,12 @@ In this repo, you can find available solutions for a challenge.
         Return the result
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -996,6 +973,12 @@ In this repo, you can find available solutions for a challenge.
         Return the result
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1017,6 +1000,12 @@ In this repo, you can find available solutions for a challenge.
         Return the index of 'is'
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1038,6 +1027,12 @@ In this repo, you can find available solutions for a challenge.
         Return the result
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1059,6 +1054,12 @@ In this repo, you can find available solutions for a challenge.
         Return the result
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1079,6 +1080,12 @@ In this repo, you can find available solutions for a challenge.
         Return b percent of a
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1103,6 +1110,12 @@ In this repo, you can find available solutions for a challenge.
         Tip: mind the order
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b, c, d, e, f) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1123,6 +1136,12 @@ In this repo, you can find available solutions for a challenge.
         beginning of a. If not, append it to the end. Return the concatenation
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1154,6 +1173,12 @@ In this repo, you can find available solutions for a challenge.
         return false
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1174,6 +1199,12 @@ In this repo, you can find available solutions for a challenge.
         b.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1194,6 +1225,12 @@ In this repo, you can find available solutions for a challenge.
         return true. Otherwise, return false.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1225,6 +1262,12 @@ In this repo, you can find available solutions for a challenge.
         Otherwise, multiply both numbers. Return the resulting value
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1245,6 +1288,12 @@ In this repo, you can find available solutions for a challenge.
         Return the rounded number
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1265,6 +1314,12 @@ In this repo, you can find available solutions for a challenge.
         them in an array. Tipp: you might want to change the type of the number for the splitting
         ```
         
+        code scenario :
+        ```js
+        function myFunction( a ) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1302,6 +1357,12 @@ In this repo, you can find available solutions for a challenge.
         Write a function that takes an array (a) and a value (n) as argument. Return the nth element of 'a'
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, n) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1322,6 +1383,12 @@ In this repo, you can find available solutions for a challenge.
         result
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1342,6 +1409,12 @@ In this repo, you can find available solutions for a challenge.
         resulting array
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1362,6 +1435,12 @@ In this repo, you can find available solutions for a challenge.
         resulting array
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1382,6 +1461,12 @@ In this repo, you can find available solutions for a challenge.
         elements of a.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, n) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1402,6 +1487,12 @@ In this repo, you can find available solutions for a challenge.
         elements equal to 'b' from the array. Return the filtered array.
         ```
         
+        code scenario :
+        ```js
+        function myFunction( a, b ) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1421,6 +1512,12 @@ In this repo, you can find available solutions for a challenge.
         Write a function that takes an array (a) as argument. Return the number of elements in a.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1441,6 +1538,12 @@ In this repo, you can find available solutions for a challenge.
         in the array.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1473,6 +1576,12 @@ In this repo, you can find available solutions for a challenge.
         Return the result.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(arr) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1493,6 +1602,12 @@ In this repo, you can find available solutions for a challenge.
         numbers sorted in descending order.
         ```
         
+        code scenario :
+        ```js
+        function myFunction( arr ) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1516,6 +1631,12 @@ In this repo, you can find available solutions for a challenge.
         numbers.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1536,6 +1657,12 @@ In this repo, you can find available solutions for a challenge.
         numbers.
         ```
         
+        code scenario :
+        ```js
+        function myFunction( arr ) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1555,6 +1682,12 @@ In this repo, you can find available solutions for a challenge.
         Write a function that takes an array of strings as argument. Return the longest string.
         ```
         
+        code scenario :
+        ```js
+        function myFunction( arr ) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1575,6 +1708,12 @@ In this repo, you can find available solutions for a challenge.
         equal. It should return false otherwise.
         ```
         
+        code scenario :
+        ```js
+        function myFunction( arr ) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1595,6 +1734,12 @@ In this repo, you can find available solutions for a challenge.
         containing the values of all arrays.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(...arrays) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1615,6 +1760,12 @@ In this repo, you can find available solutions for a challenge.
         order. Return the sorted array
         ```
         
+        code scenario :
+        ```js
+        function myFunction(arr) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1639,6 +1790,12 @@ In this repo, you can find available solutions for a challenge.
         Sort the merge result in ascending order. Return the resulting array
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1676,6 +1833,12 @@ In this repo, you can find available solutions for a challenge.
         the property with key country.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(obj) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1696,6 +1859,12 @@ In this repo, you can find available solutions for a challenge.
         the property with key 'prop-2'. Tipp: you might want to use the square brackets property accessor
         ```
         
+        code scenario :
+        ```js
+        function myFunction(obj) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1716,6 +1885,12 @@ In this repo, you can find available solutions for a challenge.
         the value of the property with key equal to the value of the string
         ```
         
+        code scenario :
+        ```js
+        function myFunction(obj, key) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1737,6 +1912,12 @@ In this repo, you can find available solutions for a challenge.
         property 'z' is undefined. But the property itself exists.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1760,6 +1941,12 @@ In this repo, you can find available solutions for a challenge.
         undefined or false. Return false otherwise.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1791,6 +1978,12 @@ In this repo, you can find available solutions for a challenge.
         and a value equal to the string. Return the object.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1811,6 +2004,12 @@ In this repo, you can find available solutions for a challenge.
         with key 'a' and a value of 'b'. Return the object.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1831,6 +2030,12 @@ In this repo, you can find available solutions for a challenge.
         with keys 'a' and corresponding values 'b'. Return the object.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1850,6 +2055,12 @@ In this repo, you can find available solutions for a challenge.
         Write a function that takes an object (a) as argument. Return an array with all object keys.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1871,6 +2082,12 @@ In this repo, you can find available solutions for a challenge.
         exists. If not, return undefined
         ```
         
+        code scenario :
+        ```js
+        function myFunction(obj) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1901,6 +2118,12 @@ In this repo, you can find available solutions for a challenge.
         Write a function that takes an object (a) as argument. Return the sum of all object values.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1921,6 +2144,12 @@ In this repo, you can find available solutions for a challenge.
         properties. except for the property with key 'b'
         ```
         
+        code scenario :
+        ```js
+        function myFunction(obj) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1956,6 +2185,12 @@ In this repo, you can find available solutions for a challenge.
         property name. Return the resulting object. It should have the properties 'a', 'b', 'c', 'd', and 'e'
         ```
         
+        code scenario :
+        ```js
+        function myFunction(x, y) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -1990,6 +2225,12 @@ In this repo, you can find available solutions for a challenge.
         'b'. Return the resulting object.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2015,6 +2256,12 @@ In this repo, you can find available solutions for a challenge.
         arguments. It should return true if the dates are equal. It should return false otherwise.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2046,6 +2293,12 @@ In this repo, you can find available solutions for a challenge.
         lies between those dates.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2078,6 +2331,12 @@ In this repo, you can find available solutions for a challenge.
         exact same day. It should return false otherwise.
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2103,6 +2362,12 @@ In this repo, you can find available solutions for a challenge.
         the Set
         ```
         
+        code scenario :
+        ```js
+        function myFunction(set, val) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2122,6 +2387,12 @@ In this repo, you can find available solutions for a challenge.
         Write a function that takes a Set as argument. Convert the Set to an Array. Return the Array
         ```
         
+        code scenario :
+        ```js
+        function myFunction(set) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2142,6 +2413,12 @@ In this repo, you can find available solutions for a challenge.
         the result. Tipp: try not to switch to Arrays, this would slow down your code
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2164,6 +2441,12 @@ In this repo, you can find available solutions for a challenge.
         those elements. Return the result
         ```
         
+        code scenario :
+        ```js
+        function myFunction(a, b, c) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2188,6 +2471,12 @@ In this repo, you can find available solutions for a challenge.
         value from the Set. Return the result
         ```
         
+        code scenario :
+        ```js
+        function myFunction(set, val) {
+            return 
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2229,6 +2518,15 @@ In this repo, you can find available solutions for a challenge.
         ```html
         <button type="button" id="button">OFF</button>
         ```
+        code scenario :
+        ```js
+        const buttonElem = 
+  
+        buttonElem.addEventListener('click', () => {
+          const oldText = buttonElem.innerText;
+          return button.innerText = oldText === "ON" ? "OFF" : "ON";
+        });
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2259,6 +2557,16 @@ In this repo, you can find available solutions for a challenge.
             <input type="text" value="OFF" readonly/>
             <button type="button">Click Me</button>
         </div>
+        ```
+        code scenario :
+        ```js
+        const buttonElem = 
+        const inputElem = 
+
+        buttonElem.addEventListener('click', () => {
+          const oldText = inputElem.value;
+            return inputElem.value = oldText === "ON" ? "OFF" : "ON";
+        });
         ```
         <details><summary>Solution 1</summary>
         <p>
@@ -2295,6 +2603,18 @@ In this repo, you can find available solutions for a challenge.
             <li>OFF</li>
         </ul>
         ```
+        code scenario :
+        ```js
+        const listItems = 
+  
+        const handleHover = (event) => {
+          return event.target.innerText = 'ON';
+        };
+        
+        if(listItems.length > 1) {
+          listItems.forEach(item => item.addEventListener('mouseover', handleHover));
+        }
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2328,6 +2648,15 @@ In this repo, you can find available solutions for a challenge.
         <input type="text" id="input" readonly/>
         <button type="button" id="button">Click Me</button>
         ```
+        code scenario :
+        ```js
+        const button = document.getElementById('button');
+        const input = document.getElementById('input');
+
+        const handleClick = () => {
+          input.value = 'Hello World';
+        };
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2358,6 +2687,14 @@ In this repo, you can find available solutions for a challenge.
             Hover Me
         </div>
         ```
+        code scenario :
+        ```js
+        const element = document.getElementById('element');
+  
+        const changeText = () => {
+          element.innerText = 'Thanks!';
+        };
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2386,6 +2723,14 @@ In this repo, you can find available solutions for a challenge.
         <div id="element">
             Hover Me
         </div>
+        ```
+        code scenario :
+        ```js
+        const element = document.querySelector('#element');
+  
+        const toggleColor = (isEntering) => {
+          element.style.background = isEntering ? 'orange' : 'black';
+        };
         ```
         <details><summary>Solution 1</summary>
         <p>
@@ -2419,6 +2764,15 @@ In this repo, you can find available solutions for a challenge.
         <div id="green"/>
         <div id="red"/>
         <button type="button" id="button">Click Me</button>
+        ```
+        code scenario :
+        ```js
+        const button = document.querySelector('#button');
+  
+        const removeRedCircle = () => {
+          
+        };
+        button.addEventListener('click', removeRedCircle);
         ```
         <details><summary>Solution 1</summary>
         <p>
@@ -2464,6 +2818,19 @@ In this repo, you can find available solutions for a challenge.
             <button type="button">Click Me</button>
         </div>
         ```
+        code scenario :
+        ```js
+        const button = document.querySelector('#wrapper button');
+  
+        const changeInput = () => {
+          const input = document.querySelector('#inputEl');
+          if(input) {
+            input.value = 'Hello World';
+          }
+        };
+        
+        button.addEventListener('click', changeInput);
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2502,6 +2869,13 @@ In this repo, you can find available solutions for a challenge.
         <label for="checkbox">checkbox</label>
         <button type="button" id="button">Verify Code</button>
         ```
+        code scenario :
+        ```js
+        const button = document.getElementById('button');
+        button.addEventListener('click', () => {
+          
+        });
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2531,6 +2905,13 @@ In this repo, you can find available solutions for a challenge.
         <input type="text" id="lastName" placeholder="Musterman" value="Musterman"/>
         <input type="text" id="fullName" placeholder="full name" readonly/>
         <button type="button" id="button">Verify Code</button>
+        ```
+        code scenario :
+        ```js
+        const button = document.getElementById('button');
+        button.addEventListener('click' , () => {
+          
+        });
         ```
         <details><summary>Solution 1</summary>
         <p>
@@ -2571,6 +2952,10 @@ In this repo, you can find available solutions for a challenge.
           <li/>
         </ul>
         ```
+        code scenario :
+        ```js
+        const list = document.getElementById('list');
+        ```
         <details><summary>Solution 1</summary>
         <p>
 
@@ -2602,6 +2987,26 @@ In this repo, you can find available solutions for a challenge.
         html :
         ```html
         <button type="button" id="button">Click Me</button>
+        ```
+        code scenario :
+        ```js
+        const button = document.getElementById('button');
+        let stopped = false;
+         
+        function move(isReturning) {
+         const width = button.parentNode.clientWidth;
+         const left = parseInt(button.style.left , 10) || 0;
+         if (!stopped) {
+            button.style.left = (isReturning ? left - 1 : left + 1) + 'px';
+            setTimeout(() => move ((isReturning && left > 0) || left === width - button.clientWidth), 10);
+         };
+        };
+         
+        move();
+         
+        button.addEventListener('click', () => {
+          
+        });
         ```
         <details><summary>Solution 1</summary>
         <p>

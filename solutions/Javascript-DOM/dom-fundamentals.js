@@ -54,7 +54,7 @@ const dom_fundamentals = [
         });`]
     },
     {
-        edit: true,
+        edit: false,
         category: "DOM fundamentals",
         title: "Pop the balloons",
         scenario: `

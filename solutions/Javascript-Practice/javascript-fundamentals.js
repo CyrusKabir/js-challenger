@@ -1,6 +1,6 @@
 const javascript_fundamentals = [
     {
-        edit: true,
+        edit: false,
         category: "Javascript fundamentals",
         title: "Sum two numbers",
         scenario: `
