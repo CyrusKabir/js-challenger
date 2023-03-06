@@ -17,10 +17,13 @@ In this repo, you can find available solutions for a challenge.
     <details><summary>variables</summary>
 
     <!-- inject tos-variables start -->
+    1. [Reassign a value to a variable](#reassign-a-value-to-a-variable)
+    1. [Assign a value to a variable](#assign-a-value-to-a-variable)
+    1. [Assign the value of another variable](#assign-the-value-of-another-variable)
+    1. [Create the missing variable](#create-the-missing-variable)
     1. [Accessing a variable 1](#accessing-a-variable-1)
     1. [Accessing a variable 2](#accessing-a-variable-2)
     1. [Declare a variable and assign a number](#declare-a-variable-and-assign-a-number)
-    1. [Reassign a value to a variable 1](#reassign-a-value-to-a-variable-1)
     1. [Reassign a value to a variable 2](#reassign-a-value-to-a-variable-2)
     <!-- inject tos-variables end -->
     </details>
@@ -201,11 +204,116 @@ In this repo, you can find available solutions for a challenge.
 ## **Javascript Basics :**
 - ### variables
     <!-- inject variables start -->
+    - #### Reassign a value to a variable
+        scenario :
+        ```python
+        Assign a new value to the variable num. The code will not work the way it is. Find the 
+        mistake and fix it. Execute the corrected code.
+        ```
+        
+        code scenario :
+        ```js
+        let num = 1;
+        let num = 2;
+        console.log(num);
+        ```
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        let num = 1;
+        num = 2;
+        console.log(num);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Assign a value to a variable
+        scenario :
+        ```python
+        Here, we declare the variable num. But, it has no value yet. Assign a value to it and run 
+        the code.
+        ```
+        
+        code scenario :
+        ```js
+        let num;
+        console.log(num);
+        ```
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        let num;
+        num = 2;
+        console.log(num);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Assign the value of another variable
+        scenario :
+        ```python
+        Here, we have two variables numOne and numTwo. numOne already has a value. Assign 
+        numTwo the value of numOne and run the code.
+        ```
+        
+        code scenario :
+        ```js
+        let numOne = 5;
+        let numTwo;
+        console.log(numTwo);
+        ```
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        let numOne = 5;
+        let numTwo = numOne;
+        console.log(numTwo);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Create the missing variable
+        scenario :
+        ```python
+        Below, we attempt to assign the value of a variable named numOne to the variable 
+        numTwo. But, that variable has not been declared yet. Declare a variable named numOne 
+        and run the code.
+        ```
+        
+        code scenario :
+        ```js
+        let numTwo = numOne;
+        console.log(numTwo);
+        ```
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        let numOne = 5;
+        let numTwo = numOne;
+        console.log(numTwo);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
     - #### Accessing a variable 1
         scenario :
         ```python
-        In this simple exercise we declare a variable called num and assign it a value of 5. Then we try to log the value of the variable using the console.log() method.
-        But, the console.log() method contains a small mistake. If you try the run the code, you will see an error message.
+        In this simple exercise we declare a variable called num and assign it a value of 5. Then 
+        we try to log the value of the variable using the console.log() method.
+        But, the console.log() method contains a small mistake. If you try the run the code, you 
+        will see an error message.
         Fix the mistake and run the code again.
         ```
         
@@ -229,7 +337,8 @@ In this repo, you can find available solutions for a challenge.
     - #### Accessing a variable 2
         scenario :
         ```python
-        This exercise is very similar to the previous one. We declare a variable called num, assign it a value of 5, and try to log it. But again, we introduced a small mistake.
+        This exercise is very similar to the previous one. We declare a variable called num, assign 
+        it a value of 5, and try to log it. But again, we introduced a small mistake.
         Fix the code and run it.
         ```
         
@@ -253,8 +362,10 @@ In this repo, you can find available solutions for a challenge.
     - #### Declare a variable and assign a number
         scenario :
         ```python
-        In this exercise we practice how to declare a new variable and how to assign it a number. The console.log() statement below attempts to log a variable named num.
-        Declare a variable with this name and assign it a number of your choice. Run the code to see if the number is being logged.
+        In this exercise we practice how to declare a new variable and how to assign it a number. 
+        The console.log() statement below attempts to log a variable named num.
+        Declare a variable with this name and assign it a number of your choice. Run the code to 
+        see if the number is being logged.
         ```
         
         code scenario :
@@ -268,32 +379,6 @@ In this repo, you can find available solutions for a challenge.
         ```js
         const num = 5;
         console.log('The value of num is: ' + num);
-        ```
-        </p>
-        </details>
-
-        [Back to table ⬆](#table-of-solutions)
-    - #### Reassign a value to a variable 1
-        scenario :
-        ```python
-        The code below first declares a variable named text with a string value hello. Then, a new value bye is assigned. Finally, the variable is logged.
-        But, the code will not work like that. Find the mistake and fix it. Execute the corrected code.
-        ```
-        
-        code scenario :
-        ```js
-        let text = 'hello';
-        let text = 'bye';
-        console.log(text);
-        ```
-        <details><summary>Solution 1</summary>
-        <p>
-
-        js :
-        ```js
-        let text = 'hello';
-        text = 'bye';
-        console.log(text);
         ```
         </p>
         </details>
