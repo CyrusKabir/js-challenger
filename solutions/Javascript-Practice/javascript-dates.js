@@ -59,6 +59,53 @@ const javascript_dates = [
                    a.getMonth() === b.getMonth() &&
                    a.getDate()=== b.getDate()
         }`]
+    },
+    {
+        edit: false,
+        category: "Javascript dates",
+        title: "Check if two dates are within 1 hour from each other",
+        scenario: `
+        Write a function that takes two date instances as argument. It should return true if the difference between the dates is less 
+        than or equal to 1 hour. It should return false otherwise.
+        `,
+        codeScenario: `
+        function myFunction(a, b) {
+            return 
+        }`,
+        javascript: [`
+        function myFunction(a, b) {
+            return Math.abs(a - b) / 1000 / 60 <= 60
+        }`,
+        `
+        function myFunction(a, b) {
+            const timeDiffLimitInMinutes = 60;
+            let firstDateTime = a.getTime();
+            let secondDateTime = b.getTime();
+            let timeDiffInMiliSeconds = Math.abs(firstDateTime - secondDateTime);
+            let timeDiffInMinutes = timeDiffInMiliSeconds / 60000;
+
+            if(timeDiffInMinutes > timeDiffLimitInMinutes) return false;
+            return true;
+        }`]
+    },
+    {
+        edit: false,
+        category: "Javascript dates",
+        title: "Check if one date is earlier than another",
+        scenario: `
+        Write a function that takes two date instances (a and b) as arguments. It should return true if a is earlier than b. It should 
+        return false otherwise.
+        `,
+        codeScenario: `
+        function myFunction(a, b) {
+            return 
+        }`,
+        javascript: [`
+        function myFunction(a, b) {
+            return a < b
+        }`]
     }
 ]
 module.exports = javascript_dates;
+
+

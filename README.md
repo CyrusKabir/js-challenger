@@ -150,6 +150,8 @@ In this repo, you can find available solutions for a challenge.
     1. [Check if two dates are equal](#check-if-two-dates-are-equal)
     1. [Return the number of days between two dates](#return-the-number-of-days-between-two-dates)
     1. [Check if two dates fall on the exact same day](#check-if-two-dates-fall-on-the-exact-same-day)
+    1. [Check if two dates are within 1 hour from each other](#check-if-two-dates-are-within-1-hour-from-each-other)
+    1. [Check if one date is earlier than another](#check-if-one-date-is-earlier-than-another)
     <!-- inject tos-Javascript dates end -->
     </details>
     <details><summary>Javascript Sets</summary>
@@ -2431,6 +2433,76 @@ In this repo, you can find available solutions for a challenge.
             return a.getFullYear() === b.getFullYear() &&
                    a.getMonth() === b.getMonth() &&
                    a.getDate()=== b.getDate()
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Check if two dates are within 1 hour from each other
+        scenario :
+        ```python
+        Write a function that takes two date instances as argument. It should return true if the difference between the dates is less 
+        than or equal to 1 hour. It should return false otherwise.
+        ```
+        
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return Math.abs(a - b) / 1000 / 60 <= 60
+        }
+        ```
+        </p>
+        </details>
+        <details><summary>Solution 2</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            const timeDiffLimitInMinutes = 60;
+            let firstDateTime = a.getTime();
+            let secondDateTime = b.getTime();
+            let timeDiffInMiliSeconds = Math.abs(firstDateTime - secondDateTime);
+            let timeDiffInMinutes = timeDiffInMiliSeconds / 60000;
+
+            if(timeDiffInMinutes > timeDiffLimitInMinutes) return false;
+            return true;
+        }
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Check if one date is earlier than another
+        scenario :
+        ```python
+        Write a function that takes two date instances (a and b) as arguments. It should return true if a is earlier than b. It should 
+        return false otherwise.
+        ```
+        
+        code scenario :
+        ```js
+        function myFunction(a, b) {
+            return 
+        }
+        ```
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        function myFunction(a, b) {
+            return a < b
         }
         ```
         </p>
