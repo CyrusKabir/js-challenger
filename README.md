@@ -79,6 +79,13 @@ In this repo, you can find available solutions for a challenge.
     <!-- inject tos-loops start -->
     <!-- inject tos-loops end -->
     </details>
+    <details><summary>asynchronous javascript</summary>
+
+    <!-- inject tos-asynchronous javascript start -->
+    1. [Execute the code synchronously](#execute-the-code-synchronously)
+    1. [Execute the code asynchronously](#execute-the-code-asynchronously)
+    <!-- inject tos-asynchronous javascript end -->
+    </details>
 - **Javascript Practice**
     <details><summary>Javascript fundamentals</summary>
 
@@ -915,6 +922,82 @@ In this repo, you can find available solutions for a challenge.
 - ### loops
     <!-- inject loops start -->
     <!-- inject loops end -->
+- ### asynchronous javascript
+    <!-- inject asynchronous javascript start -->
+    - #### Execute the code synchronously
+        scenario :
+        ```python
+        Adjust the code snippet so that the console.log statement logs the value 2.
+        ```
+        
+        code scenario :
+        ```js
+        let i = 0;
+        function func() {
+         i = 2;
+        }
+        setTimeout(func, 100)
+        // expected output = 2
+        console.log(i);
+        ```
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        let i = 0;
+        function func() {
+         i = 2;
+        }
+        func();
+        // expected output = 2
+        console.log(i);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    - #### Execute the code asynchronously
+        scenario :
+        ```python
+        Adjust the code snippet so that the value 0 is logged first and then the value 1.
+        ```
+        
+        code scenario :
+        ```js
+        let count = 0;
+        function increment() {
+         count = count + 1;
+        }
+        increment();
+        setTimeout(() => {
+
+          console.log(count);
+        }, 1000);
+
+        console.log(count);
+        ```
+        <details><summary>Solution 1</summary>
+        <p>
+
+        js :
+        ```js
+        let count = 0;
+        function increment() {
+         count = count + 1;
+        }
+        setTimeout(() => {
+          increment();
+          console.log(count);
+        }, 1000);
+
+        console.log(count);
+        ```
+        </p>
+        </details>
+
+        [Back to table ⬆](#table-of-solutions)
+    <!-- inject asynchronous javascript end -->    
 
 ## **Javascript Practice :**
 
