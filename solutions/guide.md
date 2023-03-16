@@ -12,6 +12,9 @@ const category = [
         html: `
         challenge_html
         `,
+        codeScenario: `
+        code_scenraio
+        `,
         javascript: [`
         challenge_javascripts
         `]
