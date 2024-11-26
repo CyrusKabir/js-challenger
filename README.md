@@ -12,6 +12,9 @@ JSchallenger is a cool and great site to practice most of the JS fundamentals an
 
 In this repo, you can find available solutions for a challenge.
 
+Also for leetcode challenges you can check this repo :
+[Leetcode solutions](https://github.com/HamidMolareza/LeetCode/tree/main)
+
 ## **Table of solutions**
 - **Javascript Basics**
     <details><summary>variables</summary>
